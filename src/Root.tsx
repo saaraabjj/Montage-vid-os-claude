@@ -1,5 +1,6 @@
 import { Composition, Folder } from "remotion";
 import { HelloWorld } from "./HelloWorld";
+import { VlogRome, FPS, DUREE_SECONDES } from "./VlogRome";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 
@@ -8,6 +9,14 @@ import { Title } from "./HelloWorld/Title";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="VlogRome"
+        component={VlogRome}
+        durationInFrames={Math.floor(DUREE_SECONDES * FPS)}
+        fps={FPS}
+        width={1920}
+        height={1080}
+      />
       <Folder name="Elements">
         <Composition
           id="Logo"

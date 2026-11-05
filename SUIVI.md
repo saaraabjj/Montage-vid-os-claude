@@ -25,6 +25,7 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 - [x] Compléter la DA (`DA.md`), à partir de 2 vidéos de référence
 - [ ] Valider les points « à confirmer » de la DA et déposer le logo
 - [ ] Repérer les grandes parties du vlog (cartes titres)
+- [x] Remplacer les heures incrustées (4h45, 9h20 ✈, 17h56, 18h47) par un badge dans la DA
 - [ ] Ajouter textes / sous-titres
 - [ ] Ajouter les petits sons (pas de musique)
 - [ ] Premier rendu à relire
@@ -60,6 +61,7 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-05 | Couleur d'accent adaptée à chaque vidéo, logo entier dans la pilule | Envoyer la vidéo source |
 | 2026-11-05 | Projet = vlog YouTube de 12 min déjà monté, à habiller. DA adaptée au 16:9. Extraits TikTok / Insta plus tard | Envoyer le vlog en morceaux |
 | 2026-11-05 | Vlog reçu par Mail Drop (7 morceaux, recollés), contenu repéré, accent bleu proposé | Renvoyer en qualité d'origine, valider les parties |
+| 2026-11-05 | Décision : logo incrusté gardé. Les 4 heures jaunes remplacées par un badge sombre avec icône bleue et petit « pop » (composition `VlogRome`). Aperçu envoyé | Valider le badge |
 
 ## Retours et corrections
 
