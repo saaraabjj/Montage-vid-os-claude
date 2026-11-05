@@ -2,6 +2,7 @@ import { Composition, Folder } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { VlogRome, FPS, DUREE_SECONDES } from "./VlogRome";
 import { PubOsmosis, FPS as FPS_PUB, DUREE as DUREE_PUB } from "./PubOsmosis";
+import { ConseilsSparring, FPS as FPS_CONSEILS, DUREE as DUREE_CONSEILS } from "./ConseilsSparring";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 
@@ -23,6 +24,14 @@ export const RemotionRoot: React.FC = () => {
         component={PubOsmosis}
         durationInFrames={DUREE_PUB}
         fps={FPS_PUB}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ConseilsSparring"
+        component={ConseilsSparring}
+        durationInFrames={DUREE_CONSEILS}
+        fps={FPS_CONSEILS}
         width={1080}
         height={1920}
       />

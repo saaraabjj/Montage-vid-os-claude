@@ -50,6 +50,19 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 
 Déroulé : accroche « POV : tu reçois ton 1er sponsor » → zoom sur le sac « le kit vient d'arriver » → balayage + flash « Mode OSMOSIS » → pilule « Sponsorisée par OSMOSIS » → carte de fin SAARAA.BJJ × OSMOSIS.
 
+## Conseils sparring (2026-11-05)
+
+| Champ | Valeur |
+| --- | --- |
+| Composition | `ConseilsSparring` (1080×1920, 30 i/s, 1 min 10) |
+| Vidéo source | face caméra reçue par SwissTransfer (`public/video2/rush.mp4`, hors GitHub) |
+| Couleur d'accent | **rouge néon `#F93C4A`**, qui ressort sur le pull bleu |
+| Sous-titres | Whisper, un mot à la fois, 217 mots (`src/ConseilsSparring/mots.json`), 21 mots-clés en rouge avec pop + petit zoom |
+| Statut | 🟣 En relecture (v1) |
+
+Corrections faites à la main : « Toi régulez GGB » → « Soyez réguliers en JJB », « Toi régulière » → « Soyez régulières », « l'essence de votre coach » → « les séances de votre coach », « à la force » → « à force », sparing → sparring.
+À vérifier : « vous n'allez pas assumer après » (mot pas sûr).
+
 ## Contenu du vlog (repéré le 2026-11-05)
 
 | Vers | Partie | Idée de carte titre |
@@ -91,4 +104,5 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 
 | Version | Fichier | Date | Remarques |
 | --- | --- | --- | --- |
+| v1 conseils | `out/conseils-sparring-v1.mp4` | 2026-11-05 | Sous-titres mot par mot + mots-clés |
 | v1 pub | `out/pub-osmosis-v1.mp4` | 2026-11-05 | Pub collab OSMOSIS, 12 s, 9:16 |

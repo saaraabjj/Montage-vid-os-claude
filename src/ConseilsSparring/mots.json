@@ -1,0 +1,1304 @@
+[
+ {
+  "mot": "Arrêtez",
+  "debut": 0.0,
+  "fin": 0.36,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 0.36,
+  "fin": 0.42,
+  "cle": false
+ },
+ {
+  "mot": "toujours",
+  "debut": 0.42,
+  "fin": 0.68,
+  "cle": false
+ },
+ {
+  "mot": "vouloir",
+  "debut": 0.68,
+  "fin": 1.06,
+  "cle": false
+ },
+ {
+  "mot": "gagner",
+  "debut": 1.06,
+  "fin": 1.28,
+  "cle": true
+ },
+ {
+  "mot": "vos",
+  "debut": 1.28,
+  "fin": 1.54,
+  "cle": false
+ },
+ {
+  "mot": "sparring",
+  "debut": 1.54,
+  "fin": 1.9,
+  "cle": true
+ },
+ {
+  "mot": "à",
+  "debut": 1.9,
+  "fin": 2.08,
+  "cle": false
+ },
+ {
+  "mot": "l'entraînement.",
+  "debut": 2.08,
+  "fin": 2.56,
+  "cle": false
+ },
+ {
+  "mot": "Soyez",
+  "debut": 2.72,
+  "fin": 2.9,
+  "cle": false
+ },
+ {
+  "mot": "réguliers",
+  "debut": 2.9,
+  "fin": 3.34,
+  "cle": false
+ },
+ {
+  "mot": "en JJB,",
+  "debut": 3.34,
+  "fin": 3.7,
+  "cle": false
+ },
+ {
+  "mot": "mais",
+  "debut": 3.7,
+  "fin": 4.02,
+  "cle": false
+ },
+ {
+  "mot": "surtout",
+  "debut": 4.02,
+  "fin": 4.24,
+  "cle": false
+ },
+ {
+  "mot": "travaillez",
+  "debut": 4.24,
+  "fin": 4.9,
+  "cle": false
+ },
+ {
+  "mot": "intelligemment.",
+  "debut": 4.9,
+  "fin": 5.8,
+  "cle": true
+ },
+ {
+  "mot": "À",
+  "debut": 6.08,
+  "fin": 6.16,
+  "cle": false
+ },
+ {
+  "mot": "chaque",
+  "debut": 6.16,
+  "fin": 6.32,
+  "cle": false
+ },
+ {
+  "mot": "séance",
+  "debut": 6.32,
+  "fin": 6.72,
+  "cle": false
+ },
+ {
+  "mot": "d'entraînement,",
+  "debut": 6.72,
+  "fin": 7.2,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 7.28,
+  "fin": 7.32,
+  "cle": false
+ },
+ {
+  "mot": "êtes",
+  "debut": 7.32,
+  "fin": 7.42,
+  "cle": false
+ },
+ {
+  "mot": "là",
+  "debut": 7.42,
+  "fin": 7.58,
+  "cle": false
+ },
+ {
+  "mot": "pour",
+  "debut": 7.58,
+  "fin": 7.74,
+  "cle": false
+ },
+ {
+  "mot": "apprendre.",
+  "debut": 7.74,
+  "fin": 8.36,
+  "cle": true
+ },
+ {
+  "mot": "À",
+  "debut": 9.04,
+  "fin": 9.2,
+  "cle": false
+ },
+ {
+  "mot": "chaque",
+  "debut": 9.2,
+  "fin": 9.4,
+  "cle": false
+ },
+ {
+  "mot": "sparring,",
+  "debut": 9.4,
+  "fin": 9.78,
+  "cle": false
+ },
+ {
+  "mot": "donnez-vous",
+  "debut": 9.88,
+  "fin": 10.52,
+  "cle": false
+ },
+ {
+  "mot": "un",
+  "debut": 10.52,
+  "fin": 10.96,
+  "cle": false
+ },
+ {
+  "mot": "objectif.",
+  "debut": 10.96,
+  "fin": 11.6,
+  "cle": true
+ },
+ {
+  "mot": "Par",
+  "debut": 11.92,
+  "fin": 11.92,
+  "cle": false
+ },
+ {
+  "mot": "exemple,",
+  "debut": 11.92,
+  "fin": 12.02,
+  "cle": false
+ },
+ {
+  "mot": "travaillez",
+  "debut": 12.32,
+  "fin": 12.5,
+  "cle": false
+ },
+ {
+  "mot": "votre",
+  "debut": 12.5,
+  "fin": 12.6,
+  "cle": false
+ },
+ {
+  "mot": "garde,",
+  "debut": 12.6,
+  "fin": 12.9,
+  "cle": true
+ },
+ {
+  "mot": "travaillez",
+  "debut": 13.2,
+  "fin": 13.5,
+  "cle": false
+ },
+ {
+  "mot": "votre",
+  "debut": 13.5,
+  "fin": 13.64,
+  "cle": false
+ },
+ {
+  "mot": "passage,",
+  "debut": 13.64,
+  "fin": 14.02,
+  "cle": true
+ },
+ {
+  "mot": "votre",
+  "debut": 14.32,
+  "fin": 14.42,
+  "cle": false
+ },
+ {
+  "mot": "sortie,",
+  "debut": 14.42,
+  "fin": 14.76,
+  "cle": true
+ },
+ {
+  "mot": "votre",
+  "debut": 14.94,
+  "fin": 15.08,
+  "cle": false
+ },
+ {
+  "mot": "défense.",
+  "debut": 15.08,
+  "fin": 15.66,
+  "cle": true
+ },
+ {
+  "mot": "Et",
+  "debut": 16.16,
+  "fin": 16.18,
+  "cle": false
+ },
+ {
+  "mot": "surtout,",
+  "debut": 16.18,
+  "fin": 16.52,
+  "cle": false
+ },
+ {
+  "mot": "apprenez",
+  "debut": 16.72,
+  "fin": 17.04,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 17.04,
+  "fin": 17.24,
+  "cle": false
+ },
+ {
+  "mot": "gérer",
+  "debut": 17.24,
+  "fin": 17.42,
+  "cle": false
+ },
+ {
+  "mot": "vos",
+  "debut": 17.42,
+  "fin": 17.6,
+  "cle": false
+ },
+ {
+  "mot": "entraînements",
+  "debut": 17.6,
+  "fin": 18.1,
+  "cle": false
+ },
+ {
+  "mot": "et",
+  "debut": 18.1,
+  "fin": 18.58,
+  "cle": false
+ },
+ {
+  "mot": "leur",
+  "debut": 18.58,
+  "fin": 18.72,
+  "cle": false
+ },
+ {
+  "mot": "intensité.",
+  "debut": 18.72,
+  "fin": 19.24,
+  "cle": true
+ },
+ {
+  "mot": "Vous",
+  "debut": 19.34,
+  "fin": 19.38,
+  "cle": false
+ },
+ {
+  "mot": "n'avez",
+  "debut": 19.38,
+  "fin": 19.4,
+  "cle": false
+ },
+ {
+  "mot": "pas",
+  "debut": 19.4,
+  "fin": 19.52,
+  "cle": false
+ },
+ {
+  "mot": "besoin",
+  "debut": 19.52,
+  "fin": 19.74,
+  "cle": false
+ },
+ {
+  "mot": "d'être",
+  "debut": 19.74,
+  "fin": 19.96,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 19.96,
+  "fin": 20.22,
+  "cle": false
+ },
+ {
+  "mot": "100%",
+  "debut": 20.22,
+  "fin": 20.8,
+  "cle": true
+ },
+ {
+  "mot": "à",
+  "debut": 20.8,
+  "fin": 21.04,
+  "cle": false
+ },
+ {
+  "mot": "chaque",
+  "debut": 21.04,
+  "fin": 21.18,
+  "cle": false
+ },
+ {
+  "mot": "séance.",
+  "debut": 21.18,
+  "fin": 21.62,
+  "cle": false
+ },
+ {
+  "mot": "Parce",
+  "debut": 21.8,
+  "fin": 21.96,
+  "cle": false
+ },
+ {
+  "mot": "qu'à",
+  "debut": 21.96,
+  "fin": 22.1,
+  "cle": false
+ },
+ {
+  "mot": "force",
+  "debut": 22.16,
+  "fin": 22.46,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 22.46,
+  "fin": 22.94,
+  "cle": false
+ },
+ {
+  "mot": "toujours",
+  "debut": 22.94,
+  "fin": 23.24,
+  "cle": false
+ },
+ {
+  "mot": "pousser",
+  "debut": 23.24,
+  "fin": 23.54,
+  "cle": false
+ },
+ {
+  "mot": "au",
+  "debut": 23.54,
+  "fin": 23.64,
+  "cle": false
+ },
+ {
+  "mot": "maximum",
+  "debut": 23.64,
+  "fin": 23.9,
+  "cle": true
+ },
+ {
+  "mot": "ton",
+  "debut": 23.9,
+  "fin": 24.24,
+  "cle": false
+ },
+ {
+  "mot": "corps",
+  "debut": 24.24,
+  "fin": 24.68,
+  "cle": false
+ },
+ {
+  "mot": "et",
+  "debut": 24.68,
+  "fin": 24.96,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 24.96,
+  "fin": 25.06,
+  "cle": false
+ },
+ {
+  "mot": "ne",
+  "debut": 25.06,
+  "fin": 25.12,
+  "cle": false
+ },
+ {
+  "mot": "pas",
+  "debut": 25.12,
+  "fin": 25.4,
+  "cle": false
+ },
+ {
+  "mot": "laisser",
+  "debut": 25.4,
+  "fin": 25.78,
+  "cle": false
+ },
+ {
+  "mot": "du",
+  "debut": 25.78,
+  "fin": 26.36,
+  "cle": false
+ },
+ {
+  "mot": "temps",
+  "debut": 26.36,
+  "fin": 26.6,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 26.6,
+  "fin": 26.92,
+  "cle": false
+ },
+ {
+  "mot": "ton",
+  "debut": 26.92,
+  "fin": 27.04,
+  "cle": false
+ },
+ {
+  "mot": "corps",
+  "debut": 27.04,
+  "fin": 27.22,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 27.22,
+  "fin": 27.36,
+  "cle": false
+ },
+ {
+  "mot": "récupérer,",
+  "debut": 27.36,
+  "fin": 27.94,
+  "cle": true
+ },
+ {
+  "mot": "il",
+  "debut": 27.94,
+  "fin": 28.46,
+  "cle": false
+ },
+ {
+  "mot": "va",
+  "debut": 28.46,
+  "fin": 28.56,
+  "cle": false
+ },
+ {
+  "mot": "finir",
+  "debut": 28.56,
+  "fin": 28.82,
+  "cle": false
+ },
+ {
+  "mot": "par",
+  "debut": 28.82,
+  "fin": 28.94,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 28.94,
+  "fin": 29.06,
+  "cle": false
+ },
+ {
+  "mot": "le",
+  "debut": 29.06,
+  "fin": 29.18,
+  "cle": false
+ },
+ {
+  "mot": "faire",
+  "debut": 29.18,
+  "fin": 29.26,
+  "cle": false
+ },
+ {
+  "mot": "ressentir.",
+  "debut": 29.26,
+  "fin": 29.94,
+  "cle": false
+ },
+ {
+  "mot": "Le",
+  "debut": 30.56,
+  "fin": 30.64,
+  "cle": false
+ },
+ {
+  "mot": "but",
+  "debut": 30.64,
+  "fin": 30.78,
+  "cle": false
+ },
+ {
+  "mot": "c'est",
+  "debut": 30.78,
+  "fin": 30.94,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 30.94,
+  "fin": 31.12,
+  "cle": false
+ },
+ {
+  "mot": "ne",
+  "debut": 31.12,
+  "fin": 31.14,
+  "cle": false
+ },
+ {
+  "mot": "pas",
+  "debut": 31.14,
+  "fin": 31.3,
+  "cle": false
+ },
+ {
+  "mot": "gagner",
+  "debut": 31.3,
+  "fin": 31.5,
+  "cle": true
+ },
+ {
+  "mot": "chaque",
+  "debut": 31.5,
+  "fin": 31.68,
+  "cle": false
+ },
+ {
+  "mot": "sparring",
+  "debut": 31.68,
+  "fin": 32.04,
+  "cle": false
+ },
+ {
+  "mot": "mais",
+  "debut": 32.04,
+  "fin": 32.84,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 32.84,
+  "fin": 33.22,
+  "cle": false
+ },
+ {
+  "mot": "progresser",
+  "debut": 33.22,
+  "fin": 33.7,
+  "cle": true
+ },
+ {
+  "mot": "sur",
+  "debut": 33.7,
+  "fin": 33.86,
+  "cle": false
+ },
+ {
+  "mot": "le",
+  "debut": 33.86,
+  "fin": 33.98,
+  "cle": false
+ },
+ {
+  "mot": "long",
+  "debut": 33.98,
+  "fin": 34.12,
+  "cle": false
+ },
+ {
+  "mot": "terme.",
+  "debut": 34.12,
+  "fin": 34.38,
+  "cle": true
+ },
+ {
+  "mot": "Soyez",
+  "debut": 34.72,
+  "fin": 34.8,
+  "cle": false
+ },
+ {
+  "mot": "régulières,",
+  "debut": 34.8,
+  "fin": 35.3,
+  "cle": false
+ },
+ {
+  "mot": "soyez",
+  "debut": 35.44,
+  "fin": 35.56,
+  "cle": false
+ },
+ {
+  "mot": "intelligentes",
+  "debut": 35.56,
+  "fin": 36.2,
+  "cle": false
+ },
+ {
+  "mot": "et",
+  "debut": 36.2,
+  "fin": 36.46,
+  "cle": false
+ },
+ {
+  "mot": "pensez",
+  "debut": 36.46,
+  "fin": 36.88,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 36.88,
+  "fin": 36.92,
+  "cle": false
+ },
+ {
+  "mot": "votre",
+  "debut": 36.92,
+  "fin": 37.06,
+  "cle": false
+ },
+ {
+  "mot": "récupération,",
+  "debut": 37.06,
+  "fin": 37.62,
+  "cle": true
+ },
+ {
+  "mot": "c'est",
+  "debut": 37.76,
+  "fin": 37.88,
+  "cle": false
+ },
+ {
+  "mot": "trop",
+  "debut": 37.88,
+  "fin": 38.08,
+  "cle": false
+ },
+ {
+  "mot": "important.",
+  "debut": 38.08,
+  "fin": 38.6,
+  "cle": true
+ },
+ {
+  "mot": "Si",
+  "debut": 39.08,
+  "fin": 39.26,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 39.26,
+  "fin": 39.36,
+  "cle": false
+ },
+ {
+  "mot": "pouvez",
+  "debut": 39.36,
+  "fin": 39.44,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 39.44,
+  "fin": 39.6,
+  "cle": false
+ },
+ {
+  "mot": "accorder",
+  "debut": 39.6,
+  "fin": 39.92,
+  "cle": false
+ },
+ {
+  "mot": "un",
+  "debut": 39.92,
+  "fin": 40.24,
+  "cle": false
+ },
+ {
+  "mot": "jour",
+  "debut": 40.24,
+  "fin": 40.5,
+  "cle": false
+ },
+ {
+  "mot": "off",
+  "debut": 40.5,
+  "fin": 40.84,
+  "cle": true
+ },
+ {
+  "mot": "dans",
+  "debut": 40.84,
+  "fin": 41.08,
+  "cle": false
+ },
+ {
+  "mot": "la",
+  "debut": 41.08,
+  "fin": 41.24,
+  "cle": false
+ },
+ {
+  "mot": "semaine,",
+  "debut": 41.24,
+  "fin": 41.46,
+  "cle": false
+ },
+ {
+  "mot": "au",
+  "debut": 41.64,
+  "fin": 41.68,
+  "cle": false
+ },
+ {
+  "mot": "minimum,",
+  "debut": 41.68,
+  "fin": 42.02,
+  "cle": false
+ },
+ {
+  "mot": "faites-le.",
+  "debut": 42.28,
+  "fin": 42.8,
+  "cle": false
+ },
+ {
+  "mot": "Parce",
+  "debut": 43.52,
+  "fin": 43.88,
+  "cle": false
+ },
+ {
+  "mot": "que",
+  "debut": 43.88,
+  "fin": 44.04,
+  "cle": false
+ },
+ {
+  "mot": "quand",
+  "debut": 44.04,
+  "fin": 44.12,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 44.12,
+  "fin": 44.3,
+  "cle": false
+ },
+ {
+  "mot": "êtes",
+  "debut": 44.3,
+  "fin": 44.42,
+  "cle": false
+ },
+ {
+  "mot": "là,",
+  "debut": 44.42,
+  "fin": 44.56,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 44.64,
+  "fin": 44.68,
+  "cle": false
+ },
+ {
+  "mot": "vous entraîner",
+  "debut": 44.68,
+  "fin": 45.12,
+  "cle": false
+ },
+ {
+  "mot": "tous",
+  "debut": 45.12,
+  "fin": 45.36,
+  "cle": false
+ },
+ {
+  "mot": "les",
+  "debut": 45.36,
+  "fin": 45.52,
+  "cle": false
+ },
+ {
+  "mot": "jours",
+  "debut": 45.52,
+  "fin": 45.72,
+  "cle": false
+ },
+ {
+  "mot": "et",
+  "debut": 45.72,
+  "fin": 45.9,
+  "cle": false
+ },
+ {
+  "mot": "on",
+  "debut": 45.9,
+  "fin": 46.0,
+  "cle": false
+ },
+ {
+  "mot": "pousse",
+  "debut": 46.0,
+  "fin": 46.22,
+  "cle": false
+ },
+ {
+  "mot": "intensivement",
+  "debut": 46.22,
+  "fin": 47.74,
+  "cle": false
+ },
+ {
+  "mot": "et",
+  "debut": 48.56,
+  "fin": 48.94,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 48.94,
+  "fin": 49.16,
+  "cle": false
+ },
+ {
+  "mot": "n'allez",
+  "debut": 49.16,
+  "fin": 49.38,
+  "cle": false
+ },
+ {
+  "mot": "pas",
+  "debut": 49.38,
+  "fin": 49.62,
+  "cle": false
+ },
+ {
+  "mot": "assumer",
+  "debut": 49.62,
+  "fin": 50.08,
+  "cle": false
+ },
+ {
+  "mot": "après.",
+  "debut": 50.08,
+  "fin": 50.36,
+  "cle": false
+ },
+ {
+  "mot": "Vaut",
+  "debut": 51.48,
+  "fin": 51.88,
+  "cle": false
+ },
+ {
+  "mot": "mieux",
+  "debut": 51.88,
+  "fin": 52.16,
+  "cle": false
+ },
+ {
+  "mot": "commencer",
+  "debut": 52.16,
+  "fin": 52.7,
+  "cle": false
+ },
+ {
+  "mot": "dès",
+  "debut": 52.7,
+  "fin": 53.06,
+  "cle": false
+ },
+ {
+  "mot": "maintenant",
+  "debut": 53.06,
+  "fin": 53.4,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 53.4,
+  "fin": 53.66,
+  "cle": false
+ },
+ {
+  "mot": "réfléchir",
+  "debut": 53.66,
+  "fin": 54.0,
+  "cle": false
+ },
+ {
+  "mot": "par",
+  "debut": 54.0,
+  "fin": 54.18,
+  "cle": false
+ },
+ {
+  "mot": "rapport",
+  "debut": 54.18,
+  "fin": 54.3,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 54.3,
+  "fin": 54.42,
+  "cle": false
+ },
+ {
+  "mot": "votre",
+  "debut": 54.42,
+  "fin": 54.54,
+  "cle": false
+ },
+ {
+  "mot": "récupération,",
+  "debut": 54.54,
+  "fin": 55.26,
+  "cle": true
+ },
+ {
+  "mot": "par",
+  "debut": 55.26,
+  "fin": 55.98,
+  "cle": false
+ },
+ {
+  "mot": "rapport",
+  "debut": 55.98,
+  "fin": 56.16,
+  "cle": false
+ },
+ {
+  "mot": "à",
+  "debut": 56.16,
+  "fin": 56.34,
+  "cle": false
+ },
+ {
+  "mot": "comment",
+  "debut": 56.34,
+  "fin": 56.52,
+  "cle": false
+ },
+ {
+  "mot": "sont",
+  "debut": 56.52,
+  "fin": 56.86,
+  "cle": false
+ },
+ {
+  "mot": "construits",
+  "debut": 56.86,
+  "fin": 57.34,
+  "cle": false
+ },
+ {
+  "mot": "vos",
+  "debut": 57.34,
+  "fin": 57.48,
+  "cle": false
+ },
+ {
+  "mot": "séances.",
+  "debut": 57.48,
+  "fin": 57.98,
+  "cle": false
+ },
+ {
+  "mot": "Certes,",
+  "debut": 58.56,
+  "fin": 58.78,
+  "cle": false
+ },
+ {
+  "mot": "vous",
+  "debut": 58.82,
+  "fin": 58.88,
+  "cle": false
+ },
+ {
+  "mot": "suivez",
+  "debut": 58.88,
+  "fin": 59.3,
+  "cle": false
+ },
+ {
+  "mot": "les",
+  "debut": 59.3,
+  "fin": 59.4,
+  "cle": false
+ },
+ {
+  "mot": "séances",
+  "debut": 59.4,
+  "fin": 59.64,
+  "cle": true
+ },
+ {
+  "mot": "de",
+  "debut": 59.64,
+  "fin": 59.86,
+  "cle": false
+ },
+ {
+  "mot": "votre",
+  "debut": 59.86,
+  "fin": 60.06,
+  "cle": false
+ },
+ {
+  "mot": "coach",
+  "debut": 60.06,
+  "fin": 60.64,
+  "cle": false
+ },
+ {
+  "mot": "mais",
+  "debut": 60.64,
+  "fin": 61.24,
+  "cle": false
+ },
+ {
+  "mot": "quand",
+  "debut": 61.24,
+  "fin": 61.44,
+  "cle": false
+ },
+ {
+  "mot": "c'est",
+  "debut": 61.44,
+  "fin": 61.62,
+  "cle": false
+ },
+ {
+  "mot": "du",
+  "debut": 61.62,
+  "fin": 61.8,
+  "cle": false
+ },
+ {
+  "mot": "sparring",
+  "debut": 61.8,
+  "fin": 62.26,
+  "cle": false
+ },
+ {
+  "mot": "libre,",
+  "debut": 62.26,
+  "fin": 62.62,
+  "cle": false
+ },
+ {
+  "mot": "travaillez",
+  "debut": 63.62,
+  "fin": 64.02,
+  "cle": false
+ },
+ {
+  "mot": "intelligemment.",
+  "debut": 64.02,
+  "fin": 64.42,
+  "cle": true
+ },
+ {
+  "mot": "Vaut",
+  "debut": 64.96,
+  "fin": 65.2,
+  "cle": false
+ },
+ {
+  "mot": "mieux",
+  "debut": 65.2,
+  "fin": 65.4,
+  "cle": false
+ },
+ {
+  "mot": "s'y",
+  "debut": 65.4,
+  "fin": 65.66,
+  "cle": false
+ },
+ {
+  "mot": "prendre",
+  "debut": 65.66,
+  "fin": 65.88,
+  "cle": false
+ },
+ {
+  "mot": "dès",
+  "debut": 65.88,
+  "fin": 66.08,
+  "cle": false
+ },
+ {
+  "mot": "maintenant",
+  "debut": 66.08,
+  "fin": 66.38,
+  "cle": false
+ },
+ {
+  "mot": "surtout",
+  "debut": 66.38,
+  "fin": 66.58,
+  "cle": false
+ },
+ {
+  "mot": "que",
+  "debut": 66.58,
+  "fin": 66.86,
+  "cle": false
+ },
+ {
+  "mot": "là,",
+  "debut": 66.86,
+  "fin": 67.06,
+  "cle": false
+ },
+ {
+  "mot": "on",
+  "debut": 67.14,
+  "fin": 67.2,
+  "cle": false
+ },
+ {
+  "mot": "est",
+  "debut": 67.2,
+  "fin": 67.26,
+  "cle": false
+ },
+ {
+  "mot": "en",
+  "debut": 67.26,
+  "fin": 67.34,
+  "cle": false
+ },
+ {
+  "mot": "début",
+  "debut": 67.34,
+  "fin": 67.52,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 67.52,
+  "fin": 67.6,
+  "cle": false
+ },
+ {
+  "mot": "saison",
+  "debut": 67.6,
+  "fin": 67.9,
+  "cle": true
+ },
+ {
+  "mot": "que",
+  "debut": 67.9,
+  "fin": 68.36,
+  "cle": false
+ },
+ {
+  "mot": "de",
+  "debut": 68.36,
+  "fin": 68.52,
+  "cle": false
+ },
+ {
+  "mot": "s'y",
+  "debut": 68.52,
+  "fin": 68.66,
+  "cle": false
+ },
+ {
+  "mot": "prendre",
+  "debut": 68.66,
+  "fin": 68.84,
+  "cle": false
+ },
+ {
+  "mot": "tard",
+  "debut": 68.84,
+  "fin": 69.12,
+  "cle": false
+ },
+ {
+  "mot": "quand",
+  "debut": 69.12,
+  "fin": 69.42,
+  "cle": false
+ },
+ {
+  "mot": "ça",
+  "debut": 69.42,
+  "fin": 69.56,
+  "cle": false
+ },
+ {
+  "mot": "sera",
+  "debut": 69.56,
+  "fin": 69.7,
+  "cle": false
+ },
+ {
+  "mot": "trop",
+  "debut": 69.7,
+  "fin": 69.9,
+  "cle": false
+ },
+ {
+  "mot": "tard.",
+  "debut": 69.9,
+  "fin": 70.1,
+  "cle": true
+ }
+]
