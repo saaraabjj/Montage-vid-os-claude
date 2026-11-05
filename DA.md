@@ -20,14 +20,28 @@ Claude applique ces règles à chaque montage. Les points marqués **_à confirm
 - **Ton :** je m'adresse directement au spectateur (« tu »), avec des phrases courtes et une question en accroche (« Tu bloques ? »)
 - **À éviter :** les transitions tape-à-l'œil, les textes qui restent longtemps à l'écran, les fonds plats sans profondeur
 
-## Format
+## Formats
 
-| Champ | Valeur |
-| --- | --- |
-| Format | 9:16 vertical (TikTok, Reels, Shorts) |
-| Résolution de rendu | 1080×1920, 30 i/s |
-| Durée | 30–60 s |
-| Zones à laisser libres | le bas à droite (pseudo de la plateforme) et la barre d'actions à droite |
+| | YouTube (vlog) | TikTok / Reels (extraits) |
+| --- | --- | --- |
+| Format | 16:9 horizontal | 9:16 vertical |
+| Résolution de rendu | 1920×1080 | 1080×1920, 30 i/s |
+| Durée | ≈ 12 min | 30–60 s |
+| Sous-titres | phrase courte en bas (voir « Adaptation YouTube ») | mot par mot, en très gros |
+| Zones à laisser libres | le coin en bas à droite pendant les 20 dernières secondes (écran de fin YouTube) | le bas à droite (pseudo) et la barre d'actions à droite |
+
+Méthode : on habille d'abord le **vlog YouTube**, puis on en tire des **extraits verticaux** pour TikTok et Instagram, avec le style A complet.
+
+## Adaptation YouTube (16:9)
+
+Le style A vient de TikTok. Sur un vlog de 12 minutes, on le garde mais en plus calme :
+
+- **Sous-titres :** une phrase courte (3 à 6 mots) à la fois, centrée en bas (vers 85 % de la hauteur), en Inter Bold d'environ 56 px. Le mot prononcé est surligné avec la couleur d'accent. Pas de mot géant en continu.
+- **Mots géants façon TikTok :** seulement sur les **moments forts** (une punchline, un chiffre, une réaction), quelques fois par vidéo.
+- **Cartes titres :** pour annoncer **chaque grande partie du vlog**, sur fond flouté (petite ligne grise, ligne blanche, ligne en couleur d'accent). Elles durent environ 2 secondes.
+- **Pilule avec le logo :** en haut au centre, plus petite. Elle s'affiche quand il se passe quelque chose (lieu, nom d'une personne, info) puis disparaît. Elle ne reste pas affichée en permanence.
+- **Petits sons :** à chaque carte titre et à chaque apparition de la pilule, discrets.
+- **Rythme :** on garde ton montage tel quel. On ajoute seulement l'habillage, sans couper.
 
 ## Couleurs
 
