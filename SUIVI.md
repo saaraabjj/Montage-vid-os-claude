@@ -105,6 +105,7 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 
 | Version | Fichier | Date | Remarques |
 | --- | --- | --- | --- |
+| couverture | `out/couverture-sparring.png` | 2026-11-05 | Composition `CouvertureSparring` : « Arrête de vouloir GAGNER tes sparrings » |
 | v2 conseils | `out/conseils-sparring-v2.mp4` | 2026-11-05 | Mots-clés en jaune vif |
 | v1 conseils | `out/conseils-sparring-v1.mp4` | 2026-11-05 | Sous-titres mot par mot + mots-clés |
 | v1 pub | `out/pub-osmosis-v1.mp4` | 2026-11-05 | Pub collab OSMOSIS, 12 s, 9:16 |
