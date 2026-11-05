@@ -46,6 +46,8 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 | Son | musique d'origine du rush (fondu à la fin) + whoosh, impact et pops |
 | Statut | 🟣 En relecture (v1) |
 
+À faire : ajouter le **code promo OSMOSIS** sur la carte de fin (code à recevoir).
+
 Déroulé : accroche « POV : tu reçois ton 1er sponsor » → zoom sur le sac « le kit vient d'arriver » → balayage + flash « Mode OSMOSIS » → pilule « Sponsorisée par OSMOSIS » → carte de fin SAARAA.BJJ × OSMOSIS.
 
 ## Contenu du vlog (repéré le 2026-11-05)
