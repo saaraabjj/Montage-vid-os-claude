@@ -1,6 +1,8 @@
 import React from "react";
 import { AbsoluteFill, OffthreadVideo, Sequence, staticFile } from "remotion";
 import { Heure, HeureProps } from "./Heure";
+import { Segment, SousTitres } from "./SousTitres";
+import transcription from "./sous-titres.json";
 
 export const FPS = 30;
 export const DUREE_SECONDES = 765.07;
@@ -32,6 +34,10 @@ export const VlogRome: React.FC = () => {
           </Sequence>
         );
       })}
+      <SousTitres
+        segments={transcription as Segment[]}
+        zonesOccupees={HEURES.map((h) => ({ debut: h.debut - AVANCE, fin: h.fin + RETARD }))}
+      />
     </AbsoluteFill>
   );
 };
