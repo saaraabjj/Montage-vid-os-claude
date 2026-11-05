@@ -40,6 +40,7 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 | --- | --- | --- |
 | 2026-11-05 | Installation de Remotion, projet sur GitHub, création des fichiers de suivi | Envoyer la vidéo source |
 | 2026-11-05 | DA remplie à partir de 2 vidéos de référence (style A face caméra, style B court métrage) | Valider la DA, envoyer la vidéo source |
+| 2026-11-05 | Logo ajouté, choix du son : pas de musique, petits effets sonores oui | Confirmer police et pseudo, envoyer la vidéo source |
 
 ## Retours et corrections
 

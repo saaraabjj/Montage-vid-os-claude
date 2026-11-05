@@ -39,6 +39,8 @@ Claude applique ces règles à chaque montage. Les points marqués **_à confirm
 | Fond chaud | bordeaux | `#5C3D40` | ambiance générale de l'image |
 | Fond sombre | presque noir | `#1C1818` | bas de l'image, cartes |
 | Accent style B | orange braise | `#DE541D` | uniquement pour le style « court métrage » |
+| Marque : bleu ceinture | bleu | `#2C51A1` | couleur du logo SAARAA.BJJ (ceinture bleue), possible en accent secondaire |
+| Marque : or champagne | or rosé | `#D0B8A2` | couleur du « S » du logo, rappelle le dégradé argenté des sous-titres |
 
 ## Typographie
 
@@ -80,8 +82,8 @@ Police : une sans-serif moderne très grasse, de type **SF Pro Display / Inter**
 ## Son
 
 - **Voix :** au premier plan, nette, sans musique qui la couvre
-- **Musique :** discrète, électro ou lo-fi (_à confirmer_), environ 10–15 % du volume de la voix
-- **Effets sonores :** petits « clic » ou « pop » quand la pilule s'anime ou qu'une carte apparaît (_à confirmer_)
+- **Musique :** **aucune pour le moment** (décision du 2026-11-05)
+- **Effets sonores :** **oui**, de petits « clic » ou « pop » discrets quand la pilule s'anime ou qu'une carte apparaît
 
 ## Structure type (style A)
 
@@ -96,8 +98,10 @@ Police : une sans-serif moderne très grasse, de type **SF Pro Display / Inter**
 - **Accroche fixe** en haut pendant toute la vidéo : 2 lignes blanches, SemiBold, environ 50 px, centrées (ex. « Ce court métrage m'a pris 1 prompt à faire avec Claude code »)
 - Pas de sous-titres, pas de coupes rapides : un seul plan continu, avec la musique ou les sons de l'animation
 
-## Éléments personnels (à compléter)
+## Éléments personnels
 
-- **Logo :** _fichier à déposer dans `public/logo.png`_ (il va dans la pilule du haut)
-- **Pseudo :** _@moncompte_
+- **Marque :** SAARAA.BJJ (jiu-jitsu brésilien)
+- **Logo :** `public/logo.png` (fond transparent, 1324×1188) et `public/logo-petit.png` (128 px de large, pour la pilule du haut). C'est un « S » or champagne enlacé d'une ceinture bleue de JJB.
+- **Logo dans la pilule :** le « S » seul, ou le logo entier en petit (_à confirmer_)
+- **Pseudo :** _@saaraa.bjj ? (à confirmer)_
 - **Photo de profil :** _`public/profil.jpg`_ (pour la fiche « profil »)
