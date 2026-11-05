@@ -14,9 +14,9 @@ import motsBruts from "./mots.json";
 
 // Conseils sparring, face caméra, 9:16 TikTok / Reels (style A de DA.md).
 // Sous-titres un mot à la fois, en très gros ; mots-clés en couleur d'accent.
-// Accent de cette vidéo : rouge néon, qui ressort bien sur le pull bleu (cf. SUIVI.md).
+// Accent de cette vidéo : jaune vif, très lisible sur le pull bleu (cf. SUIVI.md).
 const DA = {
-  accent: "#F93C4A",
+  accent: "#FFD23F", // jaune vif, choisi le 2026-11-05 (le rouge ne plaisait pas)
   blanc: "#FFFFFF",
   police: "Inter, sans-serif",
 };
@@ -45,7 +45,7 @@ const taillePour = (mot: string, cle: boolean) => {
   return Math.min(max, Math.floor(980 / (0.56 * Math.max(mot.length, 1))));
 };
 
-const SousTitre: React.FC = () => {
+const SousTitre: React.FC<{ accent: string }> = ({ accent }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -73,7 +73,7 @@ const SousTitre: React.FC = () => {
             whiteSpace: "nowrap",
             // Dégradé argenté pour les mots normaux, accent plein pour les mots-clés
             ...(m.cle
-              ? { color: DA.accent }
+              ? { color: accent }
               : {
                   backgroundImage: "linear-gradient(180deg, #FFFFFF 35%, #C9D0DC 100%)",
                   WebkitBackgroundClip: "text",
@@ -106,7 +106,7 @@ const SousTitre: React.FC = () => {
   );
 };
 
-export const ConseilsSparring: React.FC = () => {
+export const ConseilsSparring: React.FC<{ accent?: string }> = ({ accent = DA.accent }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   // Petit zoom « punch » sur l'image à chaque mot-clé
@@ -124,7 +124,7 @@ export const ConseilsSparring: React.FC = () => {
       <AbsoluteFill style={{ transform: `scale(${1 + 0.045 * punch})`, transformOrigin: "50% 35%" }}>
         <OffthreadVideo src={staticFile("video2/rush.mp4")} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </AbsoluteFill>
-      <SousTitre />
+      <SousTitre accent={accent} />
     </AbsoluteFill>
   );
 };

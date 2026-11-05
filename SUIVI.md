@@ -56,8 +56,8 @@ Déroulé : accroche « POV : tu reçois ton 1er sponsor » → zoom sur le sac 
 | --- | --- |
 | Composition | `ConseilsSparring` (1080×1920, 30 i/s, 1 min 10) |
 | Vidéo source | face caméra reçue par SwissTransfer (`public/video2/rush.mp4`, hors GitHub) |
-| Couleur d'accent | **rouge néon `#F93C4A`**, qui ressort sur le pull bleu |
-| Sous-titres | Whisper, un mot à la fois, 217 mots (`src/ConseilsSparring/mots.json`), 21 mots-clés en rouge avec pop + petit zoom |
+| Couleur d'accent | **jaune vif `#FFD23F`** (v2 : le rouge de la v1 ne plaisait pas) |
+| Sous-titres | Whisper, un mot à la fois, 217 mots (`src/ConseilsSparring/mots.json`), 21 mots-clés en couleur avec pop + petit zoom |
 | Statut | 🟣 En relecture (v1) |
 
 Corrections faites à la main : « Toi régulez GGB » → « Soyez réguliers en JJB », « Toi régulière » → « Soyez régulières », « l'essence de votre coach » → « les séances de votre coach », « à la force » → « à force », sparing → sparring.
@@ -98,11 +98,13 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 
 | Version | Retour | Corrigé ? |
 | --- | --- | --- |
+| v1 conseils | Couleur rouge pas aimée → jaune vif | ☑ |
 | v1 | | ☐ |
 
 ## Rendus
 
 | Version | Fichier | Date | Remarques |
 | --- | --- | --- | --- |
+| v2 conseils | `out/conseils-sparring-v2.mp4` | 2026-11-05 | Mots-clés en jaune vif |
 | v1 conseils | `out/conseils-sparring-v1.mp4` | 2026-11-05 | Sous-titres mot par mot + mots-clés |
 | v1 pub | `out/pub-osmosis-v1.mp4` | 2026-11-05 | Pub collab OSMOSIS, 12 s, 9:16 |
