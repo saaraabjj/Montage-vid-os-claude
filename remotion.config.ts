@@ -8,3 +8,6 @@ import { Config } from "@remotion/cli/config";
 Config.setRspack(true);
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
+
+// Use the Chromium already installed in this environment (Remotion's own Chrome download is blocked by the network)
+Config.setBrowserExecutable("/opt/pw-browsers/chromium");
