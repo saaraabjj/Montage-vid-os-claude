@@ -2,7 +2,7 @@
 {
 "debut": 0.0,
 "fin": 7.18,
-"texte": "J'ai fait 30 minutes de route pour un tiramisu, parce qu'apparemment c'est le best, le best d'Europe, donc on va voir.",
+"texte": "J'ai fait 30 minutes de route pour un tiramisu, parce qu'apparemment c'est le best, le best de Rome, donc on va voir.",
 "mots": [
 {
 "m": " J",
@@ -100,13 +100,13 @@
 "f": 5.36
 },
 {
-"m": " d",
+"m": " de",
 "d": 5.36,
-"f": 5.64
+"f": 5.58
 },
 {
-"m": "'Europe,",
-"d": 5.64,
+"m": " Rome,",
+"d": 5.58,
 "f": 5.8
 },
 {
@@ -2511,7 +2511,7 @@
 {
 "debut": 217.88,
 "fin": 219.74,
-"texte": "On est là pour faire des dégustations",
+"texte": "On est là pour faire des dégustations,",
 "mots": [
 {
 "m": " On",
@@ -2544,7 +2544,7 @@
 "f": 218.92
 },
 {
-"m": " dégustations",
+"m": " dégustations,",
 "d": 218.92,
 "f": 219.74
 }
@@ -2553,21 +2553,26 @@
 {
 "debut": 219.74,
 "fin": 221.72,
-"texte": "Du Pompi tiramisu",
+"texte": "j'ai eu mon tiramisu.",
 "mots": [
 {
-"m": " Du",
+"m": " j'ai",
 "d": 219.74,
-"f": 220.36
+"f": 220.235
 },
 {
-"m": " Pompi",
-"d": 220.36,
-"f": 221.24
+"m": " eu",
+"d": 220.235,
+"f": 220.73
 },
 {
-"m": " tiramisu",
-"d": 221.24,
+"m": " mon",
+"d": 220.73,
+"f": 221.225
+},
+{
+"m": " tiramisu.",
+"d": 221.225,
 "f": 221.72
 }
 ]
