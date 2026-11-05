@@ -10,16 +10,16 @@ Journal du projet : ce qui est fait, ce qui reste à faire, et les décisions pr
 | Objectif / plateforme | YouTube, puis extraits TikTok et Instagram |
 | Format | 16:9 horizontal, 1920×1080 (extraits en 9:16) |
 | Durée visée | ≈ 12 min, déjà monté (extraits 30–60 s) |
-| Vidéo source | 7 morceaux reçus par Mail Drop (12 min 45 s au total), **mais en 568×320 seulement**. À renvoyer en qualité d'origine pour le rendu final |
+| Vidéo source | **Qualité d'origine reçue** par SwissTransfer : 7 fichiers 1920×1080, 1,4 Go, recollés dans l'ordre (2, 1, 3, 5, 6, 7, 9) → `public/vlog/vlog-original.mp4` (hors GitHub) |
 | Couleur d'accent | **bleu ceinture `#2C51A1`** : il s'accorde au ciel, au fleuve et aux rideaux bleus de l'hôtel (proposé, à valider) |
-| Statut | 🟡 En préparation |
+| Statut | 🟣 En relecture (rendu complet en cours) |
 
 Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relecture · 🟢 Terminé
 
 ## À faire
 
 - [x] Envoyer la vidéo source en morceaux (version basse qualité)
-- [ ] Renvoyer la vidéo en qualité d'origine (Mail Drop, « taille réelle »)
+- [x] Renvoyer la vidéo en qualité d'origine (SwissTransfer)
 - [x] Définir le format et la durée
 - [x] Recoller les morceaux (12:45, sans coupure)
 - [x] Compléter la DA (`DA.md`), à partir de 2 vidéos de référence
@@ -66,6 +66,7 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-05 | Décision : logo incrusté gardé. Les 4 heures jaunes remplacées par un badge sombre avec icône bleue et petit « pop » (composition `VlogRome`). Aperçu envoyé | Valider le badge |
 | 2026-11-05 | Sous-titres ajoutés : 3 à 6 mots en bas, mot prononcé surligné en bleu, remontés quand un badge d'heure est affiché. Aperçu envoyé | Relire les mots douteux |
 | 2026-11-05 | Corrections des sous-titres (tiramisu, de Rome, en soute). 7 cartes titres validées et ajoutées. Aperçu envoyé | Valider les cartes, renvoyer la vidéo d'origine, rendu complet |
+| 2026-11-05 | Vidéo d'origine reçue (SwissTransfer), heures recalées dessus, rendu complet 1080p lancé | Relire le rendu complet |
 
 ## Retours et corrections
 
