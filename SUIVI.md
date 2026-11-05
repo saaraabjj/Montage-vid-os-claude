@@ -12,7 +12,7 @@ Journal du projet : ce qui est fait, ce qui reste à faire, et les décisions pr
 | Durée visée | ≈ 12 min, déjà monté (extraits 30–60 s) |
 | Vidéo source | **Qualité d'origine reçue** par SwissTransfer : 7 fichiers 1920×1080, 1,4 Go, recollés dans l'ordre (2, 1, 3, 5, 6, 7, 9) → `public/vlog/vlog-original.mp4` (hors GitHub) |
 | Couleur d'accent | **bleu ceinture `#2C51A1`** : il s'accorde au ciel, au fleuve et aux rideaux bleus de l'hôtel (proposé, à valider) |
-| Statut | 🟣 En relecture (rendu complet en cours) |
+| Statut | 🟣 En relecture (rendu complet terminé) |
 
 Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relecture · 🟢 Terminé
 
@@ -30,7 +30,7 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 - [ ] Relire les sous-titres (mots douteux : « missou », « rassoute »…)
 - [x] Ajouter les 7 cartes titres (Vatican, pizza, tiramisu, citron, haul, Kinder, Estathé vs Nestea)
 - [ ] Ajouter les petits sons (pas de musique)
-- [ ] Premier rendu à relire
+- [x] Premier rendu à relire (v1 envoyée)
 - [ ] Corrections
 - [ ] Rendu final YouTube
 - [ ] Extraits TikTok / Instagram (9:16)
@@ -67,6 +67,7 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-05 | Sous-titres ajoutés : 3 à 6 mots en bas, mot prononcé surligné en bleu, remontés quand un badge d'heure est affiché. Aperçu envoyé | Relire les mots douteux |
 | 2026-11-05 | Corrections des sous-titres (tiramisu, de Rome, en soute). 7 cartes titres validées et ajoutées. Aperçu envoyé | Valider les cartes, renvoyer la vidéo d'origine, rendu complet |
 | 2026-11-05 | Vidéo d'origine reçue (SwissTransfer), heures recalées dessus, rendu complet 1080p lancé | Relire le rendu complet |
+| 2026-11-05 | Rendu complet v1 terminé (1080p, 1,2 Go). Version allégée 720p envoyée, version YouTube 1080p < 500 Mo en préparation | Relire la v1 et noter les retours |
 
 ## Retours et corrections
 
@@ -78,4 +79,4 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 
 | Version | Fichier | Date | Remarques |
 | --- | --- | --- | --- |
-| | `out/…` | | |
+| v1 | `out/VlogRome-final.mp4` (1080p, 1,2 Go) | 2026-11-05 | rendu complet, envoyé en 720p (190 Mo) et en 1080p allégé |
