@@ -35,6 +35,19 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 - [ ] Rendu final YouTube
 - [ ] Extraits TikTok / Instagram (9:16)
 
+## Pub collab OSMOSIS (2026-11-05)
+
+| Champ | Valeur |
+| --- | --- |
+| Composition | `PubOsmosis` (1080×1920, 30 i/s, 12 s) |
+| Sponsor | OSMOSIS (logo dans `public/osmosis/`, version blanche et noire détourées) |
+| Vidéo source | rush vestiaire de 8,5 s (`public/osmosis/rush.mp4`, hors GitHub), remis à l'endroit car filmé en miroir |
+| Couleur d'accent | **rouge néon `#F93C4A`**, comme le « OSMOSIS » rouge du rashguard |
+| Son | musique d'origine du rush (fondu à la fin) + whoosh, impact et pops |
+| Statut | 🟣 En relecture (v1) |
+
+Déroulé : accroche « POV : tu reçois ton 1er sponsor » → zoom sur le sac « le kit vient d'arriver » → balayage + flash « Mode OSMOSIS » → pilule « Sponsorisée par OSMOSIS » → carte de fin SAARAA.BJJ × OSMOSIS.
+
 ## Contenu du vlog (repéré le 2026-11-05)
 
 | Vers | Partie | Idée de carte titre |
@@ -76,4 +89,4 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 
 | Version | Fichier | Date | Remarques |
 | --- | --- | --- | --- |
-| | `out/…` | | |
+| v1 pub | `out/pub-osmosis-v1.mp4` | 2026-11-05 | Pub collab OSMOSIS, 12 s, 9:16 |
