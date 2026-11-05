@@ -1,9 +1,14 @@
+import React from "react";
 import { Composition, Folder, Still } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { VlogRome, FPS, DUREE_SECONDES } from "./VlogRome";
 import { PubOsmosis, FPS as FPS_PUB, DUREE as DUREE_PUB } from "./PubOsmosis";
 import { ConseilsSparring, FPS as FPS_CONSEILS, DUREE as DUREE_CONSEILS } from "./ConseilsSparring";
 import { Couverture } from "./ConseilsSparring/Couverture";
+import { JournalEpisode, calculerDuree } from "./Journal";
+import { CouvertureJournal } from "./Journal/Couverture";
+import { EPISODES } from "./Journal/episodes";
+import { DUREE_FIN as FIN_JOURNAL, FPS as FPS_JOURNAL } from "./Journal/theme";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 
@@ -37,6 +42,23 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
       />
       <Still id="CouvertureSparring" component={Couverture} width={1080} height={1920} />
+      <Folder name="Journal">
+        {EPISODES.map((ep) => (
+          <React.Fragment key={ep.id}>
+            <Composition
+              id={`Journal-Ep${ep.id}`}
+              component={JournalEpisode}
+              defaultProps={ep.video}
+              calculateMetadata={calculerDuree}
+              durationInFrames={FIN_JOURNAL}
+              fps={FPS_JOURNAL}
+              width={1080}
+              height={1920}
+            />
+            <Still id={`Couverture-Ep${ep.id}`} component={CouvertureJournal} defaultProps={ep.couverture} width={1080} height={1920} />
+          </React.Fragment>
+        ))}
+      </Folder>
       <Folder name="Elements">
         <Composition
           id="Logo"

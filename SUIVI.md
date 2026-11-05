@@ -50,6 +50,22 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 
 Déroulé : accroche « POV : tu reçois ton 1er sponsor » → zoom sur le sac « le kit vient d'arriver » → balayage + flash « Mode OSMOSIS » → pilule « Sponsorisée par OSMOSIS » → carte de fin SAARAA.BJJ × OSMOSIS.
 
+## Série « Journal d'une ceinture bleue qui progresse lentement » (2026-11-05)
+
+Modèle réutilisable dans `src/Journal/` (9:16, 30 i/s) :
+- **bandeau titre** « Épisode X » + nom de la série en haut pendant 2,5 s, la vidéo démarre tout de suite ;
+- **sous-titres** mot par mot, mots-clés en jaune vif `#FFD23F` ;
+- **carte de fin** (4 s) : « Progrès de la semaine », jauge en forme de ceinture bleue → violette avec repère « moi » et barrettes sur le bout noir, badge « +1 % (on avance… lentement) », « Épisode X+1 la semaine prochaine » ;
+- **couverture** `Couverture-EpXX` : signature de la série en haut, « Épisode X » et un titre à 3 lignes avec un mot-clé en jaune.
+
+Nouvel épisode :
+1. déposer la vidéo dans `public/journal/epXX.mp4` ;
+2. `python3 scripts/transcrire.py public/journal/epXX.mp4 src/Journal/mots/epXX.json`, puis corriger les mots et choisir les mots-clés (`"cle": true`) ;
+3. ajouter l'épisode dans `src/Journal/episodes.ts` (numéro, extrait, progression, barrettes, titre de couverture) ;
+4. `npx remotion render Journal-EpXX out/journal-epXX.mp4` et `npx remotion still Couverture-EpXX out/couverture-epXX.png`.
+
+Démo : `Journal-EpDemo` (début de la vidéo sparring, progression 3 % → 4 %, 1 barrette).
+
 ## Conseils sparring (2026-11-05)
 
 | Champ | Valeur |
