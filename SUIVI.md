@@ -11,6 +11,7 @@ Journal du projet : ce qui est fait, ce qui reste à faire, et les décisions pr
 | Format | 9:16 vertical, 1080×1920 |
 | Durée visée | _ex. 45 s_ |
 | Vidéo source | _ex. `public/rush-01.mp4`_ |
+| Couleur d'accent | _choisie à réception de la vidéo_ |
 | Statut | 🟡 En préparation |
 
 Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relecture · 🟢 Terminé
@@ -41,6 +42,7 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 | 2026-11-05 | Installation de Remotion, projet sur GitHub, création des fichiers de suivi | Envoyer la vidéo source |
 | 2026-11-05 | DA remplie à partir de 2 vidéos de référence (style A face caméra, style B court métrage) | Valider la DA, envoyer la vidéo source |
 | 2026-11-05 | Logo ajouté, choix du son : pas de musique, petits effets sonores oui | Confirmer police et pseudo, envoyer la vidéo source |
+| 2026-11-05 | Couleur d'accent adaptée à chaque vidéo, logo entier dans la pilule | Envoyer la vidéo source |
 
 ## Retours et corrections
 

@@ -31,6 +31,8 @@ Claude applique ces règles à chaque montage. Les points marqués **_à confirm
 
 ## Couleurs
 
+> **Règle (2026-11-05) : la couleur d'accent s'adapte à chaque vidéo.** Claude regarde la vidéo source (lumières, décor, tenue) et choisit l'accent qui s'y accorde le mieux, parmi le rouge néon, le bleu ceinture et l'or champagne. Le choix est noté dans `SUIVI.md`. Le blanc et le gris restent fixes.
+
 | Rôle | Couleur | Code | Utilisation |
 | --- | --- | --- | --- |
 | Accent principal | rouge néon | `#F93C4A` | 2ᵉ ligne des titres, mots-clés (« Motion », « Gratuite. ») |
@@ -102,6 +104,6 @@ Police : une sans-serif moderne très grasse, de type **SF Pro Display / Inter**
 
 - **Marque :** SAARAA.BJJ (jiu-jitsu brésilien)
 - **Logo :** `public/logo.png` (fond transparent, 1324×1188) et `public/logo-petit.png` (128 px de large, pour la pilule du haut). C'est un « S » or champagne enlacé d'une ceinture bleue de JJB.
-- **Logo dans la pilule :** le « S » seul, ou le logo entier en petit (_à confirmer_)
+- **Logo dans la pilule :** le **logo entier**, en petit (`public/logo-petit.png`)
 - **Pseudo :** _@saaraa.bjj ? (à confirmer)_
 - **Photo de profil :** _`public/profil.jpg`_ (pour la fiche « profil »)
