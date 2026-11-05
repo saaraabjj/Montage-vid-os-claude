@@ -2,7 +2,7 @@
 {
 "debut": 0.0,
 "fin": 7.18,
-"texte": "J'ai fait 30 minutes de route pour faire un missou, parce qu'apparemment c'est le best, le best d'Europe, donc on va voir.",
+"texte": "J'ai fait 30 minutes de route pour un tiramisu, parce qu'apparemment c'est le best, le best d'Europe, donc on va voir.",
 "mots": [
 {
 "m": " J",
@@ -42,21 +42,16 @@
 {
 "m": " pour",
 "d": 1.28,
-"f": 1.52
-},
-{
-"m": " faire",
-"d": 1.52,
-"f": 2.16
+"f": 1.713
 },
 {
 "m": " un",
-"d": 2.16,
-"f": 2.3
+"d": 1.713,
+"f": 2.147
 },
 {
-"m": " missou,",
-"d": 2.3,
+"m": " tiramisu,",
+"d": 2.147,
 "f": 2.58
 },
 {
@@ -822,7 +817,7 @@
 {
 "debut": 41.3,
 "fin": 43.62,
-"texte": "Tout ça pour être chez Pompi il a intérêt d'être bon.",
+"texte": "Tout ça pour un tiramisu, il a intérêt d'être bon.",
 "mots": [
 {
 "m": " Tout",
@@ -840,18 +835,13 @@
 "f": 42.08
 },
 {
-"m": " être",
+"m": " un",
 "d": 42.08,
-"f": 42.22
+"f": 42.35
 },
 {
-"m": " chez",
-"d": 42.22,
-"f": 42.36
-},
-{
-"m": " Pompi",
-"d": 42.36,
+"m": " tiramisu,",
+"d": 42.35,
 "f": 42.62
 },
 {
@@ -5983,7 +5973,7 @@
 {
 "debut": 501.59,
 "fin": 509.63,
-"texte": "fourchette, couteau, cuillère, j'ai mis ça dans ma rassoute j'ai pris ça kinder à la fraise",
+"texte": "fourchette, couteau, cuillère, j'ai mis ça en soute, j'ai pris ça kinder à la fraise",
 "mots": [
 {
 "m": " fourchette,",
@@ -6021,18 +6011,13 @@
 "f": 504.21
 },
 {
-"m": " dans",
+"m": " en",
 "d": 504.21,
-"f": 504.39
+"f": 504.56
 },
 {
-"m": " ma",
-"d": 504.39,
-"f": 504.55
-},
-{
-"m": " rassoute",
-"d": 504.55,
+"m": " soute,",
+"d": 504.56,
 "f": 504.91
 },
 {
