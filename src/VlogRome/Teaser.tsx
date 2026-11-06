@@ -22,14 +22,14 @@ export const FPS_TEASER = 30;
 
 type Clip = { debut: number; fin: number; centreX: number; fond?: boolean };
 // Moments choisis dans le vlog (en secondes). centreX = où se trouve ton visage dans l'image (0 = gauche, 1 = droite).
-// fond = plan déjà vertical (avec bandes noires) : on l'affiche en entier sur un fond flouté.
+// fond = plan filmé en vertical (bandes noires dans le vlog) : il remplit l'écran tel quel.
 const CLIPS: Clip[] = [
   { debut: 129.0, fin: 134.95, centreX: 0.62 }, // 30 minutes de route pour un tiramisu
   { debut: 150.8, fin: 154.75, centreX: 0.56 }, // j'ai un peu le seum
   { debut: 168.8, fin: 172.75, centreX: 0.55 }, // tout ça pour un tiramisu
   { debut: 241.4, fin: 244.8, centreX: 0.5 }, // il est trop beau
   { debut: 266.85, fin: 269.75, centreX: 0.5 }, // il est bon
-  { debut: 66.7, fin: 69.0, centreX: 0.5 }, // la pizza : elle est grave bonne (plan vertical, il remplit pile le cadre)
+  { debut: 66.7, fin: 69.0, centreX: 0.5, fond: true }, // la pizza : elle est grave bonne (plan filmé en vertical)
 ];
 const DUREE_FIN = 4.5; // écran final
 
@@ -58,34 +58,38 @@ const fusionner = (mots: ReturnType<typeof motsDuClip>) => {
   return out;
 };
 
+// Hauteur de la vidéo au premier plan : moins grand que l'écran (1920) pour garder du décor autour du visage
+const HAUTEUR_PLAN = 1200;
+const HAUT_PLAN = 300;
+
 const PlanVertical: React.FC<{ clip: Clip }> = ({ clip }) => {
   const { fps } = useVideoConfig();
   const frame = useCurrentFrame();
-  const largeur = 1920 * (1920 / 1080); // vidéo 16:9 mise à la hauteur 1920 px
-  const decalage = Math.min(0, Math.max(1080 - largeur, 540 - clip.centreX * largeur));
-  const zoom = interpolate(frame, [0, (clip.fin - clip.debut) * fps], [1, 1.06]);
-  const video = (
-    <OffthreadVideo
-      src={staticFile(SOURCE)}
-      startFrom={Math.round(clip.debut * fps)}
-      style={{ position: "absolute", height: 1920, width: largeur, left: decalage, top: 0, transform: `scale(${zoom})` }}
-    />
-  );
-  if (!clip.fond) return <AbsoluteFill style={{ overflow: "hidden" }}>{video}</AbsoluteFill>;
-  // Plan déjà vertical au centre de l'image 16:9 : on le montre en grand sur un fond flouté
+  const zoom = interpolate(frame, [0, (clip.fin - clip.debut) * fps], [1, 1.02]);
+  const depart = Math.round(clip.debut * fps);
+  const largeurPlein = 1920 * (16 / 9);
+  if (clip.fond) {
+    // Plan filmé en vertical (bandes noires dans le vlog) : il remplit l'écran tel quel
+    return (
+      <AbsoluteFill style={{ overflow: "hidden", backgroundColor: "#000" }}>
+        <OffthreadVideo src={staticFile(SOURCE)} startFrom={depart}
+          style={{ position: "absolute", height: 1920, width: largeurPlein, left: (1080 - largeurPlein) / 2, top: 0, transform: `scale(${zoom})` }} />
+      </AbsoluteFill>
+    );
+  }
+  const largeur = HAUTEUR_PLAN * (16 / 9);
+  const gauche = Math.min(0, Math.max(1080 - largeur, 540 - clip.centreX * largeur));
   return (
     <AbsoluteFill style={{ overflow: "hidden", backgroundColor: "#000" }}>
-      <OffthreadVideo
-        muted
-        src={staticFile(SOURCE)}
-        startFrom={Math.round(clip.debut * fps)}
-        style={{ position: "absolute", height: 1920, width: largeur, left: (1080 - largeur) / 2, filter: "blur(40px) brightness(0.6)", transform: "scale(1.3)" }}
-      />
-      <OffthreadVideo
-        src={staticFile(SOURCE)}
-        startFrom={Math.round(clip.debut * fps)}
-        style={{ position: "absolute", height: 1920 * 1.0, width: largeur, left: (1080 - largeur) / 2, top: 0, transform: `scale(${zoom * 1.0})` }}
-      />
+      {/* Fond : la même image, floutée, pour remplir le haut et le bas */}
+      <OffthreadVideo muted src={staticFile(SOURCE)} startFrom={depart}
+        style={{ position: "absolute", height: 1920, width: largeurPlein, left: 540 - clip.centreX * largeurPlein, top: 0,
+          filter: "blur(45px) brightness(0.55) saturate(1.2)", transform: "scale(1.15)" }} />
+      <div style={{ position: "absolute", left: 0, top: HAUT_PLAN, width: 1080, height: HAUTEUR_PLAN, overflow: "hidden",
+        boxShadow: "0 0 60px rgba(0,0,0,0.5)" }}>
+        <OffthreadVideo src={staticFile(SOURCE)} startFrom={depart}
+          style={{ position: "absolute", height: HAUTEUR_PLAN, width: largeur, left: gauche, top: 0, transform: `scale(${zoom})` }} />
+      </div>
     </AbsoluteFill>
   );
 };
@@ -104,7 +108,7 @@ const MotGeant: React.FC<{ clip: Clip }> = ({ clip }) => {
   const texte = mot.m.replace(/[.,!?…]+$/, (p) => (p === "," ? "," : p));
   const taille = texte.length > 12 ? 100 : texte.length > 8 ? 124 : 168;
   return (
-    <div style={{ position: "absolute", left: 40, right: 40, top: 1180, textAlign: "center", fontFamily: DA.police }}>
+    <div style={{ position: "absolute", left: 40, right: 40, top: 1300, textAlign: "center", fontFamily: DA.police }}>
       <div
         style={{
           display: "inline-block",
