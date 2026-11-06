@@ -68,12 +68,14 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-05 | Corrections des sous-titres (tiramisu, de Rome, en soute). 7 cartes titres validées et ajoutées. Aperçu envoyé | Valider les cartes, renvoyer la vidéo d'origine, rendu complet |
 | 2026-11-05 | Vidéo d'origine reçue (SwissTransfer), heures recalées dessus, rendu complet 1080p lancé | Relire le rendu complet |
 | 2026-11-05 | Rendu complet v1 terminé (1080p, 1,2 Go). Version allégée 720p envoyée, version YouTube 1080p < 500 Mo en préparation | Relire la v1 et noter les retours |
+| 2026-11-06 | Retours v1 : ordre des vidéos mélangé (les morceaux 1 et 2 étaient inversés) et beaucoup d'erreurs de transcription. Vidéo réassemblée dans l'ordre (1), (2), (3), (5), (6), (7), (9). Nouvelle transcription avec Whisper large-v3 + contexte, texte complet dans `SOUS-TITRES.md` pour relecture. Badges et cartes recalés | Relire `SOUS-TITRES.md`, puis rendu v2 |
 
 ## Retours et corrections
 
 | Version | Retour | Corrigé ? |
 | --- | --- | --- |
-| v1 | | ☐ |
+| v1 | Ordre des vidéos mélangé | ☑ |
+| v1 | Beaucoup d'erreurs dans les sous-titres | ☐ (nouvelle transcription, relecture en cours) |
 
 ## Rendus
 

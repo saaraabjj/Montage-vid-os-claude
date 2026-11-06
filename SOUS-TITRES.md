@@ -1,0 +1,225 @@
+# Sous-titres du vlog Rome
+
+Texte complet de ce que tu dis, avec le minutage. **Relis-le et renvoie-moi les corrections** sous la forme « 2:13 : la bonne phrase ».
+
+219 phrases. Les 18 lignes marquées ❓ sont celles où la transcription hésite le plus : commence par elles.
+
+- **0:11** On est en train de rentrer dans la cabine.
+- **0:13** C'est normal que je n'avais pas trouvé l'hôtel, j'étais partie je ne sais où, mais regardez c'est quoi cette entrée.
+- **0:21** Ça y est j'ai déposé mes bagages et du coup là je vais aller au musée du Vatican, s'il y a du monde je change de plan mais on y va, let's go, il fait super chaud par contre
+- **0:38** Désolée mais moi je vais juste regarder le Vatican de loin, je vais pas faire toute cette queue là en fait, ça va pas ou quoi ?
+- **0:58** Bon, on va faire un petit crash test. J'ai pris la pizza au saumon et la margherita, donc on va voir ce que ça donne.
+- **1:06** Elle est grave bonne. Elle est trop bonne. Franchement, ça c'est pas la margherita que nous on a là. Franchement, elle est super bonne. Elle est grave bonne.
+- **1:16** ❓ On me dit, ouais, la pizza italienne, la pizza italienne, je suis toujours, elle est vraiment bonne. Vraiment, elle est vraiment bonne.
+- **1:22** ❓ Et franchement, la margherita, elle est super bonne. Au saumon. Et du coup, la base, c'est base tomate. Elle est vraiment bonne.
+- **1:32** Je suis obligée de m'asseoir sur un trottoir parce qu'il n'y a pas où s'asseoir, en fait.
+- **2:09** Je vais faire 30 minutes de route pour un tiramisu. Parce qu'apparemment, c'est le best, le best de Rome.
+- **2:15** Donc, on va voir. Franchement, il y a tellement de choses à voir que je ne sais pas quoi faire. En vrai, je ne fais pas les visites intérieures.
+- **2:23** ❓ A l'extérieur, il y a beaucoup de lieux. Il y a une infrastructure.
+- **2:26** Franchement, elles sont belles. Il y a beaucoup de choses. Et il fait super bon.
+- **2:30** Je vous avoue, j'ai un peu le seum. Je ne me suis pas arrêtée au bon arrêt. Voilà, c'est pour ça qu'il faut regarder bien avec Maps.
+- **2:38** Et au moment où je me suis rendue compte, il était trop tard. Du coup, les portes, elles étaient en train de se fermer.
+- **2:42** Et sauf qu'en fait, la station d'après, elle est plus loin. Plus loin, beaucoup trop loin.
+- **2:48** ❓ Je suis en train de marcher. Tout ça pour un tiramisu. Il a intérêt d'être bon.
+- **2:53** Et euh...
+- **2:56** ❓ C'est trop le seum.
+- **2:58** En même temps, il n'y a même pas les... Il n'y a même pas l'affiche avec les stations.
+- **3:02** Il n'y a même pas écrit c'est quelle station.
+- **3:04** Mais comment je vais deviner, moi ?
+- **3:06** Je suis là, je suis collée à mon téléphone à regarder le...
+- **3:09** ❓ Le point, la GPS, là.
+- **3:12** Non...
+- **3:14** Voilà les aventures de Sara.
+- **3:16** T'es toute seule.
+- **3:17** ❓ On m'a pas vu leur bouteille. C'est quoi, ça, là ?
+- **3:20** Qu'est-ce que c'est, bouteille, là ?
+- **3:32** C'est quoi, ça ?
+- **3:34** ❓ C'est quoi, ça, là ?
+- **3:36** J'ai dit, on est là pour faire des dégustations.
+- **3:39** J'ai eu mon tiramisu.
+- **3:41** ❓ Faut se trouver à l'endroit où on me posait, par contre.
+- **3:43** Faire comme les gens. Sur le trottoir.
+- **3:45** Le trottoir, c'est vraiment mon endroit.
+- **3:48** Bon, on est là pour bouffer. Voilà.
+- **3:51** Voilà.
+- **3:53** On va faire de la dégustation. Eh, franchement.
+- **3:57** C'était à 6 euros.
+- **3:59** Alors, on va voir.
+- **4:01** Oh, purée, il est trop beau.
+- **4:02** Eh non, franchement, il est magnifique.
+- **4:07** Il est magnifique. Oh non.
+- **4:08** Attendez, faut que je vous montre.
+- **4:13** J'aime pas le café. C'est sûr, il y a du café dedans.
+- **4:16** Mais, on va voir ça.
+- **4:26** Franchement, il est bon.
+- **4:28** Ah, il est bon.
+- **4:34** Franchement.
+- **4:36** Il est grave bon.
+- **4:42** Je vous le recommande.
+- **4:43** J'ai pris la pistache.
+- **4:45** Il y avait classique, fraise ou pistache.
+- **4:48** Et j'ai pris pistache.
+- **4:50** Et franchement.
+- **4:51** En plus, on le sent vraiment pas le goût du café.
+- **4:58** Je valide.
+- **5:10** Dites-vous.
+- **5:11** Je suis pas très citron.
+- **5:13** Du coup, j'ai pris un truc. Bon, voilà.
+- **5:15** ❓ On suit la hype.
+- **5:17** Déjà, faut que je réussisse à avoir la cuillère.
+- **5:21** Voilà mon beau citron.
+- **5:24** Regardez.
+- **5:26** Du coup, c'est deux citrons.
+- **5:27** Et entre les deux citrons, bah, en fait,
+- **5:29** il y a de la saveur.
+- **5:30** Du coup, j'ai pris cheesecake.
+- **5:34** Et je sais plus c'est quoi. Je sais plus c'est quoi.
+- **5:37** En gros, je lui dis à la meuf, je sais pas c'est quoi le meilleur.
+- **5:39** Choisis pour moi.
+- **5:42** Du coup, elle m'a dit cheesecake.
+- **5:43** Et je crois qu'il y a de l'orange un peu.
+- **5:48** Mais, franchement, c'est super bon.
+- **5:51** ❓ C'est super bon. Ils vont dire celle-là, elle fait que de bouffer.
+- **5:54** En fait, je fais juste mes dégustations.
+- **5:55** Et après, je vais rentrer à l'hôtel.
+- **5:57** Je suis à 16 000 pas.
+- **5:59** 16 000 pas, alors.
+- **6:02** Franchement.
+- **6:03** En vrai, c'est bien pour tester une fois.
+- **6:07** Franchement, c'est super bon.
+- **6:09** Moi qui n'ai pas
+- **6:10** très faim de sucre.
+- **6:11** En vrai, ça va.
+- **6:13** Flop, flop, flop. Il y a tout qui est tombé.
+- **6:18** Pourquoi il y a tout qui est tombé ?
+- **6:19** C'est que 17h56 et il fait déjà nuit.
+- **6:22** Bon, là, je vais aller
+- **6:24** faire des petites courses.
+- **6:26** Quand même.
+- **6:29** Et après, je rentre à l'hôtel.
+- **6:49** Bon, il est 18h47. Je viens de rentrer.
+- **6:51** Je suis toujours sous trois heures de sommeil.
+- **6:53** Je suis complètement KO.
+- **6:55** Je vais vous faire un haul
+- **6:57** de mes courses.
+- **6:59** ❓ J'ai acheté pour 28 euros
+- **7:01** et 21 centimes.
+- **7:03** J'ai acheté 4 bouteilles d'eau.
+- **7:06** Évidemment, il faut s'hydrater.
+- **7:07** Je n'ai pas pu m'hydrater aujourd'hui.
+- **7:10** Après,
+- **7:11** et aussi pour la compétition,
+- **7:14** j'ai acheté ça.
+- **7:16** ❓ Parce que ça, ça m'en parle.
+- **7:17** Ça m'en parle, apparemment.
+- **7:19** C'est bon.
+- **7:20** C'est comme de l'Ice Tea, mais
+- **7:22** en version italienne.
+- **7:25** J'ai pris au citron
+- **7:27** et à la pêche.
+- **7:29** ❓ C'est pareil au citron, mais sous cette forme.
+- **7:32** Je vais voir ce que ça donne.
+- **7:35** J'ai pris un kéfir.
+- **7:37** Surtout pour le petit déjeuner, pour le matin.
+- **7:40** J'ai pris
+- **7:41** deux boîtes de yaourt comme ça.
+- **7:43** Une à la fraise et une
+- **7:45** kiwi céréale.
+- **7:48** J'ai pris
+- **7:49** du lait d'avoine en petit format.
+- **7:52** Je n'avais pas acheté le grand format.
+- **7:53** Donc, je n'ai pas le choix de prendre celui-là.
+- **7:55** Parce que j'ai
+- **7:57** mon...
+- **7:58** Parce que j'ai ma prot.
+- **8:00** Du coup, il faut bien que j'ai mon shaker.
+- **8:02** Du coup, il faut bien que j'ai mon lait.
+- **8:05** J'ai pris
+- **8:06** ❓ en forme de snack, à la philosophie.
+- **8:10** ❓ Les bâtonnières
+- **8:10** classiques.
+- **8:12** ❓ J'ai pris un mélange de melon.
+- **8:14** Ah, ils ont mis une fourchette.
+- **8:17** Mais moi, j'ai pris
+- **8:19** un couvert où il y a tout.
+- **8:21** Fourchette, couteau, cuillère.
+- **8:23** J'ai mis ça en soute.
+- **8:25** J'ai pris ça. Kinder.
+- **8:28** À la fraise.
+- **8:30** Euh, non.
+- **8:32** Si. En fait, au fruit des bois.
+- **8:34** Kinder fruit des bois.
+- **8:35** Je voulais tester. Voilà. Je vais faire une dégustation.
+- **8:40** Et
+- **8:41** j'ai pris une barquette de bananes.
+- **8:44** Je n'avais pas. Vous pouvez mettre des bananes
+- **8:45** dans une barquette. Donc, c'est pas mal.
+- **8:49** J'ai pris une barre
+- **8:51** énergie, mais juste histoire de
+- **8:53** en vrai, j'en ai une.
+- **8:55** Et j'ai acheté ça.
+- **8:57** Pourquoi j'ai acheté ça ?
+- **8:59** Parce que, à chaque fois, quand je suis dehors,
+- **9:03** du coup, bah,
+- **9:03** je finis pas forcément, comme je fais pas mal de dégustations.
+- **9:07** Donc, ça peut être pas mal
+- **9:08** de mettre dedans.
+- **9:09** Ah oui, j'ai acheté ça.
+- **9:11** C'est le brownie
+- **9:13** avec des cornflakes.
+- **9:14** C'est vraiment des brownies.
+- **9:27** Ah, mais c'est des brownies...
+- **9:37** ❓ Les brownies biscuit.
+- **9:40** Ah oui, tu sens les cornflakes, hein.
+- **9:41** C'est bizarre, hein.
+- **9:45** Est-ce qu'on ferait pas...
+- **9:48** Est-ce qu'on ferait pas
+- **9:49** une petite dégustation ?
+- **9:52** Kinder...
+- **9:55** Kinder fruits des bois.
+- **9:57** Qu'est-ce que ça donne ?
+- **10:04** C'est comme ça. Ça a le goût
+- **10:20** du yaourt, là, qu'on achète, là,
+- **10:21** avec les saveurs, là. C'est exactement
+- **10:23** ça. Donc, c'est vraiment...
+- **10:25** En fait, j'ai l'impression que c'est de la confiture.
+- **10:29** Confiture fruits des bois.
+- **10:33** Hum... Y a pas
+- **10:34** mieux que le classique, hein.
+- **10:36** Non, franchement, je préfère le classique.
+- **10:38** Ça va, hein. C'est pas mauvais.
+- **10:40** Mais je préfère le classique.
+- **10:46** On a ça.
+- **10:48** C'est des biscuits, en fait, brownies.
+- **10:52** Avec cornflakes.
+- **10:57** Au début, quoi,
+- **10:57** j'ai vu ça, je croyais que c'était vraiment en mode brownie,
+- **10:59** mais pas en biscuit.
+- **11:04** Tu sens le goût du brownie.
+- **11:06** Tu sens aussi le goût du cornflakes.
+- **11:08** C'est... Waouh.
+- **11:11** Comme ils ont fait un mélange.
+- **11:17** Ça passe, hein, juste pour...
+- **11:20** goûter, en vrai.
+- **11:23** J'aimerais bien faire une dégustation,
+- **11:25** de ça, les Estathé.
+- **11:27** Bon, celui que j'ai acheté en bouteille, en vrai,
+- **11:29** c'est la même chose.
+- **11:30** Mais ils ont dit que je dois percer
+- **11:33** ici. Mais je perce comment, avec quoi ?
+- **11:36** Ils sont marrants, eux.
+- **11:41** Je vais percer... Heureusement,
+- **11:42** j'ai mon épingle
+- **11:46** de voile. Je vais percer avec ça.
+- **11:48** Vous voulez que je perce comment ?
+- **11:49** Ça se voit comme ça.
+- **12:07** Exactement le même goût que le Nestea.
+- **12:10** En fait, quand j'étais partie en Espagne,
+- **12:12** j'avais goûté justement le Nestea citron.
+- **12:15** Il était trop bon.
+- **12:17** Exactement le même goût.
+- **12:18** Là, ils l'ont appelé Estathé.
+- **12:21** En vrai, c'est pareil.
+- **12:24** C'est pas pareil que l'Ice Tea.
+- **12:26** Mais le Nestea d'Espagne
+- **12:28** et l'Ice Tea, c'est vraiment pareil.
