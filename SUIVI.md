@@ -33,7 +33,7 @@ Légende des statuts : 🟡 En préparation · 🔵 En montage · 🟣 En relect
 - [x] Premier rendu à relire (v1 envoyée)
 - [ ] Corrections
 - [ ] Rendu final YouTube
-- [ ] Extraits TikTok / Instagram (9:16)
+- [x] Extrait TikTok / Instagram (9:16, 27 s) qui renvoie vers YouTube : composition `TeaserTikTok`
 
 ## Contenu du vlog (repéré le 2026-11-05)
 
@@ -71,6 +71,7 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-06 | Retours v1 : ordre des vidéos mélangé (les morceaux 1 et 2 étaient inversés) et beaucoup d'erreurs de transcription. Vidéo réassemblée dans l'ordre (1), (2), (3), (5), (6), (7), (9). Nouvelle transcription avec Whisper large-v3 + contexte, texte complet dans `SOUS-TITRES.md` pour relecture. Badges et cartes recalés | Relire `SOUS-TITRES.md`, puis rendu v2 |
 | 2026-11-06 | Corrections de relecture appliquées (3:17, 8:06, 8:10). Rendu v2 terminé, envoyé en 720p et en 1080p YouTube (352 Mo) | Relire la v2, puis extraits TikTok / Insta |
 | 2026-11-06 | Miniatures créées dans la DA (compositions `MiniatureYouTube` 1920×1080 et `MiniatureInsta` 1080×1920) : « J'ai tout goûté à Rome », place Saint-Pierre, visage, pizza, tiramisu, logo | Valider les miniatures |
+| 2026-11-06 | Extrait vertical de 27 s (histoire du tiramisu, mot par mot en très gros, pilule logo, écran final « Le vlog complet sur YouTube · Lien en bio ») | Valider l'extrait |
 
 ## Retours et corrections
 
