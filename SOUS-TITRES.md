@@ -31,7 +31,7 @@ Texte complet de ce que tu dis, avec le minutage. **Relis-le et renvoie-moi les 
 - **3:12** Non...
 - **3:14** Voilà les aventures de Sara.
 - **3:16** T'es toute seule.
-- **3:17** ❓ On m'a pas vu leur bouteille. C'est quoi, ça, là ?
+- **3:17** On en parle de leurs bouteilles. C'est quoi, ça, là ?
 - **3:20** Qu'est-ce que c'est, bouteille, là ?
 - **3:32** C'est quoi, ça ?
 - **3:34** ❓ C'est quoi, ça, là ?
@@ -135,10 +135,10 @@ Texte complet de ce que tu dis, avec le minutage. **Relis-le et renvoie-moi les 
 - **8:00** Du coup, il faut bien que j'ai mon shaker.
 - **8:02** Du coup, il faut bien que j'ai mon lait.
 - **8:05** J'ai pris
-- **8:06** ❓ en forme de snack, à la philosophie.
-- **8:10** ❓ Les bâtonnières
+- **8:06** en forme de snack, à la Philadelphia.
+- **8:10** Les bâtonnets
 - **8:10** classiques.
-- **8:12** ❓ J'ai pris un mélange de melon.
+- **8:12** J'ai pris un mélange de melon.
 - **8:14** Ah, ils ont mis une fourchette.
 - **8:17** Mais moi, j'ai pris
 - **8:19** un couvert où il y a tout.
