@@ -70,6 +70,7 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-05 | Rendu complet v1 terminé (1080p, 1,2 Go). Version allégée 720p envoyée, version YouTube 1080p < 500 Mo en préparation | Relire la v1 et noter les retours |
 | 2026-11-06 | Retours v1 : ordre des vidéos mélangé (les morceaux 1 et 2 étaient inversés) et beaucoup d'erreurs de transcription. Vidéo réassemblée dans l'ordre (1), (2), (3), (5), (6), (7), (9). Nouvelle transcription avec Whisper large-v3 + contexte, texte complet dans `SOUS-TITRES.md` pour relecture. Badges et cartes recalés | Relire `SOUS-TITRES.md`, puis rendu v2 |
 | 2026-11-06 | Corrections de relecture appliquées (3:17, 8:06, 8:10). Rendu v2 terminé, envoyé en 720p et en 1080p YouTube (352 Mo) | Relire la v2, puis extraits TikTok / Insta |
+| 2026-11-06 | Miniatures créées dans la DA (compositions `MiniatureYouTube` 1920×1080 et `MiniatureInsta` 1080×1920) : « J'ai tout goûté à Rome », place Saint-Pierre, visage, pizza, tiramisu, logo | Valider les miniatures |
 
 ## Retours et corrections
 
