@@ -3,97 +3,133 @@
  "beatFrames": 12,
  "plans": [
   {
-   "id": "e1a",
+   "id": "e01a",
    "rush": "0061",
    "in": 48.0,
    "beats": 8,
    "speed": 1,
-   "note": "rouleau de poignets : la corde s'enroule, le disque monte",
-   "label": "Préhension"
+   "note": "rouleau de poignets : la corde s'enroule, le disque monte"
   },
   {
-   "id": "e1b",
+   "id": "e01b",
    "rush": "0061",
    "in": 51.84,
    "beats": 4,
    "speed": 0.5,
-   "note": "suite en ralenti (même prise, sans répétition)"
+   "note": "suite de la même prise, en ralenti"
   },
   {
-   "id": "e2a",
+   "id": "e02a",
    "rush": "0064",
-   "in": 58.0,
+   "in": 56.5,
    "beats": 12,
    "speed": 1,
    "note": "travail au disque",
    "noautorotate": true
   },
   {
-   "id": "e3a",
+   "id": "e03a",
    "rush": "0062",
    "in": 18.0,
    "beats": 8,
    "speed": 1,
-   "note": "développé landmine à genou",
-   "label": "Force"
+   "note": "développé landmine à genou"
   },
   {
-   "id": "e3b",
+   "id": "e03b",
    "rush": "0062",
    "in": 21.84,
    "beats": 4,
    "speed": 0.5,
-   "note": "suite en ralenti (même prise, sans répétition)"
+   "note": "suite de la même prise, en ralenti"
   },
   {
-   "id": "e4a",
-   "rush": "0068",
-   "in": 26.0,
-   "beats": 12,
-   "speed": 1,
-   "note": "tirage poulie à un bras"
-  },
-  {
-   "id": "e5a",
+   "id": "e04a",
    "rush": "0067",
    "in": 14.0,
    "beats": 12,
    "speed": 1,
-   "note": "tirages poulie haute, répétitions",
-   "label": "Endurance"
+   "note": "tirages poulie haute"
   },
   {
-   "id": "e6a",
+   "id": "e05a",
    "rush": "0069",
-   "in": 8.0,
+   "in": 10.5,
    "beats": 8,
    "speed": 1,
-   "note": "tirages corde à la poulie"
+   "note": "tirages corde à la poulie (début en pleine traction)"
   },
   {
-   "id": "e6b",
+   "id": "e05b",
    "rush": "0069",
-   "in": 11.84,
+   "in": 14.34,
    "beats": 4,
    "speed": 0.5,
-   "note": "suite en ralenti (même prise, sans répétition)"
+   "note": "suite de la même prise, en ralenti"
   },
   {
-   "id": "e7a",
+   "id": "e06a",
    "rush": "0065",
-   "in": 134.5,
+   "in": 34.5,
    "beats": 8,
    "speed": 1,
-   "note": "battle rope, slams en rotation",
-   "label": "Explosivité"
+   "note": "uchikomi aux cordes, de face"
   },
   {
-   "id": "e7b",
+   "id": "e07a",
+   "rush": "0066",
+   "in": 14.5,
+   "beats": 8,
+   "speed": 1,
+   "note": "uchikomi aux cordes, de dos"
+  },
+  {
+   "id": "e08a",
    "rush": "0065",
-   "in": 138.34,
+   "in": 67.0,
+   "beats": 8,
+   "speed": 1,
+   "note": "uchikomi aux cordes, de face"
+  },
+  {
+   "id": "e09a",
+   "rush": "0066",
+   "in": 40.0,
+   "beats": 8,
+   "speed": 1,
+   "note": "uchikomi aux cordes, de dos"
+  },
+  {
+   "id": "e10a",
+   "rush": "0065",
+   "in": 76.5,
+   "beats": 8,
+   "speed": 1,
+   "note": "uchikomi aux cordes, entrées en rotation"
+  },
+  {
+   "id": "e11a",
+   "rush": "0065",
+   "in": 140.0,
+   "beats": 8,
+   "speed": 1,
+   "note": "uchikomi aux cordes, entrées en rotation"
+  },
+  {
+   "id": "e12a",
+   "rush": "0065",
+   "in": 159.5,
    "beats": 4,
+   "speed": 1,
+   "note": "uchikomi aux cordes, dernière entrée en ralenti + phrase finale"
+  },
+  {
+   "id": "e12b",
+   "rush": "0065",
+   "in": 161.42,
+   "beats": 8,
    "speed": 0.5,
-   "note": "suite en ralenti (même prise, sans répétition)"
+   "note": "suite de la même prise, en ralenti"
   }
  ]
 }

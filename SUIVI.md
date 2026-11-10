@@ -9,39 +9,39 @@ Journal du projet : ce qui est fait, ce qui reste à faire, et les décisions pr
 | Nom de la vidéo | Prépa physique JJB, « Le travail invisible » (composition `PrepaJJB`) |
 | Objectif / plateforme | Instagram Reels et TikTok : raconter la préparation physique d'une athlète de JJB |
 | Format | 9:16 vertical, 1080×1920, **25 i/s** (cadence des rushes, pour ne pas dupliquer d'images) |
-| Durée | 40 s (v2 : 21 mesures à 125 BPM, chaque coupe tombe sur un temps) |
+| Durée | 57,6 s (v3 : 30 mesures à 125 BPM, chaque coupe tombe sur un temps) |
 | Vidéo source | 9 rushes DJI du 2026-11-10 (0061 à 0069, 1728×3072 HEVC 10 bits, 4,8 Go) reçus par SwissTransfer, hors GitHub. Le 0064 a une rotation erronée dans ses métadonnées (lu sans auto-rotation) |
 | Couleur d'accent | **bleu ceinture** (`#5B82D6`, version claire) : il reprend les gants bleus et la lumière froide des projecteurs |
 | Musique | **originale**, composée par script (`scripts/composer-musique.py`) : aucun droit d'auteur tiers. Bruitages : son direct des rushes (poids, cordes, souffle) + souffles et impacts sur les titres |
-| Statut | 🟣 En relecture (v2 rendue) |
+| Statut | 🟣 En relecture (v3 rendue) |
 
-### Déroulé v2 (plans dans `src/PrepaJJB/plans.json`)
+### Déroulé v3 (plans dans `src/PrepaJJB/plans.json`)
 
-Retours v1 : **que des exercices** (plus de plans d'ambiance, de regards caméra ni de carte de fin), **jamais deux fois le même plan**, **musique plus motivante**.
-Un exercice = 3 mesures (5,76 s) ; quand il y a un ralenti, c'est la suite de la même prise (pas de répétition).
+Retours v2 : la poulie était là deux fois (0067 et 0068 : on garde 0067), la corde à la poulie doit commencer en pleine traction, **mettre toutes les vidéos d'uchikomi aux cordes** (0065 et 0066), **aucun texte** sauf une phrase finale de combattante.
 
-| Temps | Exercice | Rush | Titre |
-| --- | --- | --- | --- |
-| 0–6 s | rouleau de poignets, fin en ralenti (le disque monte) | 0061 | 01 Préhension |
-| 6–12 s | travail au disque | 0064 | |
-| 12–17 s | développé landmine à genou, fin en ralenti | 0062 | 02 Force |
-| 17–23 s | tirage poulie à un bras | 0068 | |
-| 23–29 s | tirages poulie haute | 0067 | 03 Endurance |
-| 29–35 s | tirages corde à la poulie, fin en ralenti | 0069 | |
-| 35–40 s | battle rope, slams, dernier slam en ralenti + logo « Chaque séance compte. » | 0065 | 04 Explosivité |
+| Temps | Exercice | Rush |
+| --- | --- | --- |
+| 0–6 s | rouleau de poignets, fin en ralenti (le disque monte) | 0061 |
+| 6–12 s | travail au disque | 0064 |
+| 12–17 s | développé landmine à genou, fin en ralenti | 0062 |
+| 17–23 s | tirages poulie haute | 0067 |
+| 23–29 s | tirages corde à la poulie, en pleine traction, fin en ralenti | 0069 |
+| 29–54 s | uchikomi aux cordes : 6 moments différents, de face et de dos | 0065, 0066 |
+| 54–58 s | dernière entrée d'uchikomi en ralenti + logo et « La discipline forge la combattante. » | 0065 |
 
-Musique v2 : **motivation épique / trap**, 125 BPM, 808, cuivres, chœurs ; elle retombe sur chaque ralenti puis repart plus fort (drops à 5,8 s, 17,3 s, 34,6 s) et finit sur un grand impact.
+La musique suit automatiquement le découpage : elle retombe sur chaque ralenti et repart sur un drop ; la partie uchikomi est la plus intense ; grand impact sur le ralenti final.
 
 Recréer les plans et la musique (rushes hors GitHub) :
 
 ```bash
 python3 scripts/preparer-plans.py <dossier des rushes> public/jjb
 python3 scripts/composer-musique.py public/jjb   # demande numpy et scipy
-npx remotion render PrepaJJB out/PrepaJJB-v2.mp4
+npx remotion render PrepaJJB out/PrepaJJB-v3.mp4
 ```
 
 | Version | Fichier | Date | Remarques |
 | --- | --- | --- | --- |
+| v3 | `out/PrepaJJB-v3.mp4` (1080×1920, 57,6 s, −14 LUFS) | 2026-11-10 | poulie une seule fois, toutes les vidéos d'uchikomi, aucun texte sauf la phrase finale |
 | v2 | `out/PrepaJJB-v2.mp4` (1080×1920, 40 s, −15 LUFS) | 2026-11-10 | que des exercices, sans répétition, musique de motivation |
 | v1 | `out/PrepaJJB-v1.mp4` (1080×1920, 48 s, −17 LUFS) | 2026-11-10 | premier montage complet |
 

@@ -14,12 +14,13 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/800.css";
 import plansJson from "./plans.json";
 
-// Montage vertical « Préparation physique JJB » (Reels / TikTok, 1080x1920), v2.
-// Uniquement des plans d'exercices, chacun une seule fois (un « b » = la suite de la même prise, en ralenti).
+// Montage vertical « Préparation physique JJB » (Reels / TikTok, 1080x1920), v3.
+// Uniquement des plans d'exercices, chacun une seule fois (un « b » = la suite de la même prise, en ralenti),
+// puis les uchikomi aux cordes. Aucun texte, sauf la phrase finale.
 // Plans préparés par scripts/preparer-plans.py, musique et bruitages par scripts/composer-musique.py.
 // Accent : bleu ceinture, qui reprend les gants bleus et la lumière froide des projecteurs (cf. SUIVI.md).
 
-type Plan = { id: string; beats: number; speed: number; label?: string };
+type Plan = { id: string; beats: number; speed: number };
 
 export const FPS_PREPA = plansJson.fps;
 const BEAT = plansJson.beatFrames;
@@ -55,28 +56,7 @@ const PlanVideo: React.FC<{ plan: Plan; duree: number }> = ({ plan, duree }) => 
   );
 };
 
-// Titre de section : un mot, une fine barre bleue, entrée courte (0,2 s)
-const TitreSection: React.FC<{ numero: number; mot: string; duree: number }> = ({ numero, mot, duree }) => {
-  const frame = useCurrentFrame();
-  const entree = interpolate(frame, [0, 6], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  const sortie = interpolate(frame, [duree - 6, duree], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const barre = interpolate(frame, [2, 12], [0, 90], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  return (
-    <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 300, opacity: entree * sortie }}>
-      <div style={{ transform: `translateY(${(1 - entree) * 24}px)`, textAlign: "center", fontFamily: C.police }}>
-        <div style={{ color: C.gris, fontWeight: 500, fontSize: 38, letterSpacing: 6, marginBottom: 10, textShadow: "0 2px 12px rgba(0,0,0,0.8)" }}>
-          {String(numero).padStart(2, "0")}
-        </div>
-        <div style={{ color: C.blanc, fontWeight: 800, fontSize: 124, letterSpacing: -3, lineHeight: 1, textShadow: "0 6px 30px rgba(0,0,0,0.55)" }}>
-          {mot}
-        </div>
-        <div style={{ height: 8, width: barre, background: C.accent, margin: "26px auto 0", borderRadius: 4 }} />
-      </div>
-    </AbsoluteFill>
-  );
-};
-
-// Logo et phrase finale, posés sur le dernier ralenti (pas de carte à part)
+// Seul texte de la vidéo : logo et phrase finale, posés sur le dernier ralenti (pas de carte à part)
 const LogoFinal: React.FC<{ duree: number }> = ({ duree }) => {
   const frame = useCurrentFrame();
   const sombre = interpolate(frame, [0, 12], [0, 0.45], { extrapolateRight: "clamp" });
@@ -88,8 +68,9 @@ const LogoFinal: React.FC<{ duree: number }> = ({ duree }) => {
       <AbsoluteFill style={{ background: `linear-gradient(180deg, rgba(0,0,0,${sombre}) 0%, rgba(0,0,0,${sombre * 0.4}) 55%, rgba(0,0,0,${sombre}) 100%)` }} />
       <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 260, fontFamily: C.police, textAlign: "center", textShadow: "0 4px 24px rgba(0,0,0,0.7)" }}>
         <Img src={staticFile("logo.png")} style={{ width: 300, opacity: logo, transform: `scale(${0.92 + 0.08 * logo})`, marginBottom: 36 }} />
-        <div style={{ opacity: texte(0), color: C.blanc, fontWeight: 800, fontSize: 96, letterSpacing: -2, lineHeight: 1.04 }}>Chaque séance</div>
-        <div style={{ opacity: texte(1), color: C.accent, fontWeight: 800, fontSize: 96, letterSpacing: -2, lineHeight: 1.04 }}>compte.</div>
+        <div style={{ opacity: texte(0), color: C.blanc, fontWeight: 800, fontSize: 100, letterSpacing: -2, lineHeight: 1.04 }}>La discipline</div>
+        <div style={{ opacity: texte(1), color: C.blanc, fontWeight: 800, fontSize: 100, letterSpacing: -2, lineHeight: 1.04 }}>forge la</div>
+        <div style={{ opacity: texte(2), color: C.accent, fontWeight: 800, fontSize: 100, letterSpacing: -2, lineHeight: 1.04 }}>combattante.</div>
       </AbsoluteFill>
       <AbsoluteFill style={{ backgroundColor: "#000", opacity: noir }} />
     </AbsoluteFill>
@@ -107,7 +88,6 @@ export const PrepaJJB: React.FC = () => {
   const frame = useCurrentFrame();
   const ouverture = interpolate(frame, [0, 6], [1, 0], { extrapolateRight: "clamp" });
   const dernier = PLANS[PLANS.length - 1];
-  let numero = 0;
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       {PLANS.map((p, i) => {
@@ -121,18 +101,8 @@ export const PrepaJJB: React.FC = () => {
         );
       })}
 
-      {PLANS.map((p, i) => {
-        if (!p.label) return null;
-        numero += 1;
-        return (
-          <Sequence key={`t${p.id}`} from={debuts[i]} durationInFrames={40}>
-            <TitreSection numero={numero} mot={p.label} duree={40} />
-          </Sequence>
-        );
-      })}
-
       {/* éclairs sur les drops de la musique */}
-      {["e2a", "e4a", "e7a"].map((id) => (
+      {["e02a", "e04a", "e06a"].map((id) => (
         <Sequence key={`e${id}`} from={debutDe(id)} durationInFrames={6}>
           <Eclair />
         </Sequence>

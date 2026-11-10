@@ -9,21 +9,30 @@ Chaque ralenti (fin d'exercice) fait retomber la musique, puis elle repart encor
 
 Usage : python3 scripts/composer-musique.py public/jjb   (demande numpy et scipy)
 """
-import sys, pathlib, wave
+import sys, pathlib, wave, json
 import numpy as np
 from scipy.signal import fftconvolve, butter, sosfilt
 
 SR = 48000
 BEAT = 0.48
 BAR = 4 * BEAT
-NB_MESURES = 21
-DUREE = NB_MESURES * BAR
-N = int(DUREE * SR)
-rng = np.random.default_rng(11)
 sortie = pathlib.Path(sys.argv[1])
+rng = np.random.default_rng(11)
 
-EXO = 3 * BAR  # durée d'un exercice
-RALENTIS = [(2 * BAR, 3 * BAR), (8 * BAR, 9 * BAR), (17 * BAR, 18 * BAR), (20 * BAR, 21 * BAR)]
+# La structure suit le montage : chaque ralenti fait retomber la musique, le plan suivant relance un drop.
+_cfg = json.loads((pathlib.Path(__file__).resolve().parent.parent / "src/PrepaJJB/plans.json").read_text())
+_sec = _cfg["beatFrames"] / _cfg["fps"]
+_t, RALENTIS = 0.0, []
+for _p in _cfg["plans"]:
+    _d = _p["beats"] * _sec
+    if _p["speed"] < 1:
+        RALENTIS.append((_t, _t + _d))
+    _t += _d
+DUREE = _t
+NB_MESURES = int(round(DUREE / BAR))
+N = int(DUREE * SR)
+FINAL = RALENTIS[-1][0]                 # dernier ralenti : grand impact
+DROPS = [b for _, b in RALENTIS[:-1]]   # le plan qui suit chaque ralenti
 
 
 def t_(d):
@@ -179,8 +188,8 @@ for b in range(NB_MESURES):
     t_m = b * BAR
     acc, basse = accords[b % 4], basses[b % 4]
     ralenti = dans_ralenti(t_m)
-    niveau = 0 if b < 3 else (1 if b < 9 else (2 if b < 15 else 3))
-    if b == 20:  # dernier ralenti : grand impact, chœur et cuivres tenus
+    niveau = min(3, sum(1 for d in DROPS if t_m >= d - 0.01))
+    if t_m >= FINAL - 0.01:  # dernier ralenti : grand impact, chœur et cuivres tenus
         continue
 
     # ostinato de cordes en doubles croches (filtré pendant la montée)
@@ -226,15 +235,20 @@ for b in range(NB_MESURES):
             place(m, tom(f), t_m + 3 * BEAT + i * BEAT / 4, 0.5)
 
 # braams sur chaque drop
-for t0 in (3 * BAR, 9 * BAR, 15 * BAR, 18 * BAR):
+for t0 in DROPS:
     place(m, braam(BAR), t0, 0.35)
+# relances au milieu de la dernière partie (uchikomi)
+for t0 in np.arange(DROPS[-1] + 4 * BAR, FINAL - BAR, 4 * BAR):
+    place(m, braam(BAR), t0, 0.28)
+place(m, montee(BAR), FINAL - BAR, 0.3)
 
 # final : impact sur le dernier ralenti, chœur et cuivres tenus
-fin = 20 * BAR
+fin = FINAL
+queue = DUREE - FINAL
 place(m, impact(), fin, 1.4)
-place(m, braam(BAR + 0.5), fin, 0.4)
-place(m, choeur([n + 24 for n in accords[0]], BAR), fin, 0.22)
-place(m, bass808(-43, BAR), fin, 0.5)
+place(m, braam(queue), fin, 0.4)
+place(m, choeur([n + 24 for n in accords[0]], queue), fin, 0.22)
+place(m, bass808(-43, queue), fin, 0.5)
 
 m = reverb(m, 1.6, 0.15)
 m *= np.interp(t_(DUREE), [0, 0.05, DUREE - 0.6, DUREE], [0, 1, 1, 0])
@@ -253,9 +267,8 @@ def souffle(d=0.6):
 
 
 fx = np.zeros(N)
-for t0 in (0.0, 2 * EXO, 4 * EXO, 6 * EXO):  # titres : Préhension, Force, Endurance, Explosivité
-    place(fx, souffle(), max(0, t0 - 0.2), 0.6)
-for t0 in (3 * BAR, 9 * BAR, 15 * BAR, 18 * BAR):  # coups sourds sur les drops
+place(fx, souffle(), FINAL - 0.3, 0.6)  # entrée de la phrase finale
+for t0 in DROPS:  # coups sourds sur les drops
     place(fx, np.pad(kick(1.3), (0, 0)), t0, 0.5)
 fx = fx / (np.max(np.abs(fx)) + 1e-9) * 0.7
 
