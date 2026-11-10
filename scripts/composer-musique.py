@@ -1,277 +1,274 @@
-"""Musique originale et bruitages du montage « Prépa JJB » (aucun droit d'auteur tiers).
+"""Musique de motivation originale et bruitages du montage « Prépa JJB » (aucun droit d'auteur tiers).
 
-100 BPM (1 temps = 0,6 s = 15 images à 25 i/s), ré mineur, 20 mesures = 48 s.
-Structure calée sur src/PrepaJJB/plans.json :
-  0,0 s   intro : nappe grave, battement sourd
-  7,2 s   montée : ostinato de cordes, grosse caisse sur 1 et 3
-  16,8 s  « Force » : cuivres (braam), percussions à chaque temps
-  26,4 s  « Explosivité » : tutti, caisse claire, toms
-  38,4 s  respiration : tout retombe, cœur qui bat
-  40,8 s  montée finale -> 43,2 s grand impact et carte de fin
+Style : épique / trap de motivation. 125 BPM (1 temps = 0,48 s = 12 images à 25 i/s), ré mineur.
+21 mesures = 40,32 s. Un exercice = 3 mesures (5,76 s), calé sur src/PrepaJJB/plans.json.
+Chaque ralenti (fin d'exercice) fait retomber la musique, puis elle repart encore plus fort :
+  0,00 s  montée filtrée          5,76 s  drop 1 (808, grosse caisse, cuivres)
+  17,28 s drop 2 (charlestons rapides, chœurs)   28,80 s drop 3
+  34,56 s drop final  ->  38,40 s grand impact sur le dernier ralenti
 
-Usage : python3 scripts/composer-musique.py public/jjb
-Sorties : musique.wav, bruitages.wav (impacts et souffles sur les coupes)
+Usage : python3 scripts/composer-musique.py public/jjb   (demande numpy et scipy)
 """
-import sys, pathlib
+import sys, pathlib, wave
 import numpy as np
 from scipy.signal import fftconvolve, butter, sosfilt
 
 SR = 48000
-BEAT = 0.6
+BEAT = 0.48
 BAR = 4 * BEAT
-DUREE = 48.0
+NB_MESURES = 21
+DUREE = NB_MESURES * BAR
 N = int(DUREE * SR)
-rng = np.random.default_rng(7)
+rng = np.random.default_rng(11)
 sortie = pathlib.Path(sys.argv[1])
+
+EXO = 3 * BAR  # durée d'un exercice
+RALENTIS = [(2 * BAR, 3 * BAR), (8 * BAR, 9 * BAR), (17 * BAR, 18 * BAR), (20 * BAR, 21 * BAR)]
 
 
 def t_(d):
     return np.arange(int(d * SR)) / SR
 
 
-def hz(note):  # nombre de demi-tons par rapport à La 440
-    return 440.0 * 2 ** (note / 12)
+def hz(n):  # demi-tons par rapport au La 440
+    return 440.0 * 2 ** (n / 12)
 
 
-D1, A1, D2, F2, A2, Bb1, C2, F1 = -43, -36, -31, -28, -24, -35, -33, -40
-
-
-def place(buf, sig, t0, gain=1.0):
-    i = int(t0 * SR)
-    if i >= len(buf):
+def place(buf, sig, t0, g=1.0):
+    i = int(round(t0 * SR))
+    if i >= len(buf) or i < 0:
         return
     j = min(len(buf), i + len(sig))
-    buf[i:j] += gain * sig[: j - i]
+    buf[i:j] += g * sig[: j - i]
 
 
-def lp(x, f, order=2):
-    return sosfilt(butter(order, f, "low", fs=SR, output="sos"), x)
+def filt(x, f, kind="low", order=2):
+    return sosfilt(butter(order, f, kind, fs=SR, output="sos"), x)
 
 
-def hp(x, f, order=2):
-    return sosfilt(butter(order, f, "high", fs=SR, output="sos"), x)
-
-
-def bp(x, lo, hi):
-    return sosfilt(butter(2, [lo, hi], "band", fs=SR, output="sos"), x)
-
-
-def saw(f, d, detune=(0, 0.11, -0.13)):
+def saw(f, d, det=(0, 0.1, -0.12)):
     t = t_(d)
-    return sum(2 * ((t * f * 2 ** (c / 12)) % 1) - 1 for c in detune) / len(detune)
+    return sum(2 * ((t * f * 2 ** (c / 12)) % 1) - 1 for c in det) / len(det)
 
 
 def env(d, a, r):
     n = int(d * SR)
     e = np.ones(n)
-    na, nr = int(a * SR), int(r * SR)
-    if na:
-        e[:na] = np.linspace(0, 1, na)
-    if nr:
-        e[-nr:] *= np.linspace(1, 0, nr) ** 2
+    na, nr = max(1, int(a * SR)), max(1, int(r * SR))
+    e[:na] = np.linspace(0, 1, na)
+    e[-nr:] *= np.linspace(1, 0, nr) ** 2
     return e
 
 
-def reverb(x, duree=2.8, mix=0.3):
-    ir = rng.standard_normal(int(duree * SR)) * np.exp(-np.linspace(0, 7, int(duree * SR)))
-    ir = lp(ir, 6000)
+def reverb(x, d=2.0, mix=0.25):
+    n = int(d * SR)
+    ir = filt(rng.standard_normal(n) * np.exp(-np.linspace(0, 7, n)), 7000)
     w = fftconvolve(x, ir)[: len(x)]
-    w /= np.max(np.abs(w)) + 1e-9
-    return (1 - mix) * x + mix * w * np.max(np.abs(x))
+    w *= np.max(np.abs(x)) / (np.max(np.abs(w)) + 1e-9)
+    return (1 - mix) * x + mix * w
 
 
-# ---------- instruments ----------
-def kick(gros=1.0):
-    d = 0.9
+# ---------- sons ----------
+def kick(dur=1.0):
+    t = t_(0.55)
+    f = 48 + 130 * np.exp(-t * 38)
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 7)
+    s += 0.15 * filt(rng.standard_normal(len(t)), 3000, "high") * np.exp(-t * 120)
+    return np.tanh(2.2 * dur * s)
+
+
+def bass808(note, d):
     t = t_(d)
-    f = 42 + 90 * np.exp(-t * 30)
-    s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 4.5)
-    s += 0.12 * bp(rng.standard_normal(len(t)), 1500, 6000) * np.exp(-t * 90)
-    return np.tanh(1.6 * gros * s)
-
-
-def tom(f0):
-    d = 0.7
-    t = t_(d)
-    f = f0 * (1 + 0.6 * np.exp(-t * 18))
-    s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 6)
-    s += 0.15 * bp(rng.standard_normal(len(t)), 200, 2000) * np.exp(-t * 25)
-    return np.tanh(1.3 * s)
+    f = hz(note) * (1 + 0.5 * np.exp(-t * 30))
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR)
+    s = np.tanh(2.5 * s) * env(d, 0.004, min(0.25, d * 0.4))
+    return filt(s, 900)
 
 
 def clap():
-    d = 0.5
-    t = t_(d)
-    n = bp(rng.standard_normal(len(t)), 900, 5000)
-    e = np.exp(-t * 18)
-    for k in (0.0, 0.012, 0.024):
-        e += np.exp(-np.maximum(t - k, 0) * 120) * (t >= k)
-    return reverb(n * e * 0.5, 1.2, 0.35)
+    t = t_(0.45)
+    n = filt(rng.standard_normal(len(t)), [1000, 6000], "band")
+    e = np.exp(-t * 16) * 0.6
+    for k in (0.0, 0.01, 0.02):
+        e = e + np.exp(-np.maximum(t - k, 0) * 140) * (t >= k)
+    s = n * e
+    s += 0.5 * np.sin(2 * np.pi * 190 * t) * np.exp(-t * 25)  # corps de caisse claire
+    return reverb(s * 0.6, 1.0, 0.3)
 
 
 def hat(ouvert=False):
-    d = 0.25 if ouvert else 0.06
+    d = 0.22 if ouvert else 0.05
     t = t_(d)
-    return hp(rng.standard_normal(len(t)), 7000) * np.exp(-t * (12 if ouvert else 70)) * 0.35
+    return filt(rng.standard_normal(len(t)), 8000, "high") * np.exp(-t * (14 if ouvert else 90)) * 0.4
 
 
-def braam(d=2.4):
-    s = sum(saw(hz(n), d, (0, 0.08, -0.09)) for n in (D1, D2, A2))
-    s = np.tanh(2.2 * s) * env(d, 0.12, 1.2)
+def tom(f0):
+    t = t_(0.5)
+    f = f0 * (1 + 0.7 * np.exp(-t * 20))
+    return np.tanh(1.5 * np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 7))
+
+
+def cuivre(notes, d):
+    s = sum(saw(hz(n), d, (0, 0.07, -0.08)) for n in notes) / len(notes)
+    s = np.tanh(2.5 * s) * env(d, 0.02, d * 0.5)
     t = t_(d)
-    # le filtre s'ouvre au début (attaque cuivrée)
-    s = lp(s, 500) * 0.7 + lp(s, 1800) * 0.3 * np.exp(-t * 2)
+    return filt(s, 700) * 0.7 + filt(s, 2500) * 0.3 * np.exp(-t * 4)
+
+
+def braam(d):
+    s = sum(saw(hz(n), d, (0, 0.06, -0.07)) for n in (-43, -31, -24))
+    return filt(np.tanh(2.5 * s), 600) * env(d, 0.06, d * 0.7)
+
+
+def choeur(notes, d):  # nappe aiguë « voix » : scies désaccordées + vibrato, filtrées
+    t = t_(d)
+    s = np.zeros(len(t))
+    for n in notes:
+        for c in (-0.15, 0, 0.13):
+            f = hz(n + c) * (1 + 0.004 * np.sin(2 * np.pi * 5.2 * t))
+            s += 2 * ((np.cumsum(f) / SR) % 1) - 1
+    s = filt(filt(s / (3 * len(notes)), 1800), 250, "high")
+    return s * env(d, 0.3, 0.4)
+
+
+def corde(n, d):
+    return filt(saw(hz(n), d, (0, 0.06, -0.05)), 3000) * env(d, 0.005, d * 0.6)
+
+
+def montee(d, f0=200, f1=8000):
+    n = rng.standard_normal(int(d * SR) + 4000)
+    out = np.zeros(int(d * SR))
+    blocs = 40
+    L = len(out) // blocs
+    for b in range(blocs):
+        f = f0 * (f1 / f0) ** (b / blocs)
+        out[b * L:(b + 1) * L] = filt(n[b * L:(b + 1) * L + 3000], [f * 0.7, min(f * 1.4, 20000)], "band")[:L]
+    return out * np.linspace(0, 1, len(out)) ** 2
+
+
+def roulement(d):  # roulement de caisse claire qui accélère
+    s = np.zeros(int(d * SR))
+    t, pas = 0.0, BEAT / 2
+    while t < d - 0.02:
+        place(s, clap(), t, 0.25 + 0.75 * t / d)
+        t += pas
+        pas = max(BEAT / 8, pas * 0.82)
     return s
 
 
-def nappe(notes, d, ouverture=900):
-    s = sum(saw(hz(n), d) for n in notes) / len(notes)
-    return lp(s, ouverture) * env(d, 0.6, 0.6)
-
-
-def corde(note, d=0.28):
-    s = saw(hz(note), d, (0, 0.07, -0.06))
-    return lp(s, 2400) * env(d, 0.01, 0.15)
-
-
-def montee(d, f0=200, f1=6000):
-    n = rng.standard_normal(int(d * SR))
-    out = np.zeros_like(n)
-    blocs = 48
-    L = len(n) // blocs
-    for b in range(blocs):
-        f = f0 * (f1 / f0) ** (b / blocs)
-        seg = bp(n[b * L:(b + 1) * L + 2000], f * 0.7, min(f * 1.4, 20000))[:L]
-        out[b * L:(b + 1) * L] = seg
-    return out * np.linspace(0, 1, len(out)) ** 2 * 0.5
-
-
 def impact():
-    d = 3.5
+    d = 3.0
     t = t_(d)
-    s = kick(1.6)
-    s = np.pad(s, (0, len(t) - len(s)))
-    s += 0.6 * np.sin(2 * np.pi * 32 * t) * np.exp(-t * 1.3)
-    s += 0.3 * lp(rng.standard_normal(len(t)), 900) * np.exp(-t * 3)
-    return reverb(np.tanh(1.4 * s), 3.0, 0.35)
+    s = np.pad(kick(1.5), (0, len(t) - int(0.55 * SR)))
+    s += 0.8 * np.sin(2 * np.pi * 34 * t) * np.exp(-t * 1.4)
+    s += 0.35 * filt(rng.standard_normal(len(t)), 1200) * np.exp(-t * 3)
+    return reverb(np.tanh(1.5 * s), 2.8, 0.35)
 
 
 # ---------- composition ----------
 m = np.zeros(N)
-grille = [[D2, F2, A2], [Bb1 + 12, D2, F2], [F1 + 12, A1 + 12, C2 + 12], [C2, -26 + 12 - 12, -21]]  # Dm Bb F C
-grille[3] = [C2, C2 + 4, C2 + 7]
+accords = [(-31, -28, -24), (-35, -31, -28), (-40, -36, -33), (-33, -29, -26)]  # Rém, Sib, Fa, Do
+basses = [-43, -47, -40, -45]                                                   # Ré1, Sib0, Fa1, Do1
 
-# drone grave sur toute la durée, respirations comprises
-drone = (np.sin(2 * np.pi * hz(D1) * t_(DUREE)) + 0.4 * np.sin(2 * np.pi * hz(A1) * t_(DUREE)))
-courbe = np.interp(t_(DUREE), [0, 6, 38, 38.6, 43, 44, 48], [0.0, 0.35, 0.5, 0.25, 0.4, 0.5, 0.0])
-m += drone * courbe * 0.5
 
-# nappes : un accord toutes les 2 mesures, de plus en plus ouvertes
-for k in range(10):
-    t0 = k * 2 * BAR
-    if 38.4 <= t0 < 43.2:
+def dans_ralenti(t):
+    return any(a <= t < b for a, b in RALENTIS)
+
+
+for b in range(NB_MESURES):
+    t_m = b * BAR
+    acc, basse = accords[b % 4], basses[b % 4]
+    ralenti = dans_ralenti(t_m)
+    niveau = 0 if b < 3 else (1 if b < 9 else (2 if b < 15 else 3))
+    if b == 20:  # dernier ralenti : grand impact, chœur et cuivres tenus
         continue
-    ouv = 500 + 2200 * min(1, t0 / 30)
-    g = 0.10 + 0.12 * min(1, t0 / 26)
-    place(m, nappe(grille[k % 4], 2 * BAR + 0.5, ouv), t0, g)
 
-# ostinato de cordes (croches puis doubles croches)
-motif = [D2 + 12, D2 + 12, A2, D2 + 12, F2 + 12, D2 + 12, A2, C2 + 12]
-for b in range(3, 16):
-    sub = 2 if b < 11 else 4
-    for i in range(4 * sub):
-        note = motif[(i // (sub // 2)) % len(motif)]
-        place(m, corde(note, 0.6 / sub + 0.05), b * BAR + i * BEAT / sub, 0.06 if b < 11 else 0.075)
+    # ostinato de cordes en doubles croches (filtré pendant la montée)
+    for i in range(16):
+        n = (acc[0] + 12, acc[2] + 12, acc[1] + 12, acc[2] + 12)[i % 4]
+        place(m, corde(n, BEAT / 4), t_m + i * BEAT / 4, 0.05 if niveau == 0 else 0.07)
 
-# percussions
-for b in range(20):
-    for temps in range(4):
-        t0 = b * BAR + temps * BEAT
-        if b < 3:  # intro : battement sourd sur le 1
-            if temps == 0 and b > 0:
-                place(m, kick(0.7), t0, 0.5)
-        elif b < 7:
-            if temps in (0, 2):
-                place(m, kick(), t0, 0.75)
-            place(m, hat(), t0 + BEAT / 2, 0.5)
-        elif b < 11:
-            place(m, kick(), t0, 0.8)
-            place(m, hat(), t0 + BEAT / 2, 0.6)
-            if temps == 3:
-                place(m, tom(90), t0 + BEAT / 2, 0.45)
-        elif b < 16:
-            place(m, kick(1.2), t0, 0.85)
-            if temps in (1, 3):
-                place(m, clap(), t0, 0.55)
-            place(m, hat(), t0 + BEAT / 2, 0.6)
-            place(m, hat(), t0 + BEAT / 4, 0.3)
-            if b in (12, 14, 15) and temps == 3:
-                for i, f in enumerate((140, 110, 85, 70)):
-                    place(m, tom(f), t0 + i * BEAT / 4, 0.55)
-        elif b < 18:  # respiration : cœur qui bat
-            if temps in (0, 2):
-                place(m, kick(0.6), t0, 0.45)
-                place(m, kick(0.5), t0 + 0.22, 0.3)
+    if ralenti:  # tout retombe : basse tenue, chœur, montée et roulement vers le drop suivant
+        place(m, bass808(basse, BAR), t_m, 0.35)
+        place(m, choeur([n + 24 for n in acc], BAR), t_m, 0.18)
+        place(m, montee(BAR), t_m, 0.25)
+        place(m, roulement(BAR), t_m, 0.35)
+        continue
 
-# cuivres sur les débuts de section
-for t0, g in ((16.8, 0.32), (26.4, 0.38), (31.2, 0.3), (43.2, 0.42)):
-    place(m, braam(2.4 if t0 < 43 else 4.8), t0, g)
+    if niveau == 0:  # montée : grosse caisse étouffée
+        for k in range(4):
+            place(m, filt(kick(), 300), t_m + k * BEAT, 0.6)
+        place(m, choeur([n + 24 for n in acc], BAR), t_m, 0.08 * (b + 1))
+        continue
 
-# montées
-place(m, montee(4.8, 150, 5000), 21.6, 0.35)
-place(m, montee(2.4, 300, 9000), 40.8, 0.45)
+    # drops
+    for k in range(4):
+        place(m, kick(1.1 if niveau == 3 else 1.0), t_m + k * BEAT, 0.8)
+        if k in (1, 3):
+            place(m, clap(), t_m + k * BEAT, 0.6)
+        place(m, hat(ouvert=True), t_m + k * BEAT + BEAT / 2, 0.35)
+    subdiv = 8 if niveau >= 2 else 4
+    for i in range(4 * subdiv // 2):
+        place(m, hat(), t_m + i * BEAT * 2 / subdiv, 0.45)
+    if niveau >= 2 and b % 2 == 1:  # roulements de charleston (triolets)
+        for i in range(6):
+            place(m, hat(), t_m + 3 * BEAT + i * BEAT / 6, 0.4)
+    # 808 : rythme syncopé
+    for pos, d in ((0, 0.7), (0.75, 0.2), (1.5, 0.4), (2.5, 0.9), (3.5, 0.35)):
+        place(m, bass808(basse, d), t_m + pos * BEAT, 0.55)
+    # cuivres en accords rythmés
+    for pos in (0, 1.5, 2.5):
+        place(m, cuivre(acc, 0.32), t_m + pos * BEAT, 0.22 + 0.04 * niveau)
+    if niveau >= 2:
+        place(m, choeur([n + 24 for n in acc], BAR), t_m, 0.16 + 0.04 * (niveau - 2))
+    if b % 3 == 2 and niveau >= 2:  # descente de toms en fin d'exercice
+        for i, f in enumerate((150, 120, 95, 75)):
+            place(m, tom(f), t_m + 3 * BEAT + i * BEAT / 4, 0.5)
 
-# impact final et queue
-place(m, impact(), 43.2, 1.8)
-place(m, nappe(grille[0], 4.8, 1200), 43.2, 0.16)
+# braams sur chaque drop
+for t0 in (3 * BAR, 9 * BAR, 15 * BAR, 18 * BAR):
+    place(m, braam(BAR), t0, 0.35)
 
-m = reverb(m, 2.2, 0.18)
-fin = np.interp(t_(DUREE), [0, 46.0, 48.0], [1, 1, 0])
-m *= fin
-m = np.tanh(1.2 * m / (np.max(np.abs(m)) + 1e-9)) * 0.9
+# final : impact sur le dernier ralenti, chœur et cuivres tenus
+fin = 20 * BAR
+place(m, impact(), fin, 1.4)
+place(m, braam(BAR + 0.5), fin, 0.4)
+place(m, choeur([n + 24 for n in accords[0]], BAR), fin, 0.22)
+place(m, bass808(-43, BAR), fin, 0.5)
+
+m = reverb(m, 1.6, 0.15)
+m *= np.interp(t_(DUREE), [0, 0.05, DUREE - 0.6, DUREE], [0, 1, 1, 0])
+m = np.tanh(1.4 * m / (np.max(np.abs(m)) + 1e-9)) * 0.92
+
 
 # ---------- bruitages ----------
-def souffle(d=0.7):
-    n = rng.standard_normal(int(d * SR))
-    e = np.sin(np.linspace(0, np.pi, len(n))) ** 2
-    out = np.zeros_like(n)
-    L = len(n) // 24
-    for b in range(24):
-        f = 400 * (3000 / 400) ** (np.sin(np.pi * b / 24))
-        out[b * L:(b + 1) * L] = bp(n[b * L:(b + 1) * L + 1500], f * 0.6, f * 1.6)[:L]
-    return out * e * 0.6
-
-
-def coup_sourd():
-    d = 1.2
-    t = t_(d)
-    s = np.sin(2 * np.pi * (55 + 60 * np.exp(-t * 25)) * t) * np.exp(-t * 5)
-    s += 0.3 * lp(rng.standard_normal(len(t)), 400) * np.exp(-t * 12)
-    return reverb(np.tanh(1.5 * s), 1.5, 0.3)
+def souffle(d=0.6):
+    n = rng.standard_normal(int(d * SR) + 2000)
+    out = np.zeros(int(d * SR))
+    L = len(out) // 20
+    for b in range(20):
+        f = 400 * (4000 / 400) ** np.sin(np.pi * b / 20)
+        out[b * L:(b + 1) * L] = filt(n[b * L:(b + 1) * L + 1500], [f * 0.6, f * 1.6], "band")[:L]
+    return out * np.sin(np.linspace(0, np.pi, len(out))) ** 2
 
 
 fx = np.zeros(N)
-for t0 in (7.2, 13.8, 16.8, 26.4, 33.6):  # titres des sections
-    place(fx, souffle(0.7), t0 - 0.35, 0.5)
-for t0 in (16.8, 26.4, 38.4):
-    place(fx, coup_sourd(), t0, 0.6)
-place(fx, souffle(1.4), 1.8, 0.35)  # titre d'intro
+for t0 in (0.0, 2 * EXO, 4 * EXO, 6 * EXO):  # titres : Préhension, Force, Endurance, Explosivité
+    place(fx, souffle(), max(0, t0 - 0.2), 0.6)
+for t0 in (3 * BAR, 9 * BAR, 15 * BAR, 18 * BAR):  # coups sourds sur les drops
+    place(fx, np.pad(kick(1.3), (0, 0)), t0, 0.5)
 fx = fx / (np.max(np.abs(fx)) + 1e-9) * 0.7
 
 
 def ecrire(nom, x):
-    st = np.stack([x, x], 1)
-    # légère largeur stéréo
-    st[:, 1] = np.roll(x, int(0.011 * SR))
-    pcm = (np.clip(st, -1, 1) * 32767).astype("<i2")
-    import wave
+    st = np.stack([x, np.roll(x, int(0.009 * SR))], 1)
     with wave.open(str(sortie / nom), "wb") as w:
         w.setnchannels(2)
         w.setsampwidth(2)
         w.setframerate(SR)
-        w.writeframes(pcm.tobytes())
+        w.writeframes((np.clip(st, -1, 1) * 32767).astype("<i2").tobytes())
 
 
 ecrire("musique.wav", m)
 ecrire("bruitages.wav", fx)
-print("ok")
+print("ok", round(DUREE, 2), "s")
