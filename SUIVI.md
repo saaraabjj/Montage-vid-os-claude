@@ -2,7 +2,45 @@
 
 Journal du projet : ce qui est fait, ce qui reste à faire, et les décisions prises.
 
-## Projet en cours
+## Projet en cours : Prépa physique JJB (Reels / TikTok)
+
+| Champ | Valeur |
+| --- | --- |
+| Nom de la vidéo | Prépa physique JJB, « Le travail invisible » (composition `PrepaJJB`) |
+| Objectif / plateforme | Instagram Reels et TikTok : raconter la préparation physique d'une athlète de JJB |
+| Format | 9:16 vertical, 1080×1920, **25 i/s** (cadence des rushes, pour ne pas dupliquer d'images) |
+| Durée | 48 s (20 mesures à 100 BPM : chaque coupe tombe sur un temps) |
+| Vidéo source | 9 rushes DJI du 2026-11-10 (0061 à 0069, 1728×3072 HEVC 10 bits, 4,8 Go) reçus par SwissTransfer, hors GitHub. Le 0064 a une rotation erronée dans ses métadonnées (lu sans auto-rotation) |
+| Couleur d'accent | **bleu ceinture** (`#5B82D6`, version claire) : il reprend les gants bleus et la lumière froide des projecteurs |
+| Musique | **originale**, composée par script (`scripts/composer-musique.py`) : aucun droit d'auteur tiers. Bruitages : son direct des rushes (poids, cordes, souffle) + souffles et impacts sur les titres |
+| Statut | 🟣 En relecture (v1 rendue) |
+
+### Déroulé (plans dans `src/PrepaJJB/plans.json`)
+
+| Temps | Partie | Plans |
+| --- | --- | --- |
+| 0–7 s | Intro « Le travail invisible. » | silhouette sous les projecteurs (0068), plan large de la salle (0066), regard caméra (0061) |
+| 7–17 s | 01 Préhension, 02 Isométrie | rouleau de poignets avec ralenti du disque qui monte (0061), travail au disque (0064), maintien bras tendus (0061) |
+| 17–26 s | 03 Force | développé landmine à genou + ralenti (0062, 0063), tirages à la poulie (0067, 0069) |
+| 26–38 s | 04 Explosivité, 05 Endurance | battle rope de face et de dos, slams, 2 ralentis (0065, 0066) |
+| 38–43 s | Respiration « Discipline. » | au sol après la série, souffle réel, puis regard caméra (0063) |
+| 43–48 s | Carte de fin | logo, « Hors des tatamis, chaque séance compte. » |
+
+Règles respectées : vitesse réelle partout sauf 4 ralentis (×0,5, par fusion d'images, sans mouvement inventé) ; seulement des exercices présents dans les rushes ; étalonnage identique sur tous les plans (contraste, ombres froides, vignette légère).
+
+Recréer les plans et la musique (rushes hors GitHub) :
+
+```bash
+python3 scripts/preparer-plans.py <dossier des rushes> public/jjb
+python3 scripts/composer-musique.py public/jjb   # demande numpy et scipy
+npx remotion render PrepaJJB out/PrepaJJB-v1.mp4
+```
+
+| Version | Fichier | Date | Remarques |
+| --- | --- | --- | --- |
+| v1 | `out/PrepaJJB-v1.mp4` (1080×1920, 48 s, −17 LUFS) | 2026-11-10 | premier montage complet |
+
+## Projet précédent : Vlog Rome
 
 | Champ | Valeur |
 | --- | --- |
