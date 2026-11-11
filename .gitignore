@@ -8,3 +8,6 @@ out
 
 # Vidéos sources (trop lourdes pour GitHub)
 public/vlog/
+
+# Rushes JJB (trop lourds pour GitHub)
+public/jjb/
