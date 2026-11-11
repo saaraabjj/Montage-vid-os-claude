@@ -73,6 +73,15 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-06 | Miniatures créées dans la DA (compositions `MiniatureYouTube` 1920×1080 et `MiniatureInsta` 1080×1920) : « J'ai tout goûté à Rome », place Saint-Pierre, visage, pizza, tiramisu, logo | Valider les miniatures |
 | 2026-11-06 | Extrait vertical de 27 s (histoire du tiramisu, mot par mot en très gros, pilule logo, écran final « Le vlog complet sur YouTube · Lien en bio ») | Valider l'extrait |
 
+## Projet JJB : Reel @matsformembers (2026-11-11)
+
+- Source : 29 rushes DJI 4K 25p (41 Go) par SwissTransfer, compétition no-gi du 1er novembre 2026 (pas de podium). 19 rushes convertis et analysés (0004 à 0027), 10 non regardés (0028 à 0039).
+- Livrable : Reel vertical 1080×1920, 1 min 30 (89,9 s), sans logo, fin sur « @matsformembers ». Composition `ReelJJB`, liste des plans dans `src/Jjb/montages.json`.
+- Musique originale (outils/musique.py, plan `minute30`), 125 BPM : chaque coupe tombe sur un temps.
+- Structure : calme avant (coulisses, regards), montée (tapes de mains, grips), combat (projection, soulevé au mur, étranglement), ralentis (table des juges, à genoux épuisés, main levée TENACE), 2ᵉ vague d'action, émotion (mains levées, entraide, poignée de main), fin.
+- Outils : outils/plans.py (étalonnage, ralentis interpolés, recadrage vertical depuis la 4K), outils/cadrage.py (centre du cadrage calculé sur le mouvement).
+- Rendu v2 : `out/ReelJJB-matsformembers.mp4` (−14 LUFS, envoyé).
+
 ## Retours et corrections
 
 | Version | Retour | Corrigé ? |
