@@ -4,6 +4,7 @@ import { VlogRome, FPS, DUREE_SECONDES } from "./VlogRome";
 import { MiniatureInsta, MiniatureYouTube } from "./VlogRome/Miniatures";
 import { TeaserVertical, dureeTeaser, FPS_TEASER } from "./VlogRome/Teaser";
 import { Logo } from "./HelloWorld/Logo";
+import { MontageJjb, dureeMontage, FPS as FPS_JJB } from "./Jjb";
 import { Title } from "./HelloWorld/Title";
 
 // Each <Composition> is an entry in the sidebar!
@@ -11,6 +12,15 @@ import { Title } from "./HelloWorld/Title";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="AftermovieJJB"
+        component={MontageJjb}
+        durationInFrames={dureeMontage("aftermovie")}
+        fps={FPS_JJB}
+        width={1920}
+        height={1080}
+        defaultProps={{ id: "aftermovie" }}
+      />
       <Composition id="TeaserTikTok" component={TeaserVertical} durationInFrames={dureeTeaser()} fps={FPS_TEASER} width={1080} height={1920} />
       <Still id="MiniatureYouTube" component={MiniatureYouTube} width={1920} height={1080} />
       <Still id="MiniatureInsta" component={MiniatureInsta} width={1080} height={1920} />

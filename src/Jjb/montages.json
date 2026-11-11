@@ -1,0 +1,8 @@
+{
+  "aftermovie": {
+    "format": "horizontal",
+    "musique": "jjb/musique/minute30.wav",
+    "volumeMusique": 0.8,
+    "plans": []
+  }
+}

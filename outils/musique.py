@@ -246,6 +246,10 @@ def section(kind, bars, t0, B):
 
 
 PLANS = {
+    # 46 mesures = 88,32 s (+ 1,5 s de résonance) : vidéo de 1 min 30
+    "minute30": [("intro", 6), ("build", 6), ("drop", 14), ("break", 4), ("drop2", 10), ("outro", 4), ("fin", 2)],
+    # 30 mesures = 57,6 s (+ 1,5 s de résonance) : vidéo de 1 min max
+    "minute": [("intro", 4), ("build", 4), ("drop", 12), ("break", 2), ("drop2", 6), ("fin", 2)],
     # 52 mesures = 99,84 s
     "aftermovie": [("intro", 8), ("build", 8), ("drop", 16), ("break", 4), ("drop2", 8), ("outro", 6), ("fin", 2)],
     # 24 mesures = 46,08 s
@@ -274,7 +278,7 @@ def render(plan, out):
     # « pompe » légère de la nappe et des claviers sur le kick (sidechain simplifié)
     mix = np.tanh(mix * 1.1)
     mix /= np.abs(mix).max() / 0.89
-    end = int(total_bars * BAR * SR + 2.5 * SR)
+    end = int(total_bars * BAR * SR + 1.5 * SR)
     mix = mix[:end]
     fade = int(1.5 * SR)
     mix[-fade:] *= np.linspace(1, 0, fade)
