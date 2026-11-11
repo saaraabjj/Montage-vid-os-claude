@@ -2,7 +2,6 @@ import React from "react";
 import {
   AbsoluteFill,
   Audio,
-  Img,
   interpolate,
   OffthreadVideo,
   Sequence,
@@ -32,6 +31,7 @@ type Montage = {
   plans: Plan[];
   textes?: Texte[];
   fin?: number; // début de la carte de fin (s)
+  texteFin?: string;
 };
 
 const M = montages as unknown as Record<string, Montage>;
@@ -68,32 +68,36 @@ const Titre: React.FC<{ haut: string; bas: string }> = ({ haut, bas }) => {
   );
 };
 
-const CarteFin: React.FC = () => {
+// Fin : la dernière image reste, s'assombrit, et le nom du compte apparaît sobrement.
+const CarteFin: React.FC<{ texte: string }> = ({ texte }) => {
   const f = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const noir = interpolate(f, [0, 10], [0, 1], { extrapolateRight: "clamp" });
-  const logo = interpolate(f, [8, 22], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const sortie = interpolate(f, [durationInFrames - 12, durationInFrames], [1, 0], {
+  const ombre = interpolate(f, [0, 15], [0, 1], { extrapolateRight: "clamp" });
+  const txt = interpolate(f, [8, 22], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const noir = interpolate(f, [durationInFrames - 14, durationInFrames], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
   return (
-    <AbsoluteFill style={{ backgroundColor: `rgba(8,8,10,${noir})`, justifyContent: "center", alignItems: "center" }}>
-      <div style={{ opacity: logo * sortie, transform: `scale(${0.96 + 0.04 * logo})`, textAlign: "center" }}>
-        <Img src={staticFile("logo.png")} style={{ width: 260 }} />
+    <AbsoluteFill>
+      <AbsoluteFill style={{ background: `rgba(6,6,8,${0.55 * ombre})` }} />
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
         <div
           style={{
+            opacity: txt,
+            transform: `translateY(${(1 - txt) * 16}px)`,
             fontFamily: "Inter, sans-serif",
             fontWeight: 800,
             color: "white",
-            fontSize: 44,
-            letterSpacing: "0.3em",
-            marginTop: 18,
+            fontSize: 72,
+            letterSpacing: "0.02em",
+            textShadow: "0 4px 30px rgba(0,0,0,0.6)",
           }}
         >
-          SAARAA.BJJ
+          {texte}
         </div>
-      </div>
+      </AbsoluteFill>
+      <AbsoluteFill style={{ background: `rgba(0,0,0,${noir})` }} />
     </AbsoluteFill>
   );
 };
@@ -119,11 +123,6 @@ export const MontageJjb: React.FC<{ id: string }> = ({ id }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
       {seqs}
-      {/* bandes cinéma fines */}
-      <AbsoluteFill style={{ pointerEvents: "none" }}>
-        <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 40, background: "black" }} />
-        <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 40, background: "black" }} />
-      </AbsoluteFill>
       {(m.textes ?? []).map((x, i) => (
         <Sequence key={`t${i}`} from={Math.round(x.debut * FPS)} durationInFrames={Math.round(x.duree * FPS)}>
           <Titre haut={x.haut} bas={x.bas} />
@@ -131,7 +130,7 @@ export const MontageJjb: React.FC<{ id: string }> = ({ id }) => {
       ))}
       {m.fin !== undefined && (
         <Sequence from={Math.round(m.fin * FPS)} durationInFrames={total - Math.round(m.fin * FPS)}>
-          <CarteFin />
+          <CarteFin texte={m.texteFin ?? ""} />
         </Sequence>
       )}
       <Audio src={staticFile(m.musique)} volume={m.volumeMusique} />

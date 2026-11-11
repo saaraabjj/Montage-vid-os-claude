@@ -1,8 +1,9 @@
 {
-  "aftermovie": {
-    "format": "horizontal",
+  "reel": {
+    "format": "vertical",
     "musique": "jjb/musique/minute30.wav",
     "volumeMusique": 0.8,
-    "plans": []
+    "plans": [],
+    "texteFin": "@matsformembers"
   }
 }

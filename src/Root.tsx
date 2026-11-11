@@ -13,13 +13,13 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="AftermovieJJB"
+        id="ReelJJB"
         component={MontageJjb}
-        durationInFrames={dureeMontage("aftermovie")}
+        durationInFrames={dureeMontage("reel")}
         fps={FPS_JJB}
-        width={1920}
-        height={1080}
-        defaultProps={{ id: "aftermovie" }}
+        width={1080}
+        height={1920}
+        defaultProps={{ id: "reel" }}
       />
       <Composition id="TeaserTikTok" component={TeaserVertical} durationInFrames={dureeTeaser()} fps={FPS_TEASER} width={1080} height={1920} />
       <Still id="MiniatureYouTube" component={MiniatureYouTube} width={1920} height={1080} />

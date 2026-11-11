@@ -19,6 +19,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROXY = os.path.join(RACINE, "public/jjb/proxy")
+ORIG = os.environ.get("JJB_4K", "/tmp/jjb4k")
 FPS = 25
 
 # Étalonnage commun : noirs un peu denses, contraste en S, saturation contenue,
@@ -38,10 +39,10 @@ def filtre(p, fmt):
     if fmt == "vertical":
         cx = p.get("cx", 0.5)  # centre du cadrage, 0 = gauche, 1 = droite
         zoom = p.get("zoomV", 1.0)
-        h = int(1080 / zoom)
-        w = int(h * 9 / 16) // 2 * 2
-        x = f"max(0,min(iw-{w},{cx}*iw-{w}/2))"
-        f.append(f"crop={w}:{h}:{x}:(ih-{h})/2,scale=1080:1920:flags=lanczos")
+        cy = p.get("cy", 0.5)
+        h = f"trunc(ih/{zoom}/2)*2"
+        w = f"trunc(ih/{zoom}*9/16/2)*2"
+        f.append(f"crop=w={w}:h={h}:x=max(0\\,min(iw-ow\\,{cx}*iw-ow/2)):y=max(0\\,min(ih-oh\\,{cy}*ih-oh/2)),scale=1080:1920:flags=lanczos")
     else:
         zoom = p.get("zoom", 1.0)
         if zoom != 1.0:
@@ -76,12 +77,14 @@ def prepare(montage, i, p, fmt):
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{i:03d}.mp4")
     v = p.get("vitesse", 1.0)
-    src = os.path.join(PROXY, p["rush"] + ".mp4")
+    # en vertical, on recadre dans le rush 4K d'origine s'il a été retéléchargé
+    src4k = os.path.join(ORIG, p["rush"] + ".MP4")
+    src = src4k if fmt == "vertical" and os.path.exists(src4k) else os.path.join(PROXY, p["rush"] + ".mp4")
     # on lit 0,2 s de marge de chaque côté pour l'interpolation
     duree_rush = p["duree"] * v
     cmd = [
         "ffmpeg", "-nostdin", "-v", "error", "-y",
-        "-ss", str(p["entree"]), "-t", f"{duree_rush:.3f}", "-i", src,
+        "-ss", str(p["entree"]), "-t", f"{duree_rush:.3f}", "-i", src, "-map", "0:v:0", "-map", "0:a:0",
         "-vf", filtre(p, fmt), "-af", audio(v),
         "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-g", "12",
         "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
