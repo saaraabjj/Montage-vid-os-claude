@@ -1,9 +1,391 @@
 {
-  "reel": {
-    "format": "vertical",
-    "musique": "jjb/musique/minute30.wav",
-    "volumeMusique": 0.8,
-    "plans": [],
-    "texteFin": "@matsformembers"
-  }
+ "reel": {
+  "format": "vertical",
+  "musique": "jjb/musique/minute30.wav",
+  "volumeMusique": 0.8,
+  "plans": [
+   {
+    "rush": "DJI_20261101123349_0004_D",
+    "entree": 0.5,
+    "duree": 2.88,
+    "cx": 0.55,
+    "son": 0.9,
+    "note": "briefing en cercle"
+   },
+   {
+    "rush": "DJI_20261101123448_0005_D",
+    "entree": 0.5,
+    "duree": 2.88,
+    "cx": 0.45,
+    "son": 0.9,
+    "note": "tête sur les genoux d'un coéquipier"
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 6.0,
+    "duree": 1.92,
+    "cx": 0.27,
+    "son": 0.8,
+    "note": "regard TENACE"
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 7.0,
+    "duree": 1.92,
+    "cx": 0.62,
+    "son": 0.8,
+    "note": "l'adversaire souffle, plié"
+   },
+   {
+    "rush": "DJI_20261101125543_0009_D",
+    "entree": 11.0,
+    "duree": 1.92,
+    "cx": 0.62,
+    "son": 0.8,
+    "note": "regard barbu MATS"
+   },
+   {
+    "rush": "DJI_20261101131839_0016_D",
+    "entree": 3.5,
+    "duree": 1.44,
+    "cx": 0.3,
+    "son": 0.6,
+    "note": "regard flammes"
+   },
+   {
+    "rush": "DJI_20261101130532_0012_D",
+    "entree": 15.0,
+    "duree": 1.44,
+    "cx": 0.47,
+    "son": 0.6,
+    "note": "tape de mains"
+   },
+   {
+    "rush": "DJI_20261101130055_0011_D",
+    "entree": 18.5,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.6,
+    "note": "approche"
+   },
+   {
+    "rush": "DJI_20261101131130_0014_D",
+    "entree": 12.0,
+    "duree": 1.92,
+    "cx": 0.5,
+    "son": 0.6,
+    "note": "grips debout"
+   },
+   {
+    "rush": "DJI_20261101134848_0022_D",
+    "entree": 16.5,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.6,
+    "note": "accroupi explosif"
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 43.5,
+    "duree": 1.92,
+    "cx": 0.5,
+    "son": 0.6,
+    "note": "engagement"
+   },
+   {
+    "rush": "DJI_20261101135448_0023_D",
+    "entree": 11.0,
+    "duree": 1.92,
+    "cx": 0.45,
+    "son": 0.6,
+    "note": "corps à corps"
+   },
+   {
+    "rush": "DJI_20261101135448_0023_D",
+    "entree": 16.0,
+    "duree": 1.92,
+    "cx": 0.45,
+    "son": 0.5,
+    "note": "PROJECTION sur le drop"
+   },
+   {
+    "rush": "DJI_20261101131839_0016_D",
+    "entree": 28.0,
+    "duree": 1.92,
+    "cx": 0.65,
+    "son": 0.4,
+    "note": "soulevé contre le mur"
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 86.0,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.4,
+    "note": "lutte au mur"
+   },
+   {
+    "rush": "DJI_20261101125543_0009_D",
+    "entree": 39.8,
+    "duree": 1.92,
+    "cx": 0.45,
+    "son": 0.4,
+    "note": "attaque de garde, jambe en l'air"
+   },
+   {
+    "rush": "DJI_20261101124505_0006_D",
+    "entree": 34.5,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.4,
+    "note": "passage jambes"
+   },
+   {
+    "rush": "DJI_20261101130829_0013_D",
+    "entree": 37.0,
+    "duree": 1.92,
+    "cx": 0.45,
+    "son": 0.4,
+    "note": "scramble"
+   },
+   {
+    "rush": "DJI_20261101134848_0022_D",
+    "entree": 70.0,
+    "duree": 1.44,
+    "cx": 0.4,
+    "son": 0.4,
+    "note": "pression"
+   },
+   {
+    "rush": "DJI_20261101130532_0012_D",
+    "entree": 100.0,
+    "duree": 1.92,
+    "cx": 0.72,
+    "son": 0.6,
+    "note": "public en arrière-plan"
+   },
+   {
+    "rush": "DJI_20261101131130_0014_D",
+    "entree": 166.5,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101130055_0011_D",
+    "entree": 119.0,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 121.5,
+    "duree": 1.92,
+    "cx": 0.55,
+    "son": 0.4,
+    "note": "crossface, visage"
+   },
+   {
+    "rush": "DJI_20261101124505_0006_D",
+    "entree": 98.0,
+    "duree": 1.44,
+    "cx": 0.3,
+    "son": 0.4,
+    "note": "dos pris contre le mur"
+   },
+   {
+    "rush": "DJI_20261101135448_0023_D",
+    "entree": 67.5,
+    "duree": 1.92,
+    "cx": 0.5,
+    "son": 0.5,
+    "note": "sol avec public derrière"
+   },
+   {
+    "rush": "DJI_20261101134506_0019_D",
+    "entree": 29.0,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4,
+    "note": "triangle / jambes"
+   },
+   {
+    "rush": "DJI_20261101130055_0011_D",
+    "entree": 191.5,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.5,
+    "note": "l'arbitre s'approche"
+   },
+   {
+    "rush": "DJI_20261101131839_0016_D",
+    "entree": 154.5,
+    "duree": 1.92,
+    "cx": 0.5,
+    "son": 0.5,
+    "note": "étranglement de TENACE"
+   },
+   {
+    "rush": "DJI_20261101124505_0006_D",
+    "entree": 336.0,
+    "duree": 1.92,
+    "cx": 0.65,
+    "son": 1.0,
+    "note": "table des juges"
+   },
+   {
+    "rush": "DJI_20261101125543_0009_D",
+    "entree": 242.0,
+    "duree": 2.88,
+    "cx": 0.5,
+    "son": 0.9,
+    "vitesse": 0.5,
+    "note": "à genoux, épuisés (ralenti)"
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 169.6,
+    "duree": 2.88,
+    "cx": 0.5,
+    "son": 0.9,
+    "vitesse": 0.5,
+    "note": "main levée TENACE (ralenti)"
+   },
+   {
+    "rush": "DJI_20261101131130_0014_D",
+    "entree": 13.0,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101134848_0022_D",
+    "entree": 72.0,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101134035_0018_D",
+    "entree": 86.0,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101124505_0006_D",
+    "entree": 176.0,
+    "duree": 1.92,
+    "cx": 0.5,
+    "son": 0.4,
+    "note": "contrôle de dos, gros plan"
+   },
+   {
+    "rush": "DJI_20261101125136_0007_D",
+    "entree": 88.0,
+    "duree": 1.44,
+    "cx": 0.55,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101125543_0009_D",
+    "entree": 155.5,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101130532_0012_D",
+    "entree": 96.5,
+    "duree": 1.44,
+    "cx": 0.6,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101130055_0011_D",
+    "entree": 120.5,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101134710_0021_D",
+    "entree": 64.5,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101124505_0006_D",
+    "entree": 99.5,
+    "duree": 1.44,
+    "cx": 0.35,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101131130_0014_D",
+    "entree": 168.0,
+    "duree": 1.44,
+    "cx": 0.5,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101134848_0022_D",
+    "entree": 98.5,
+    "duree": 1.44,
+    "cx": 0.4,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101125543_0009_D",
+    "entree": 157.0,
+    "duree": 1.44,
+    "cx": 0.4,
+    "son": 0.4
+   },
+   {
+    "rush": "DJI_20261101125543_0009_D",
+    "entree": 249.6,
+    "duree": 1.92,
+    "cx": 0.4,
+    "son": 0.8,
+    "note": "main levée MATS"
+   },
+   {
+    "rush": "DJI_20261101124505_0006_D",
+    "entree": 350.2,
+    "duree": 1.92,
+    "cx": 0.45,
+    "son": 0.8,
+    "note": "main levée"
+   },
+   {
+    "rush": "DJI_20261101134506_0019_D",
+    "entree": 66.0,
+    "duree": 1.92,
+    "cx": 0.6,
+    "son": 0.8,
+    "note": "il aide l'autre à se relever"
+   },
+   {
+    "rush": "DJI_20261101131839_0016_D",
+    "entree": 187.0,
+    "duree": 1.92,
+    "cx": 0.45,
+    "son": 0.8,
+    "note": "poignée de main TENACE / flammes"
+   },
+   {
+    "rush": "DJI_20261101140016_0024_D",
+    "entree": 29.6,
+    "duree": 5.34,
+    "cx": 0.55,
+    "son": 0.8,
+    "note": "main levée HEMA + sourire, puis @matsformembers"
+   }
+  ],
+  "fin": 86.4,
+  "texteFin": "@matsformembers"
+ }
 }
