@@ -26,6 +26,14 @@
    "note": "selfie en tribune"
   },
   {
+   "fichier": "DJI_20261027093150_0916_D.MP4",
+   "entree": 4.0,
+   "duree": 6.0,
+   "son": 0.7,
+   "voix": false,
+   "note": "Osmo : la salle, selfie en tribune"
+  },
+  {
    "fichier": "IMG_5503.MP4",
    "entree": 0.5,
    "duree": 5.0,
@@ -50,6 +58,24 @@
    "son": 0.6,
    "voix": false,
    "note": "zone d'échauffement"
+  },
+  {
+   "fichier": "DJI_20261027102014_0917_D.MP4",
+   "entree": 4.0,
+   "duree": 5.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "vestiaire : je strappe mes doigts",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261027102014_0917_D.MP4",
+   "entree": 28.0,
+   "duree": 5.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "vestiaire",
+   "sousTitres": false
   },
   {
    "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
@@ -80,6 +106,15 @@
    "son": 0.8,
    "voix": false,
    "note": "CARTE podium, médaille d'argent"
+  },
+  {
+   "fichier": "DJI_20261027122416_0919_D.MP4",
+   "entree": 45.0,
+   "duree": 9.0,
+   "son": 0.8,
+   "voix": false,
+   "note": "Osmo : la remise des médailles",
+   "sousTitres": false
   },
   {
    "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
@@ -134,6 +169,22 @@
    "note": "les larmes"
   },
   {
+   "fichier": "DJI_20261027172816_0922_D.MP4",
+   "entree": 1.3,
+   "duree": 34.2,
+   "son": 1.0,
+   "voix": true,
+   "note": "après les larmes : ça redescend"
+  },
+  {
+   "fichier": "DJI_20261027193410_0924_D.MP4",
+   "entree": 0.7,
+   "duree": 24.4,
+   "son": 1.0,
+   "voix": true,
+   "note": "BADGE 19h30, douche prise, je sors"
+  },
+  {
    "fichier": "IMG_5622.MP4",
    "entree": 0.3,
    "duree": 5.5,
@@ -174,6 +225,24 @@
    "son": 0.7,
    "voix": false,
    "note": "selfie avec la médaille devant le Colisée"
+  },
+  {
+   "fichier": "DJI_20261027201419_0938_D.MP4",
+   "entree": 0.5,
+   "duree": 8.5,
+   "son": 0.6,
+   "voix": false,
+   "note": "la médaille devant le Colisée (vertical)",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261027204120_0945_D.MP4",
+   "entree": 0.3,
+   "duree": 6.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "Colisée de nuit",
+   "sousTitres": false
   },
   {
    "fichier": "IMG_5630.MP4",
@@ -241,6 +310,22 @@
    "son": 0.6,
    "voix": false,
    "note": "tiramisu à Navona"
+  },
+  {
+   "fichier": "DJI_20261027211128_0948_D.MP4",
+   "entree": 1.6,
+   "duree": 5.8,
+   "son": 1.0,
+   "voix": true,
+   "note": "Two Sizes : j'ai pris le caramel"
+  },
+  {
+   "fichier": "DJI_20261027211128_0948_D.MP4",
+   "entree": 66.4,
+   "duree": 22.2,
+   "son": 1.0,
+   "voix": true,
+   "note": "mon avis sur le Two Sizes"
   },
   {
    "fichier": "IMG_5675.MP4",
