@@ -1,0 +1,453 @@
+{
+ "plans": [
+  {
+   "fichier": "IMG_5122.MP4",
+   "entree": 0.2,
+   "duree": 3.8,
+   "son": 0.6,
+   "voix": false,
+   "note": "sortie de l'hôtel, selfie miroir",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5127.MP4",
+   "entree": 3.6,
+   "duree": 4.5,
+   "son": 1.0,
+   "voix": true,
+   "note": "« Aujourd'hui c'est une visite au Colisée, on y va ! »"
+  },
+  {
+   "fichier": "IMG_5123.MP4",
+   "entree": 0.3,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "CARTE Colisée"
+  },
+  {
+   "fichier": "dji_mimo_20261026_091252_20261026091236_1793367653572_video_glamour.MP4",
+   "entree": 2.0,
+   "duree": 3.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "DJI, je marche devant le Colisée"
+  },
+  {
+   "fichier": "IMG_5124.MP4",
+   "entree": 1.0,
+   "duree": 3.0,
+   "son": 0.4,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "dji_mimo_20261026_091554_20261026091531_1793367671639_video_glamour.MP4",
+   "entree": 4.0,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "DJI"
+  },
+  {
+   "fichier": "IMG_5138.MP4",
+   "entree": 0.5,
+   "duree": 3.5,
+   "son": 0.6,
+   "voix": false,
+   "note": "selfie devant le Colisée"
+  },
+  {
+   "fichier": "dji_mimo_20261026_091718_20261026091700_1793367658438_video_glamour.MP4",
+   "entree": 3.0,
+   "duree": 3.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "DJI"
+  },
+  {
+   "fichier": "MVI_3743.MOV",
+   "entree": 1.5,
+   "duree": 3.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5152.MP4",
+   "entree": 2.5,
+   "duree": 3.5,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5158.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "l'arène"
+  },
+  {
+   "fichier": "IMG_5187.MP4",
+   "entree": 0.0,
+   "duree": 4.5,
+   "son": 0.8,
+   "voix": false,
+   "note": "selfie dans le Colisée"
+  },
+  {
+   "fichier": "IMG_5171.MP4",
+   "entree": 1.0,
+   "duree": 3.5,
+   "son": 0.4,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "MVI_3774.MOV",
+   "entree": 1.0,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5161.MP4",
+   "entree": 1.0,
+   "duree": 2.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "musée"
+  },
+  {
+   "fichier": "IMG_5167.MP4",
+   "entree": 1.0,
+   "duree": 3.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "salle rouge"
+  },
+  {
+   "fichier": "IMG_5168.MP4",
+   "entree": 3.0,
+   "duree": 4.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "projection Troy"
+  },
+  {
+   "fichier": "IMG_5211.MP4",
+   "entree": 1.0,
+   "duree": 5.6,
+   "son": 1.0,
+   "voix": true,
+   "note": "« ça doit être l'atelier »"
+  },
+  {
+   "fichier": "IMG_5200.MP4",
+   "entree": 0.5,
+   "duree": 3.0,
+   "son": 0.4,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5235.MP4",
+   "entree": 0.5,
+   "duree": 3.5,
+   "son": 0.4,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5221.MP4",
+   "entree": 0.5,
+   "duree": 3.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "vue sur l'arc de Constantin",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5227.MP4",
+   "entree": 2.0,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5245.MP4",
+   "entree": 2.6,
+   "duree": 3.9,
+   "son": 1.0,
+   "voix": true,
+   "note": "« je vais grave pas faire cette queue-là »",
+   "rot": 2
+  },
+  {
+   "fichier": "dji_mimo_20261026_110046_20261026110023_1793020037871_video_glamour.MP4",
+   "entree": 3.0,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "DJI assise devant le Colisée"
+  },
+  {
+   "fichier": "IMG_5290.MP4",
+   "entree": 1.0,
+   "duree": 13.3,
+   "son": 1.0,
+   "voix": true,
+   "note": "le billet"
+  },
+  {
+   "fichier": "IMG_5290.MP4",
+   "entree": 23.7,
+   "duree": 45.5,
+   "son": 1.0,
+   "voix": true,
+   "note": "la compète demain, la basilique, les pâtes, le Panthéon, Two Sizes",
+   "coupes": [
+    {
+     "fichier": "IMG_5249.MP4",
+     "entree": 1.0,
+     "duree": 3.2,
+     "a": 15.4
+    },
+    {
+     "fichier": "IMG_5275.MP4",
+     "entree": 1.0,
+     "duree": 2.8,
+     "a": 18.6
+    },
+    {
+     "fichier": "IMG_5246.MP4",
+     "entree": 1.0,
+     "duree": 2.6,
+     "a": 21.4
+    }
+   ]
+  },
+  {
+   "fichier": "IMG_5298.MP4",
+   "entree": 1.0,
+   "duree": 10.3,
+   "son": 1.0,
+   "voix": true,
+   "note": "CARTE Pastasciutta, la queue",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5304.MP4",
+   "entree": 0.5,
+   "duree": 3.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5305.MP4",
+   "entree": 0.5,
+   "duree": 3.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "A2505B80-9ADC-40F0-988B-BEA31CB5A1E4.MP4",
+   "entree": 0.0,
+   "duree": 10.3,
+   "son": 1.0,
+   "voix": true,
+   "note": "« pâtes à la truffe, vraiment pépites »"
+  },
+  {
+   "fichier": "IMG_5321.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "CARTE Trevi"
+  },
+  {
+   "fichier": "IMG_5329.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5330.MP4",
+   "entree": 0.3,
+   "duree": 4.0,
+   "son": 0.6,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5334.MP4",
+   "entree": 0.5,
+   "duree": 4.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "les pâtes devant la fontaine",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5344.MP4",
+   "entree": 0.1,
+   "duree": 18.6,
+   "son": 1.0,
+   "voix": true,
+   "note": "BADGE 14h, explosée",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5344.MP4",
+   "entree": 29.3,
+   "duree": 30.4,
+   "son": 1.0,
+   "voix": true,
+   "note": "la bouteille renversée",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5344.MP4",
+   "entree": 62.4,
+   "duree": 7.0,
+   "son": 1.0,
+   "voix": true,
+   "note": "enrhumée, fatiguée",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5347.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "ruelle, drapeaux"
+  },
+  {
+   "fichier": "IMG_5354.MP4",
+   "entree": 0.5,
+   "duree": 3.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "CARTE Panthéon"
+  },
+  {
+   "fichier": "IMG_5366.MP4",
+   "entree": 1.0,
+   "duree": 4.5,
+   "son": 0.7,
+   "voix": false,
+   "note": "selfie Panthéon"
+  },
+  {
+   "fichier": "IMG_5380.MP4",
+   "entree": 1.0,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "fontaine, obélisque"
+  },
+  {
+   "fichier": "IMG_5418.MP4",
+   "entree": 1.0,
+   "duree": 4.0,
+   "son": 0.6,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5422.MP4",
+   "entree": 1.0,
+   "duree": 3.5,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5425.MP4",
+   "entree": 0.3,
+   "duree": 3.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "la porte"
+  },
+  {
+   "fichier": "IMG_5426.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "la coupole"
+  },
+  {
+   "fichier": "MVI_3804.MOV",
+   "entree": 2.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "la coupole, appareil photo"
+  },
+  {
+   "fichier": "IMG_5449.MP4",
+   "entree": 0.5,
+   "duree": 5.0,
+   "son": 0.8,
+   "voix": false,
+   "note": "oculus",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5431.MP4",
+   "entree": 2.0,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5458.MP4",
+   "entree": 0.0,
+   "duree": 15.4,
+   "son": 1.0,
+   "voix": true,
+   "note": "BADGE 16h, visite terminée",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5465.MP4",
+   "entree": 0.7,
+   "duree": 19.0,
+   "son": 1.0,
+   "voix": true,
+   "note": "BADGE 16h40",
+   "rot": 1
+  },
+  {
+   "fichier": "IMG_5467.MP4",
+   "entree": 1.0,
+   "duree": 9.0,
+   "son": 1.0,
+   "voix": true,
+   "note": "les bouteilles dans le sac",
+   "rot": 1
+  },
+  {
+   "fichier": "83C97B81-EE96-4E18-AA64-016BE52223DE.MP4",
+   "entree": 0.0,
+   "duree": 33.6,
+   "son": 1.0,
+   "voix": true,
+   "note": "CARTE Le soir, pas de chauffage"
+  }
+ ]
+}

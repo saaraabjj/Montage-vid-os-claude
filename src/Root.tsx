@@ -4,6 +4,7 @@ import { VlogRome, FPS, DUREE_SECONDES } from "./VlogRome";
 import { MiniatureInsta, MiniatureYouTube } from "./VlogRome/Miniatures";
 import { TeaserVertical, dureeTeaser, FPS_TEASER } from "./VlogRome/Teaser";
 import { Logo } from "./HelloWorld/Logo";
+import { VlogRome2, FPS as FPS_J2, DUREE_SECONDES as DUREE_J2 } from "./VlogRome2";
 import { MontageJjb, dureeMontage, FPS as FPS_JJB } from "./Jjb";
 import { Title } from "./HelloWorld/Title";
 
@@ -12,6 +13,14 @@ import { Title } from "./HelloWorld/Title";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="VlogRomeJour2"
+        component={VlogRome2}
+        durationInFrames={Math.round(DUREE_J2 * FPS_J2)}
+        fps={FPS_J2}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="ReelJJB"
         component={MontageJjb}
