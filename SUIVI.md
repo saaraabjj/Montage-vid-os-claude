@@ -73,6 +73,14 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-06 | Miniatures créées dans la DA (compositions `MiniatureYouTube` 1920×1080 et `MiniatureInsta` 1080×1920) : « J'ai tout goûté à Rome », place Saint-Pierre, visage, pizza, tiramisu, logo | Valider les miniatures |
 | 2026-11-06 | Extrait vertical de 27 s (histoire du tiramisu, mot par mot en très gros, pilule logo, écran final « Le vlog complet sur YouTube · Lien en bio ») | Valider l'extrait |
 
+## Vlog Rome, jour 2 (2026-11-12)
+
+- Source : zip « Photos iCloud » par SwissTransfer (526 fichiers du 26 octobre : 88 vidéos de plus de 4 s, Live Photos, photos). Rushes iPhone 720p, DJI Osmo, Canon.
+- Choix validés : 5 à 7 min, musique douce originale (outils/musique_douce.py) qui baisse quand je parle.
+- Montage : 52 plans, 6 min 11 s. Liste dans `src/VlogRome2/montage.json`, préparation par `outils/vlog2.py` (rotation corrigée sur 9 clips, plans verticaux sur fond flouté, plans de coupe de la basilique Santa Francesca Romana sur ma voix).
+- Habillage du jour 1 : sous-titres (Whisper large-v3, corrections de noms), 5 cartes titres (Colisée, Pâtes à la truffe, Trevi, Panthéon, Pas de chauffage), badges 8h42, 14h, 16h, 16h40.
+- Relecture : `SOUS-TITRES-J2.md` (7 passages à vérifier).
+
 ## Projet JJB : Reel @matsformembers (2026-11-11)
 
 - Source : 29 rushes DJI 4K 25p (41 Go) par SwissTransfer, compétition no-gi du 1er novembre 2026 (pas de podium). 19 rushes convertis et analysés (0004 à 0027), 10 non regardés (0028 à 0039).
