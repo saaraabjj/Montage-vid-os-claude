@@ -50,7 +50,7 @@ CORRECTIONS = [
     (["Comment", "c", "'est", "dur", "les", "fêtes."], ["Comme", "c", "'est", "dur", "les", "défaites."]),
     (["J", "'aime", "perdre", "en", "absolu", "tout."], ["J", "'ai", "perdu", "en", "absolute", "aussi."]),
     (["craqué"], ["claquée"]),
-    (["bien", "pleuré."], ["bien", "pleuré."]),
+    (["14", "euros", "le", "big."], ["4", "euros", "le", "big."]),
 ]
 
 

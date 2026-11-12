@@ -1285,7 +1285,7 @@
  {
   "debut": 300.16,
   "fin": 305.24,
-  "texte": "Donc, c'est 3 euros un peu plus petit et 14 euros le big. Apparemment, c'est le big, ça.",
+  "texte": "Donc, c'est 3 euros un peu plus petit et 4 euros le big. Apparemment, c'est le big, ça.",
   "mots": [
    {
     "m": " Donc,",
@@ -1338,7 +1338,7 @@
     "f": 303.02
    },
    {
-    "m": " 14",
+    "m": " 4",
     "d": 303.02,
     "f": 303.28
    },
