@@ -1,5 +1,5 @@
 {
- "duree": 370.7,
+ "duree": 375.2,
  "plans": [
   {
    "i": 0,
@@ -428,6 +428,14 @@
    "duree": 33.6,
    "son": 1.0,
    "voix": true,
+   "coupes": []
+  },
+  {
+   "i": 52,
+   "debut": 370.7,
+   "duree": 4.5,
+   "son": 0.3,
+   "voix": false,
    "coupes": []
   }
  ]

@@ -144,7 +144,8 @@
    "duree": 5.6,
    "son": 1.0,
    "voix": true,
-   "note": "« ça doit être l'atelier »"
+   "note": "« ça doit être l'atelier »",
+   "sousTitres": false
   },
   {
    "fichier": "IMG_5200.MP4",
@@ -448,6 +449,19 @@
    "son": 1.0,
    "voix": true,
    "note": "CARTE Le soir, pas de chauffage"
+  },
+  {
+   "fichier": "dji_mimo_20261026_110342_20261026110309_1793020031880_video_glamour.MP4",
+   "entree": 8.0,
+   "duree": 4.5,
+   "son": 0.3,
+   "voix": false,
+   "note": "FIN prochain épisode",
+   "texte": {
+    "d": 0.4,
+    "f": 4.2,
+    "t": "Bon, on se retrouve au prochain épisode : le jour de la compétition !"
+   }
   }
  ]
 }

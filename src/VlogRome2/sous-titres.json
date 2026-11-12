@@ -62,112 +62,6 @@
   ]
  },
  {
-  "debut": 62.6,
-  "fin": 63.3,
-  "texte": "C'est quoi ?",
-  "mots": [
-   {
-    "m": " C",
-    "d": 62.6,
-    "f": 62.94
-   },
-   {
-    "m": "'est",
-    "d": 62.94,
-    "f": 63.06
-   },
-   {
-    "m": " quoi ?",
-    "d": 63.06,
-    "f": 63.3
-   }
-  ]
- },
- {
-  "debut": 63.3,
-  "fin": 64.26,
-  "texte": "Ça doit être l'atelier.",
-  "mots": [
-   {
-    "m": " Ça",
-    "d": 63.3,
-    "f": 63.4
-   },
-   {
-    "m": " doit",
-    "d": 63.4,
-    "f": 63.56
-   },
-   {
-    "m": " être",
-    "d": 63.56,
-    "f": 63.68
-   },
-   {
-    "m": " l",
-    "d": 63.68,
-    "f": 63.86
-   },
-   {
-    "m": "'atelier.",
-    "d": 63.86,
-    "f": 64.26
-   }
-  ]
- },
- {
-  "debut": 66.3,
-  "fin": 67.56,
-  "texte": "Qu'est-ce qu'ils avaient dans l'atelier ?",
-  "mots": [
-   {
-    "m": " Qu",
-    "d": 66.3,
-    "f": 66.54
-   },
-   {
-    "m": "'est",
-    "d": 66.54,
-    "f": 66.64
-   },
-   {
-    "m": "-ce",
-    "d": 66.64,
-    "f": 66.68
-   },
-   {
-    "m": " qu",
-    "d": 66.68,
-    "f": 66.72
-   },
-   {
-    "m": "'ils",
-    "d": 66.72,
-    "f": 66.78
-   },
-   {
-    "m": " avaient",
-    "d": 66.78,
-    "f": 66.86
-   },
-   {
-    "m": " dans",
-    "d": 66.86,
-    "f": 66.98
-   },
-   {
-    "m": " l",
-    "d": 66.98,
-    "f": 67.08
-   },
-   {
-    "m": "'atelier ?",
-    "d": 67.08,
-    "f": 67.56
-   }
-  ]
- },
- {
   "debut": 82.18,
   "fin": 85.44,
   "texte": "Comme moi je vais grave pas faire cette queue là, je suis morte.",
@@ -501,7 +395,7 @@
  {
   "debut": 103.28,
   "fin": 108.34,
-  "texte": "Sauf que là, du coup, il n'y a pas d'heure, il y a un fou du monde, vraiment un fou du monde.",
+  "texte": "Sauf que là, du coup, il n'y a pas d'heure, il y a full monde, vraiment full monde.",
   "mots": [
    {
     "m": " Sauf",
@@ -579,19 +473,9 @@
     "f": 105.9
    },
    {
-    "m": " un",
-    "d": 105.9,
-    "f": 105.92
-   },
-   {
-    "m": " fou",
+    "m": " full",
     "d": 105.92,
     "f": 106.28
-   },
-   {
-    "m": " du",
-    "d": 106.28,
-    "f": 106.5
    },
    {
     "m": " monde,",
@@ -604,19 +488,9 @@
     "f": 107.58
    },
    {
-    "m": " un",
-    "d": 107.58,
-    "f": 107.92
-   },
-   {
-    "m": " fou",
+    "m": " full",
     "d": 107.92,
     "f": 107.98
-   },
-   {
-    "m": " du",
-    "d": 107.98,
-    "f": 108.16
    },
    {
     "m": " monde.",
@@ -3137,7 +3011,7 @@
  {
   "debut": 320.63,
   "fin": 327.79,
-  "texte": "Là je suis KO, mais je sais que je vais rentrer à l'hôtel, je vais vouloir faire une fête ou dormir, je serai on fire.",
+  "texte": "Là je suis KO, mais je sais que je vais rentrer à l'hôtel, je vais vouloir faire une sieste ou dormir, je serai on fire.",
   "mots": [
    {
     "m": " Là",
@@ -3235,7 +3109,7 @@
     "f": 323.99
    },
    {
-    "m": " fête",
+    "m": " sieste",
     "d": 323.99,
     "f": 324.33
    },
@@ -3274,7 +3148,7 @@
  {
   "debut": 328.3,
   "fin": 336.68,
-  "texte": "Regardez juste ces bouteilles comment elles s'éclatent facilement, je me donne que tout soit renversé, oui j'ai encore la haine, ça s'est renversé dans mon sac.",
+  "texte": "Regardez juste ces bouteilles comment elles s'éclatent facilement, tu m'étonnes que tout soit renversé, oui j'ai encore la haine, ça s'est renversé dans mon sac.",
   "mots": [
    {
     "m": " Regardez",
@@ -3322,19 +3196,14 @@
     "f": 330.88
    },
    {
-    "m": " je",
+    "m": " tu",
     "d": 330.96,
     "f": 331.44
    },
    {
-    "m": " me",
+    "m": " m'étonnes",
     "d": 331.44,
     "f": 331.56
-   },
-   {
-    "m": " donne",
-    "d": 331.56,
-    "f": 331.76
    },
    {
     "m": " que",
@@ -3773,7 +3642,7 @@
  {
   "debut": 365.16,
   "fin": 367.6,
-  "texte": "Comme une mini voiture parce que franchement",
+  "texte": "Comme un mini ventilo parce que franchement",
   "mots": [
    {
     "m": " Comme",
@@ -3781,7 +3650,7 @@
     "f": 366.06
    },
    {
-    "m": " une",
+    "m": " un",
     "d": 366.06,
     "f": 366.34
    },
@@ -3791,7 +3660,7 @@
     "f": 366.54
    },
    {
-    "m": " voiture",
+    "m": " ventilo",
     "d": 366.54,
     "f": 366.7
    },
@@ -3868,6 +3737,83 @@
     "m": " froid",
     "d": 370.14,
     "f": 370.44
+   }
+  ]
+ },
+ {
+  "debut": 371.09999999999997,
+  "fin": 374.9,
+  "texte": "Bon, on se retrouve au prochain épisode : le jour de la compétition !",
+  "mots": [
+   {
+    "m": " Bon,",
+    "d": 371.09999999999997,
+    "f": 371.3714285714285
+   },
+   {
+    "m": " on",
+    "d": 371.3714285714285,
+    "f": 371.6428571428571
+   },
+   {
+    "m": " se",
+    "d": 371.6428571428571,
+    "f": 371.91428571428565
+   },
+   {
+    "m": " retrouve",
+    "d": 371.91428571428565,
+    "f": 372.18571428571425
+   },
+   {
+    "m": " au",
+    "d": 372.18571428571425,
+    "f": 372.4571428571428
+   },
+   {
+    "m": " prochain",
+    "d": 372.4571428571428,
+    "f": 372.7285714285714
+   },
+   {
+    "m": " épisode",
+    "d": 372.7285714285714,
+    "f": 372.99999999999994
+   },
+   {
+    "m": " :",
+    "d": 372.99999999999994,
+    "f": 373.27142857142854
+   },
+   {
+    "m": " le",
+    "d": 373.27142857142854,
+    "f": 373.5428571428571
+   },
+   {
+    "m": " jour",
+    "d": 373.5428571428571,
+    "f": 373.8142857142857
+   },
+   {
+    "m": " de",
+    "d": 373.8142857142857,
+    "f": 374.08571428571423
+   },
+   {
+    "m": " la",
+    "d": 374.08571428571423,
+    "f": 374.35714285714283
+   },
+   {
+    "m": " compétition",
+    "d": 374.35714285714283,
+    "f": 374.6285714285714
+   },
+   {
+    "m": " !",
+    "d": 374.6285714285714,
+    "f": 374.9
    }
   ]
  }

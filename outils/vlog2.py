@@ -9,7 +9,7 @@ Lit src/VlogRome2/montage.json (liste des plans + plans de coupe) et produit :
   - src/VlogRome2/sous-titres.json : les mots transcrits recalés sur la vidéo
     finale, avec les corrections de noms.
 
-Usage : python3 outils/vlog2.py [--sans-video]
+Usage : python3 outils/vlog2.py [--sans-video] [--seul=052,053]
 """
 import json
 import os
@@ -37,6 +37,12 @@ CORRECTIONS = [
     (["Forum", "Palatin"], ["Forum,", "le Palatin,"]),
     (["crevais,"], ["suis crevée,"]),
     (["colisée"], ["Colisée"]),
+    # relecture du 2026-11-12
+    (["un", "fou", "du", "monde,"], ["", "full", "", "monde,"]),
+    (["un", "fou", "du", "monde."], ["", "full", "", "monde."]),
+    (["une", "fête"], ["une", "sieste"]),
+    (["je", "me", "donne", "que"], ["tu", "m'étonnes", "", "que"]),
+    (["une", "mini", "voiture"], ["un", "mini", "ventilo"]),
     (["A", "16h"], ["À", "16h"]),
 ]
 
@@ -152,6 +158,9 @@ def main():
     json.dump(segments, open(os.path.join(DOSSIER, "sous-titres.json"), "w"), ensure_ascii=False, indent=1)
     print(f"{len(m['plans'])} plans, durée {t:.1f} s ({int(t // 60)} min {t % 60:.0f} s), {len(segments)} phrases sous-titrées")
     if not sans_video:
+        seuls = [a.split("=")[1] for a in sys.argv if a.startswith("--seul=")]
+        if seuls:  # ne refaire que certains plans, ex. --seul=052
+            jobs = [j for j in jobs if os.path.basename(j[1]).split("-")[0].split(".")[0] in seuls[0].split(",")]
         with ThreadPoolExecutor(max_workers=3) as ex:
             list(ex.map(lambda j: rendre(*j), jobs))
         print("plans rendus :", len(jobs))

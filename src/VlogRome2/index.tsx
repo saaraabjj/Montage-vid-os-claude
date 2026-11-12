@@ -30,12 +30,13 @@ const PLANS = timeline.plans as PlanTimeline[];
 const debutPlan = (i: number) => PLANS[i].debut;
 
 // Cartes titres (même style que le jour 1), posées au début de chaque grande partie
-const CARTES: Array<{ plan: number; decalage?: number } & CarteTitreProps> = [
+const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteTitreProps> = [
   { plan: 2, intro: "Étape 1", blanc: "Le", couleur: "Colisée" },
   { plan: 26, intro: "Le déjeuner", blanc: "Pâtes à la", couleur: "truffe" },
   { plan: 30, intro: "Étape 2", blanc: "La fontaine de", couleur: "Trevi" },
   { plan: 38, intro: "Étape 3", blanc: "Le", couleur: "Panthéon" },
   { plan: 51, intro: "Retour à l'hôtel", blanc: "Pas de", couleur: "chauffage" },
+  { plan: 52, intro: "Prochain épisode", blanc: "Le jour de la", couleur: "compétition", duree: 4.5 },
 ];
 const DUREE_CARTE = 2.2;
 
@@ -101,7 +102,7 @@ export const VlogRome2: React.FC = () => {
         <Sequence
           key={`c${c.plan}`}
           from={f(debutPlan(c.plan) + (c.decalage ?? 0))}
-          durationInFrames={f(DUREE_CARTE)}
+          durationInFrames={f(c.duree ?? DUREE_CARTE)}
           name={`Carte ${c.blanc} ${c.couleur}`}
         >
           <CarteTitre intro={c.intro} blanc={c.blanc} couleur={c.couleur} />
