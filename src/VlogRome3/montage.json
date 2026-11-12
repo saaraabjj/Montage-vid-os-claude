@@ -200,7 +200,8 @@
    "duree": 4.0,
    "son": 0.5,
    "voix": false,
-   "note": ""
+   "note": "",
+   "rot": 1
   },
   {
    "fichier": "IMG_5633.MP4",
@@ -266,7 +267,8 @@
    "duree": 4.2,
    "son": 0.6,
    "voix": false,
-   "note": "CARTE Two Sizes"
+   "note": "CARTE Two Sizes",
+   "rot": 1
   },
   {
    "fichier": "IMG_5673.MP4",
