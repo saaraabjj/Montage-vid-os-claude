@@ -24,8 +24,8 @@ export const FPS_TEASER2 = 30;
 // debut / fin : temps dans le vlog du jour 2 (s). fond = plan filmé en vertical : il remplit l'écran.
 type Clip = { debut: number; fin: number; centreX?: number; fond?: boolean; musique?: boolean };
 const CLIPS: Clip[] = [
-  { debut: 191.8, fin: 197.1, centreX: 0.5 }, // Il est 14h, je suis explosée
-  { debut: 12.5, fin: 15.0, fond: true, musique: true }, // selfie à l'Osmo sous le ciel de Rome
+  { debut: 4.2, fin: 8.3, fond: true }, // selfie devant le Colisée : « Aujourd'hui c'est une visite au Colisée, on y va ! »
+  { debut: 18.8, fin: 21.8, centreX: 0.47, musique: true }, // Osmo : debout devant le Colisée
   { debut: 105.6, fin: 108.4, centreX: 0.5 }, // full monde, vraiment full monde
   { debut: 109.5, fin: 111.7, centreX: 0.5 }, // demain j'ai ma compète
   { debut: 114.3, fin: 117.45, centreX: 0.5 }, // je suis extrêmement fatiguée, je suis KO
@@ -36,7 +36,7 @@ const CLIPS: Clip[] = [
   { debut: 368.9, fin: 370.6, fond: true }, // il fait trop froid
 ];
 const DUREE_FIN = 4.5;
-const MOTS_FORTS = /compète|KO|explosée|truffe|pépites|full|dinguerie|froid|Rome/i;
+const MOTS_FORTS = /Colisée|compète|KO|explosée|truffe|pépites|full|dinguerie|froid|Rome/i;
 
 const PLANS = timeline.plans as Array<{ i: number; debut: number; duree: number }>;
 const planDe = (c: Clip) => {
