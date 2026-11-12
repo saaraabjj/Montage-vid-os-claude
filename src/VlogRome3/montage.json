@@ -1,0 +1,373 @@
+{
+ "plans": [
+  {
+   "fichier": "IMG_5497.MP4",
+   "entree": 0.0,
+   "duree": 5.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "arrivée à la salle"
+  },
+  {
+   "fichier": "IMG_5498.MP4",
+   "entree": 0.5,
+   "duree": 4.5,
+   "son": 0.6,
+   "voix": false,
+   "note": "CARTE compétition, la salle",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5501.MP4",
+   "entree": 0.0,
+   "duree": 5.3,
+   "son": 0.8,
+   "voix": false,
+   "note": "selfie en tribune"
+  },
+  {
+   "fichier": "IMG_5502.MP4",
+   "entree": 0.3,
+   "duree": 4.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5503.MP4",
+   "entree": 0.5,
+   "duree": 5.0,
+   "son": 0.8,
+   "voix": false,
+   "note": "selfie avec l'accréditation, le speaker annonce",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5504.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5507.MP4",
+   "entree": 0.3,
+   "duree": 4.5,
+   "son": 0.6,
+   "voix": false,
+   "note": "zone d'échauffement"
+  },
+  {
+   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
+   "entree": 128.5,
+   "duree": 6.3,
+   "son": 1.0,
+   "voix": false,
+   "note": "CARTE combat 1, le salut",
+   "zoom": 1.7,
+   "cx": 0.706,
+   "cy": 0.533
+  },
+  {
+   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
+   "entree": 262.0,
+   "duree": 4.0,
+   "son": 0.9,
+   "voix": false,
+   "note": "combat 1 au sol",
+   "zoom": 1.9,
+   "cx": 0.62,
+   "cy": 0.53
+  },
+  {
+   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
+   "entree": 330.0,
+   "duree": 4.0,
+   "son": 0.9,
+   "voix": false,
+   "note": "combat 1 au sol",
+   "zoom": 1.9,
+   "cx": 0.62,
+   "cy": 0.53
+  },
+  {
+   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
+   "entree": 420.0,
+   "duree": 4.0,
+   "son": 0.9,
+   "voix": false,
+   "note": "combat 1 au sol",
+   "zoom": 1.9,
+   "cx": 0.6,
+   "cy": 0.53
+  },
+  {
+   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
+   "entree": 545.0,
+   "duree": 11.0,
+   "son": 1.0,
+   "voix": false,
+   "note": "combat 1, la décision",
+   "zoom": 1.6,
+   "cx": 0.66,
+   "cy": 0.6
+  },
+  {
+   "fichier": "07f7c41cb73849f998f6dd3c54de6421.MP4",
+   "entree": 0.0,
+   "duree": 13.0,
+   "son": 0.8,
+   "voix": false,
+   "note": "CARTE podium, médaille d'argent"
+  },
+  {
+   "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
+   "entree": 154.0,
+   "duree": 9.5,
+   "son": 1.0,
+   "voix": false,
+   "note": "CARTE combat 2, le salut",
+   "zoom": 1.5,
+   "cx": 0.669,
+   "cy": 0.667
+  },
+  {
+   "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
+   "entree": 164.5,
+   "duree": 7.0,
+   "son": 1.0,
+   "voix": false,
+   "note": "combat 2 debout",
+   "zoom": 1.5,
+   "cx": 0.6,
+   "cy": 0.62
+  },
+  {
+   "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
+   "entree": 175.0,
+   "duree": 6.0,
+   "son": 1.0,
+   "voix": false,
+   "note": "combat 2 debout",
+   "zoom": 1.5,
+   "cx": 0.62,
+   "cy": 0.62
+  },
+  {
+   "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
+   "entree": 188.0,
+   "duree": 9.0,
+   "son": 1.0,
+   "voix": false,
+   "note": "combat 2 debout",
+   "zoom": 1.5,
+   "cx": 0.62,
+   "cy": 0.62
+  },
+  {
+   "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
+   "entree": 445.0,
+   "duree": 10.0,
+   "son": 1.0,
+   "voix": false,
+   "note": "combat 2, la décision",
+   "zoom": 1.5,
+   "cx": 0.6,
+   "cy": 0.6
+  },
+  {
+   "fichier": "IMG_5620.MP4",
+   "entree": 0.0,
+   "duree": 20.2,
+   "son": 1.0,
+   "voix": true,
+   "note": "les larmes"
+  },
+  {
+   "fichier": "IMG_5622.MP4",
+   "entree": 0.3,
+   "duree": 5.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "la gare"
+  },
+  {
+   "fichier": "IMG_5627.MP4",
+   "entree": 0.3,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5633.MP4",
+   "entree": 0.2,
+   "duree": 4.3,
+   "son": 0.5,
+   "voix": false,
+   "note": "CARTE le soir, Colisée de nuit",
+   "sousTitres": false
+  },
+  {
+   "fichier": "dji_mimo_20261027_202846_20261027202825_1793129448213_video_glamour.MP4",
+   "entree": 1.0,
+   "duree": 10.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "DJI Colisée de nuit"
+  },
+  {
+   "fichier": "IMG_5643.MP4",
+   "entree": 0.3,
+   "duree": 7.0,
+   "son": 0.7,
+   "voix": false,
+   "note": "selfie avec la médaille devant le Colisée"
+  },
+  {
+   "fichier": "IMG_5630.MP4",
+   "entree": 0.5,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5657.MP4",
+   "entree": 0.5,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5664.MP4",
+   "entree": 0.3,
+   "duree": 4.2,
+   "son": 0.5,
+   "voix": false,
+   "note": "Forum de nuit"
+  },
+  {
+   "fichier": "IMG_5665.MP4",
+   "entree": 1.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5668.MP4",
+   "entree": 0.3,
+   "duree": 4.2,
+   "son": 0.6,
+   "voix": false,
+   "note": "CARTE Two Sizes"
+  },
+  {
+   "fichier": "IMG_5673.MP4",
+   "entree": 0.3,
+   "duree": 4.8,
+   "son": 0.6,
+   "voix": false,
+   "note": "le tiramisu",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5681.MP4",
+   "entree": 0.3,
+   "duree": 6.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "tiramisu à Navona"
+  },
+  {
+   "fichier": "IMG_5675.MP4",
+   "entree": 0.3,
+   "duree": 5.2,
+   "son": 0.5,
+   "voix": false,
+   "note": "piazza Navona",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5688.MP4",
+   "entree": 1.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5689.MP4",
+   "entree": 1.0,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5682.MP4",
+   "entree": 1.0,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5697.MP4",
+   "entree": 0.5,
+   "duree": 9.5,
+   "son": 0.9,
+   "voix": true,
+   "note": "Panthéon de nuit « c'est trop beau »"
+  },
+  {
+   "fichier": "IMG_5699.MP4",
+   "entree": 0.5,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "CARTE Trevi de nuit",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5700.MP4",
+   "entree": 1.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5704.MP4",
+   "entree": 1.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": ""
+  },
+  {
+   "fichier": "IMG_5710.MP4",
+   "entree": 1.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "note": "",
+   "sousTitres": false
+  },
+  {
+   "fichier": "dji_mimo_20261027_221510_20261027221455_1793367357895_video_glamour.MP4",
+   "entree": 0.0,
+   "duree": 16.0,
+   "son": 0.6,
+   "voix": false,
+   "note": "CARTE fin, selfie Trevi de nuit"
+  }
+ ]
+}

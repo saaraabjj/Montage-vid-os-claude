@@ -1,4 +1,4 @@
-"""Prépare le vlog Rome jour 2 à partir des rushes iPhone / DJI / Canon.
+"""Prépare un vlog Rome (jour 2, jour 3…) à partir des rushes iPhone / DJI / Canon.
 
 Lit src/VlogRome2/montage.json (liste des plans + plans de coupe) et produit :
   - public/vlog2/plans/NNN.mp4 : chaque plan en 1920×1080, 30 i/s, redressé,
@@ -18,9 +18,11 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.environ.get("VLOG2_SRC", os.path.join(RACINE, "public/vlog2/src"))
-OUT = os.path.join(RACINE, "public/vlog2/plans")
-DOSSIER = os.path.join(RACINE, "src/VlogRome2")
+# Jour du vlog : VLOG_JOUR=2 (par défaut) ou 3… -> public/vlogN/, src/VlogRomeN/
+JOUR = os.environ.get("VLOG_JOUR", "2")
+SRC = os.environ.get("VLOG2_SRC", os.path.join(RACINE, f"public/vlog{JOUR}/src"))
+OUT = os.path.join(RACINE, f"public/vlog{JOUR}/plans")
+DOSSIER = os.path.join(RACINE, f"src/VlogRome{JOUR}")
 FPS = 30
 
 # Corrections de la transcription : suite de mots reconnus -> suite corrigée
@@ -44,6 +46,10 @@ CORRECTIONS = [
     (["je", "me", "donne", "que"], ["tu", "m'étonnes", "", "que"]),
     (["une", "mini", "voiture"], ["un", "mini", "ventilo"]),
     (["A", "16h"], ["À", "16h"]),
+    # jour 3 (à faire relire)
+    (["Comment", "c", "'est", "dur", "les", "fêtes."], ["Comme", "c", "'est", "dur", "les", "défaites."]),
+    (["J", "'aime", "perdre", "en", "absolu", "tout."], ["J", "'ai", "perdu", "en", "absolu", "aussi."]),
+    (["craqué"], ["claquée"]),
 ]
 
 
@@ -75,6 +81,11 @@ def filtre(p):
                 f"[a]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=30:3,eq=brightness=-0.12:saturation=0.9[fond];"
                 f"[b]scale=-2:1080:flags=lanczos[av];"
                 f"[fond][av]overlay=(W-w)/2:0,format=yuv420p[v]")
+    zoom = p.get("zoom", 1.0)  # zoom dans l'image (combats filmés de loin), centré sur cx / cy
+    if zoom != 1.0:
+        cx, cy = p.get("cx", 0.5), p.get("cy", 0.5)
+        chaine += (f"crop=w=trunc(iw/{zoom}/2)*2:h=trunc(ih/{zoom}/2)*2:"
+                   f"x=max(0\\,min(iw-ow\\,{cx}*iw-ow/2)):y=max(0\\,min(ih-oh\\,{cy}*ih-oh/2)),")
     return (f"[0:v]{chaine}fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,"
             f"crop=1920:1080,format=yuv420p[v]")
 

@@ -1,0 +1,333 @@
+{
+ "duree": 274.0,
+ "plans": [
+  {
+   "i": 0,
+   "debut": 0.0,
+   "duree": 5.0,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 1,
+   "debut": 5.0,
+   "duree": 4.5,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 2,
+   "debut": 9.5,
+   "duree": 5.3,
+   "son": 0.8,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 3,
+   "debut": 14.8,
+   "duree": 4.0,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 4,
+   "debut": 18.8,
+   "duree": 5.0,
+   "son": 0.8,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 5,
+   "debut": 23.8,
+   "duree": 4.0,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 6,
+   "debut": 27.8,
+   "duree": 4.5,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 7,
+   "debut": 32.3,
+   "duree": 6.3,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 8,
+   "debut": 38.6,
+   "duree": 4.0,
+   "son": 0.9,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 9,
+   "debut": 42.6,
+   "duree": 4.0,
+   "son": 0.9,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 10,
+   "debut": 46.6,
+   "duree": 4.0,
+   "son": 0.9,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 11,
+   "debut": 50.6,
+   "duree": 11.0,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 12,
+   "debut": 61.6,
+   "duree": 13.0,
+   "son": 0.8,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 13,
+   "debut": 74.6,
+   "duree": 9.5,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 14,
+   "debut": 84.1,
+   "duree": 7.0,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 15,
+   "debut": 91.1,
+   "duree": 6.0,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 16,
+   "debut": 97.1,
+   "duree": 9.0,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 17,
+   "debut": 106.1,
+   "duree": 10.0,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 18,
+   "debut": 116.1,
+   "duree": 20.2,
+   "son": 1.0,
+   "voix": true,
+   "coupes": []
+  },
+  {
+   "i": 19,
+   "debut": 136.3,
+   "duree": 5.5,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 20,
+   "debut": 141.8,
+   "duree": 4.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 21,
+   "debut": 145.8,
+   "duree": 4.3,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 22,
+   "debut": 150.1,
+   "duree": 10.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 23,
+   "debut": 160.1,
+   "duree": 7.0,
+   "son": 0.7,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 24,
+   "debut": 167.1,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 25,
+   "debut": 173.1,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 26,
+   "debut": 178.1,
+   "duree": 4.2,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 27,
+   "debut": 182.3,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 28,
+   "debut": 188.3,
+   "duree": 4.2,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 29,
+   "debut": 192.5,
+   "duree": 4.8,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 30,
+   "debut": 197.3,
+   "duree": 6.0,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 31,
+   "debut": 203.3,
+   "duree": 5.2,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 32,
+   "debut": 208.5,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 33,
+   "debut": 214.5,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 34,
+   "debut": 219.5,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 35,
+   "debut": 224.5,
+   "duree": 9.5,
+   "son": 0.9,
+   "voix": true,
+   "coupes": []
+  },
+  {
+   "i": 36,
+   "debut": 234.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 37,
+   "debut": 240.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 38,
+   "debut": 246.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 39,
+   "debut": 252.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 40,
+   "debut": 258.0,
+   "duree": 16.0,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  }
+ ]
+}
