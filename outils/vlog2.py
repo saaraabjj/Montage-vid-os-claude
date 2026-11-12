@@ -101,6 +101,10 @@ def corriger(mots):
         i += 1
     out = []
     for m, t in zip(mots, textes):
+        if t and out and not any(c.isalnum() for c in t):
+            # ponctuation seule (« ? », « ! ») : recollée au mot d'avant, espace insécable
+            out[-1] = {**out[-1], "m": out[-1]["m"] + "\u00a0" + t, "f": m["f"]}
+            continue
         if t:  # on garde l'espace d'origine : « C » + « 'est » se recollent à l'affichage
             espace = " " if m["m"].startswith(" ") else ""
             out.append({**m, "m": espace + t})
