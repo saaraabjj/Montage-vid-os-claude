@@ -23,13 +23,14 @@ export const FPS_TEASER3 = 30;
 
 // debut / fin : temps dans le vlog du jour 3 (s). fond = plan filmé en vertical : il remplit l'écran.
 type Clip = { debut: number; fin: number; centreX?: number; fond?: boolean; musique?: boolean; titre?: string };
+const P0 = (i: number) => (timeline.plans as Array<{ debut: number }>)[i].debut;
 const CLIPS: Clip[] = [
-  { debut: 5.0, fin: 8.5, centreX: 0.5, titre: "Jour de compète" }, // la salle
-  { debut: 78.0, fin: 82.5, centreX: 0.55, titre: "Le salut" }, // salut du 2e combat
-  { debut: 84.5, fin: 89.5, centreX: 0.55 }, // phase debout
-  { debut: 64.0, fin: 70.0, fond: true, titre: "Médaille d'argent" }, // le podium
-  { debut: 116.6, fin: 126.0, centreX: 0.5 }, // les larmes
-  { debut: 160.3, fin: 164.3, centreX: 0.5, titre: "Rome by night" }, // la médaille devant le Colisée
+  { debut: P0(1) + 0.0, fin: P0(1) + 3.5, centreX: 0.5, titre: "Jour de compète" }, // la salle
+  { debut: P0(9) + 3.5, fin: P0(9) + 8.0, centreX: 0.55, titre: "Le salut" }, // salut du combat en absolute
+  { debut: P0(10) + 0.5, fin: P0(10) + 5.5, centreX: 0.55 }, // grips debout
+  { debut: P0(8) + 2.0, fin: P0(8) + 8.0, fond: true, titre: "Médaille d'argent" }, // le podium
+  { debut: P0(13) + 0.5, fin: P0(13) + 9.9, centreX: 0.5 }, // les larmes
+  { debut: P0(18) + 0.2, fin: P0(18) + 4.2, centreX: 0.5, titre: "Rome by night" }, // la médaille devant le Colisée
 ];
 const DUREE_FIN = 4.5;
 const DEBUT_LARMES = 3.5 + 4.5 + 5.0 + 6.0; // début du plan des larmes dans le teaser

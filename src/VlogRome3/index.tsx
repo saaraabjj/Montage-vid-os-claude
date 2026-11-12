@@ -32,13 +32,13 @@ const debutPlan = (i: number) => PLANS[i].debut;
 // Cartes titres (même style que le jour 1), posées au début de chaque grande partie
 const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteTitreProps> = [
   { plan: 1, intro: "Jour 3", blanc: "Le jour de la", couleur: "compétition" },
-  { plan: 7, intro: "IBJJF Rome International Open", blanc: "Premier", couleur: "combat" },
-  { plan: 12, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
-  { plan: 13, intro: "L'absolute", blanc: "Deuxième", couleur: "combat" },
-  { plan: 21, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
-  { plan: 28, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
-  { plan: 36, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
-  { plan: 40, decalage: 11.5, duree: 4.5, intro: "Fin du séjour", blanc: "Merci", couleur: "Rome" },
+  { plan: 6, intro: "IBJJF Rome International Open", blanc: "La", couleur: "finale" },
+  { plan: 8, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
+  { plan: 9, intro: "Deuxième combat", blanc: "Combat en", couleur: "absolute" },
+  { plan: 16, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
+  { plan: 23, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
+  { plan: 31, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
+  { plan: 35, decalage: 11.5, duree: 4.5, intro: "Fin du séjour", blanc: "Merci", couleur: "Rome" },
 ];
 const DUREE_CARTE = 2.2;
 

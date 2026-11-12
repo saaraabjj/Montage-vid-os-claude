@@ -26,15 +26,6 @@
    "note": "selfie en tribune"
   },
   {
-   "fichier": "IMG_5502.MP4",
-   "entree": 0.3,
-   "duree": 4.0,
-   "son": 0.6,
-   "voix": false,
-   "note": "",
-   "sousTitres": false
-  },
-  {
    "fichier": "IMG_5503.MP4",
    "entree": 0.5,
    "duree": 5.0,
@@ -66,43 +57,10 @@
    "duree": 6.3,
    "son": 1.0,
    "voix": false,
-   "note": "CARTE combat 1, le salut",
+   "note": "CARTE la finale, le salut",
    "zoom": 1.7,
    "cx": 0.706,
    "cy": 0.533
-  },
-  {
-   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
-   "entree": 262.0,
-   "duree": 4.0,
-   "son": 0.9,
-   "voix": false,
-   "note": "combat 1 au sol",
-   "zoom": 1.9,
-   "cx": 0.62,
-   "cy": 0.53
-  },
-  {
-   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
-   "entree": 330.0,
-   "duree": 4.0,
-   "son": 0.9,
-   "voix": false,
-   "note": "combat 1 au sol",
-   "zoom": 1.9,
-   "cx": 0.62,
-   "cy": 0.53
-  },
-  {
-   "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
-   "entree": 420.0,
-   "duree": 4.0,
-   "son": 0.9,
-   "voix": false,
-   "note": "combat 1 au sol",
-   "zoom": 1.9,
-   "cx": 0.6,
-   "cy": 0.53
   },
   {
    "fichier": "dji_mimo_20261027_120538_20261027115559_1793112696755_video_glamour.MP4",
@@ -129,7 +87,7 @@
    "duree": 9.5,
    "son": 1.0,
    "voix": false,
-   "note": "CARTE combat 2, le salut",
+   "note": "CARTE combat en absolute, le salut",
    "zoom": 1.5,
    "cx": 0.669,
    "cy": 0.667
@@ -149,17 +107,6 @@
    "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
    "entree": 175.0,
    "duree": 6.0,
-   "son": 1.0,
-   "voix": false,
-   "note": "combat 2 debout",
-   "zoom": 1.5,
-   "cx": 0.62,
-   "cy": 0.62
-  },
-  {
-   "fichier": "dji_mimo_20261027_163412_20261027162623_1793116328053_video_glamour.MP4",
-   "entree": 188.0,
-   "duree": 9.0,
    "son": 1.0,
    "voix": false,
    "note": "combat 2 debout",
