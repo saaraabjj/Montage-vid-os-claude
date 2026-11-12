@@ -1,5 +1,5 @@
 {
- "duree": 249.0,
+ "duree": 259.0,
  "plans": [
   {
    "i": 0,
@@ -188,54 +188,54 @@
   {
    "i": 23,
    "debut": 163.3,
+   "duree": 10.0,
+   "son": 1.0,
+   "voix": true,
+   "coupes": []
+  },
+  {
+   "i": 24,
+   "debut": 173.3,
    "duree": 4.2,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 24,
-   "debut": 167.5,
+   "i": 25,
+   "debut": 177.5,
    "duree": 4.8,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 25,
-   "debut": 172.3,
+   "i": 26,
+   "debut": 182.3,
    "duree": 6.0,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 26,
-   "debut": 178.3,
+   "i": 27,
+   "debut": 188.3,
    "duree": 5.2,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 27,
-   "debut": 183.5,
+   "i": 28,
+   "debut": 193.5,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 28,
-   "debut": 189.5,
-   "duree": 5.0,
-   "son": 0.5,
-   "voix": false,
-   "coupes": []
-  },
-  {
    "i": 29,
-   "debut": 194.5,
+   "debut": 199.5,
    "duree": 5.0,
    "son": 0.5,
    "voix": false,
@@ -243,23 +243,23 @@
   },
   {
    "i": 30,
-   "debut": 199.5,
+   "debut": 204.5,
+   "duree": 5.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 31,
+   "debut": 209.5,
    "duree": 9.5,
    "son": 0.9,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 31,
-   "debut": 209.0,
-   "duree": 6.0,
-   "son": 0.5,
-   "voix": false,
-   "coupes": []
-  },
-  {
    "i": 32,
-   "debut": 215.0,
+   "debut": 219.0,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
@@ -267,7 +267,7 @@
   },
   {
    "i": 33,
-   "debut": 221.0,
+   "debut": 225.0,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
@@ -275,7 +275,7 @@
   },
   {
    "i": 34,
-   "debut": 227.0,
+   "debut": 231.0,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
@@ -283,7 +283,15 @@
   },
   {
    "i": 35,
-   "debut": 233.0,
+   "debut": 237.0,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 36,
+   "debut": 243.0,
    "duree": 16.0,
    "son": 0.6,
    "voix": false,

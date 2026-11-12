@@ -209,6 +209,14 @@
    "note": ""
   },
   {
+   "fichier": "IMG_5662.MP4",
+   "entree": 0.8,
+   "duree": 10.0,
+   "son": 1.0,
+   "voix": true,
+   "note": "dans le bus : direction Two Sizes"
+  },
+  {
    "fichier": "IMG_5668.MP4",
    "entree": 0.3,
    "duree": 4.2,
@@ -316,7 +324,12 @@
    "duree": 16.0,
    "son": 0.6,
    "voix": false,
-   "note": "CARTE fin, selfie Trevi de nuit"
+   "note": "CARTE fin, prochain épisode jour 4",
+   "texte": {
+    "d": 11.7,
+    "f": 15.6,
+    "t": "La suite au prochain épisode : le jour 4, et c'est le dernier !"
+   }
   }
  ]
 }

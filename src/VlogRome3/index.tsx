@@ -36,9 +36,9 @@ const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteT
   { plan: 8, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
   { plan: 9, intro: "Deuxième combat", blanc: "Combat en", couleur: "absolute" },
   { plan: 16, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
-  { plan: 23, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
-  { plan: 31, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
-  { plan: 35, decalage: 11.5, duree: 4.5, intro: "Fin du séjour", blanc: "Merci", couleur: "Rome" },
+  { plan: 24, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
+  { plan: 32, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
+  { plan: 36, decalage: 11.5, duree: 4.5, intro: "Prochain épisode", blanc: "Jour 4 :", couleur: "le dernier" },
 ];
 const DUREE_CARTE = 2.2;
 
