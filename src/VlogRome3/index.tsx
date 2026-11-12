@@ -33,7 +33,7 @@ const debutPlan = (i: number) => PLANS[i].debut;
 const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteTitreProps> = [
   { plan: 1, intro: "Jour 3", blanc: "Le jour de la", couleur: "compétition" },
   { plan: 7, intro: "IBJJF Rome International Open", blanc: "Premier", couleur: "combat" },
-  { plan: 12, intro: "Résultat", blanc: "Médaille d'", couleur: "argent" },
+  { plan: 12, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
   { plan: 13, intro: "L'après-midi", blanc: "Deuxième", couleur: "combat" },
   { plan: 21, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
   { plan: 28, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
