@@ -2,7 +2,7 @@
  {
   "debut": 117.01,
   "fin": 124.67,
-  "texte": "Comme c'est dur les défaites. J'ai perdu en absolu aussi. Franchement c'est trop dur, trop dur de perdre.",
+  "texte": "Comme c'est dur les défaites. J'ai perdu en absolute aussi. Franchement c'est trop dur, trop dur de perdre.",
   "mots": [
    {
     "m": " Comme",
@@ -55,7 +55,7 @@
     "f": 120.33
    },
    {
-    "m": " absolu",
+    "m": " absolute",
     "d": 120.33,
     "f": 120.79
    },
