@@ -4,6 +4,7 @@ import { VlogRome, FPS, DUREE_SECONDES } from "./VlogRome";
 import { MiniatureInsta, MiniatureYouTube } from "./VlogRome/Miniatures";
 import { TeaserVertical, dureeTeaser, FPS_TEASER } from "./VlogRome/Teaser";
 import { Logo } from "./HelloWorld/Logo";
+import { MiniatureInstaJ2, MiniatureYouTubeJ2 } from "./VlogRome2/Miniatures";
 import { VlogRome2, FPS as FPS_J2, DUREE_SECONDES as DUREE_J2 } from "./VlogRome2";
 import { MontageJjb, dureeMontage, FPS as FPS_JJB } from "./Jjb";
 import { Title } from "./HelloWorld/Title";
@@ -32,6 +33,8 @@ export const RemotionRoot: React.FC = () => {
       />
       <Composition id="TeaserTikTok" component={TeaserVertical} durationInFrames={dureeTeaser()} fps={FPS_TEASER} width={1080} height={1920} />
       <Still id="MiniatureYouTube" component={MiniatureYouTube} width={1920} height={1080} />
+      <Still id="MiniatureYouTubeJour2" component={MiniatureYouTubeJ2} width={1920} height={1080} />
+      <Still id="MiniatureInstaJour2" component={MiniatureInstaJ2} width={1080} height={1920} />
       <Still id="MiniatureInsta" component={MiniatureInsta} width={1080} height={1920} />
       <Composition
         id="VlogRome"

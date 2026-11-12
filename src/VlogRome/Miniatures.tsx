@@ -6,7 +6,7 @@ import "@fontsource/inter/900.css";
 // Miniatures du vlog Rome (YouTube 16:9 et couverture Instagram 9:16), dans la DA.
 const img = (n: string) => staticFile(`miniature/${n}.jpg`);
 
-const Carte: React.FC<{
+export const Carte: React.FC<{
   src: string;
   style: React.CSSProperties;
   position?: string;
@@ -27,7 +27,7 @@ const Carte: React.FC<{
   </div>
 );
 
-const Pastille: React.FC<{ children: React.ReactNode; taille: number }> = ({ children, taille }) => (
+export const Pastille: React.FC<{ children: React.ReactNode; taille: number }> = ({ children, taille }) => (
   <div
     style={{
       display: "inline-block",
