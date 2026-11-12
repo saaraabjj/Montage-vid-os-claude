@@ -80,6 +80,8 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 - Montage : 52 plans, 6 min 11 s. Liste dans `src/VlogRome2/montage.json`, préparation par `outils/vlog2.py` (rotation corrigée sur 9 clips, plans verticaux sur fond flouté, plans de coupe de la basilique Santa Francesca Romana sur ma voix).
 - Habillage du jour 1 : sous-titres (Whisper large-v3, corrections de noms), 5 cartes titres (Colisée, Pâtes à la truffe, Trevi, Panthéon, Pas de chauffage), badges 8h42, 14h, 16h, 16h40.
 - Relecture : `SOUS-TITRES-J2.md` (7 passages à vérifier).
+- Retours v1 (2026-11-12) : sous-titres retirés à 1:03–1:07, « full monde », « sieste », « tu m'étonnes », « mini ventilo », fin « prochain épisode : le jour de la compétition ». v2 envoyée (6 min 15 s).
+- Miniatures « Rome m'a mise KO » (YouTube + Insta) et teaser Instagram de 30 s (composition `TeaserInstaJour2`) envoyés.
 
 ## Projet JJB : Reel @matsformembers (2026-11-11)
 

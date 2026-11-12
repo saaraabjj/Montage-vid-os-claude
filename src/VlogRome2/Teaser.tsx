@@ -25,7 +25,7 @@ export const FPS_TEASER2 = 30;
 type Clip = { debut: number; fin: number; centreX?: number; fond?: boolean; musique?: boolean };
 const CLIPS: Clip[] = [
   { debut: 191.8, fin: 197.1, centreX: 0.5 }, // Il est 14h, je suis explosée
-  { debut: 12.5, fin: 15.0, fond: true, musique: true }, // je marche devant le Colisée
+  { debut: 12.5, fin: 15.0, fond: true, musique: true }, // selfie à l'Osmo sous le ciel de Rome
   { debut: 105.6, fin: 108.4, centreX: 0.5 }, // full monde, vraiment full monde
   { debut: 109.5, fin: 111.7, centreX: 0.5 }, // demain j'ai ma compète
   { debut: 114.3, fin: 117.45, centreX: 0.5 }, // je suis extrêmement fatiguée, je suis KO
