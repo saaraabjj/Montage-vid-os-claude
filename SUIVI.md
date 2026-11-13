@@ -73,6 +73,12 @@ Remarques : le logo et l'heure « 9h » sont déjà incrustés à certains endro
 | 2026-11-06 | Miniatures créées dans la DA (compositions `MiniatureYouTube` 1920×1080 et `MiniatureInsta` 1080×1920) : « J'ai tout goûté à Rome », place Saint-Pierre, visage, pizza, tiramisu, logo | Valider les miniatures |
 | 2026-11-06 | Extrait vertical de 27 s (histoire du tiramisu, mot par mot en très gros, pilule logo, écran final « Le vlog complet sur YouTube · Lien en bio ») | Valider l'extrait |
 
+## Vlog Rome, jour 3 : la compétition (2026-11-13)
+
+- Source : zip iCloud (iPhone, Osmo en plan large depuis la tribune) + 8 rushes Osmo 4K (vestiaire, podium, après les larmes, 19h30, avis Two Sizes).
+- Montage : 47 plans, 6 min 26. Combats : seulement les saluts, la phase debout du combat en absolute et les décisions (pas de phases au sol ni de prise de dos, à ta demande). Cartes « La finale », « Médaille d'argent », « Combat en absolute », « Rome by night », « Le tiramisu Two Sizes », « La fontaine de Trevi », fin « Jour 4 : le dernier ».
+- Livrés : `out/VlogRome-jour3-v3-YouTube-1080p.mp4`, teaser `out/TeaserInsta-jour3.mp4`, miniatures « Médaille d'argent à Rome ».
+
 ## Vlog Rome, jour 2 (2026-11-12)
 
 - Source : zip « Photos iCloud » par SwissTransfer (526 fichiers du 26 octobre : 88 vidéos de plus de 4 s, Live Photos, photos). Rushes iPhone 720p, DJI Osmo, Canon.
