@@ -25,16 +25,17 @@ export const FPS_TEASER3 = 30;
 type Clip = { debut: number; fin: number; centreX?: number; fond?: boolean; musique?: boolean; titre?: string };
 const P0 = (i: number) => (timeline.plans as Array<{ debut: number }>)[i].debut;
 const CLIPS: Clip[] = [
-  { debut: P0(1) + 0.0, fin: P0(1) + 3.5, centreX: 0.5, titre: "Jour de compète" }, // la salle
-  { debut: P0(11) + 3.5, fin: P0(11) + 8.0, centreX: 0.55, titre: "Le salut" }, // salut du combat en absolute
-  { debut: P0(12) + 0.5, fin: P0(12) + 5.5, centreX: 0.55 }, // grips debout
-  { debut: P0(9) + 2.0, fin: P0(9) + 8.0, fond: true, titre: "Médaille d'argent" }, // le podium
+  { debut: P0(1) + 0.0, fin: P0(1) + 3.0, centreX: 0.5, titre: "Jour de compète" }, // la salle
+  { debut: P0(11) + 3.5, fin: P0(11) + 6.5, centreX: 0.42, titre: "Le salut" }, // salut du combat en absolute
+  { debut: P0(14) + 2.0, fin: P0(14) + 6.5, centreX: 0.5, titre: "Je la fais tomber" }, // l'absolute : la chute
+  { debut: P0(8) + 12.8, fin: P0(8) + 15.8, centreX: 0.55, titre: "Respect" }, // le câlin à la fin de la finale
+  { debut: P0(9) + 2.0, fin: P0(9) + 7.5, fond: true, titre: "Médaille d'argent" }, // le podium
   { debut: P0(16) + 0.5, fin: P0(16) + 9.9, centreX: 0.5 }, // les larmes
   { debut: P0(23) + 0.2, fin: P0(23) + 4.2, centreX: 0.5, titre: "Rome by night" }, // la médaille devant le Colisée
   { debut: P0(35) + 13.2, fin: P0(35) + 21.9, centreX: 0.5 }, // avis Two Sizes : il est excellent… je valide
 ];
 const DUREE_FIN = 4.5;
-const DEBUT_LARMES = 3.5 + 4.5 + 5.0 + 6.0; // début du plan des larmes dans le teaser
+const DEBUT_LARMES = 3.0 + 3.0 + 4.5 + 3.0 + 5.5; // début du plan des larmes dans le teaser
 const MOTS_FORTS = /dur|défaites|perdre|absolute|excellent|valide/i;
 
 const PLANS = timeline.plans as Array<{ i: number; debut: number; duree: number }>;
