@@ -51,6 +51,7 @@ CORRECTIONS = [
     (["J", "'aime", "perdre", "en", "absolu", "tout."], ["J", "'ai", "perdu", "en", "absolute", "aussi."]),
     (["craqué"], ["claquée"]),
     (["14", "euros", "le", "big."], ["4", "euros", "le", "big."]),
+    (["bon,", "j", "'ai", "fait", "mieux."], ["bon,", "ça", "", "va", "mieux."]),
 ]
 
 

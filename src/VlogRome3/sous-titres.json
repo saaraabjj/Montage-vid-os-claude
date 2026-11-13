@@ -256,7 +256,7 @@
  {
   "debut": 136.68,
   "fin": 141.72,
-  "texte": "C'est bon, j'ai fait mieux. Après avoir bien pleuré. Faut que je gère mes émotions, franchement.",
+  "texte": "C'est bon, ça va mieux. Après avoir bien pleuré. Faut que je gère mes émotions, franchement.",
   "mots": [
    {
     "m": " C",
@@ -274,17 +274,12 @@
     "f": 137.22
    },
    {
-    "m": " j",
+    "m": " ça",
     "d": 137.3,
     "f": 137.46
    },
    {
-    "m": "'ai",
-    "d": 137.46,
-    "f": 137.52
-   },
-   {
-    "m": " fait",
+    "m": " va",
     "d": 137.52,
     "f": 137.64
    },
