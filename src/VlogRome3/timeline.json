@@ -1,5 +1,5 @@
 {
- "duree": 385.6,
+ "duree": 380.6,
  "plans": [
   {
    "i": 0,
@@ -36,23 +36,23 @@
   {
    "i": 4,
    "debut": 20.8,
-   "duree": 5.0,
-   "son": 0.8,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 5,
-   "debut": 25.8,
    "duree": 4.0,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 6,
-   "debut": 29.8,
+   "i": 5,
+   "debut": 24.8,
    "duree": 4.5,
+   "son": 0.6,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 6,
+   "debut": 29.3,
+   "duree": 5.0,
    "son": 0.6,
    "voix": false,
    "coupes": []
@@ -68,159 +68,159 @@
   {
    "i": 8,
    "debut": 39.3,
-   "duree": 5.0,
-   "son": 0.6,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 9,
-   "debut": 44.3,
    "duree": 6.3,
    "son": 1.0,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 10,
-   "debut": 50.6,
+   "i": 9,
+   "debut": 45.6,
    "duree": 11.0,
    "son": 1.0,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 11,
-   "debut": 61.6,
+   "i": 10,
+   "debut": 56.6,
    "duree": 13.0,
    "son": 0.8,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 12,
-   "debut": 74.6,
+   "i": 11,
+   "debut": 69.6,
    "duree": 9.0,
    "son": 0.8,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 13,
-   "debut": 83.6,
+   "i": 12,
+   "debut": 78.6,
    "duree": 9.5,
    "son": 1.0,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 14,
-   "debut": 93.1,
+   "i": 13,
+   "debut": 88.1,
    "duree": 7.0,
+   "son": 1.0,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 14,
+   "debut": 95.1,
+   "duree": 6.0,
    "son": 1.0,
    "voix": false,
    "coupes": []
   },
   {
    "i": 15,
-   "debut": 100.1,
-   "duree": 6.0,
+   "debut": 101.1,
+   "duree": 10.0,
    "son": 1.0,
    "voix": false,
    "coupes": []
   },
   {
    "i": 16,
-   "debut": 106.1,
-   "duree": 10.0,
-   "son": 1.0,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 17,
-   "debut": 116.1,
+   "debut": 111.1,
    "duree": 20.2,
    "son": 1.0,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 18,
-   "debut": 136.3,
+   "i": 17,
+   "debut": 131.3,
    "duree": 34.2,
    "son": 1.0,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 19,
-   "debut": 170.5,
+   "i": 18,
+   "debut": 165.5,
    "duree": 24.4,
    "son": 1.0,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 20,
-   "debut": 194.9,
+   "i": 19,
+   "debut": 189.9,
    "duree": 5.5,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 21,
-   "debut": 200.4,
+   "i": 20,
+   "debut": 195.4,
    "duree": 4.0,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 22,
-   "debut": 204.4,
+   "i": 21,
+   "debut": 199.4,
    "duree": 4.3,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 23,
-   "debut": 208.7,
+   "i": 22,
+   "debut": 203.7,
    "duree": 10.0,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 24,
-   "debut": 218.7,
+   "i": 23,
+   "debut": 213.7,
    "duree": 7.0,
    "son": 0.7,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 25,
-   "debut": 225.7,
+   "i": 24,
+   "debut": 220.7,
    "duree": 8.5,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 26,
-   "debut": 234.2,
+   "i": 25,
+   "debut": 229.2,
    "duree": 6.5,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 27,
-   "debut": 240.7,
+   "i": 26,
+   "debut": 235.7,
    "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 27,
+   "debut": 241.7,
+   "duree": 5.0,
    "son": 0.5,
    "voix": false,
    "coupes": []
@@ -228,87 +228,87 @@
   {
    "i": 28,
    "debut": 246.7,
-   "duree": 5.0,
+   "duree": 4.2,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
    "i": 29,
-   "debut": 251.7,
-   "duree": 4.2,
+   "debut": 250.9,
+   "duree": 6.0,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
    "i": 30,
-   "debut": 255.9,
-   "duree": 6.0,
-   "son": 0.5,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 31,
-   "debut": 261.9,
+   "debut": 256.9,
    "duree": 10.0,
    "son": 1.0,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 32,
-   "debut": 271.9,
+   "i": 31,
+   "debut": 266.9,
    "duree": 4.2,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 33,
-   "debut": 276.1,
+   "i": 32,
+   "debut": 271.1,
    "duree": 4.8,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 34,
-   "debut": 280.9,
+   "i": 33,
+   "debut": 275.9,
    "duree": 6.0,
    "son": 0.6,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 35,
-   "debut": 286.9,
+   "i": 34,
+   "debut": 281.9,
    "duree": 5.8,
    "son": 1.0,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 36,
-   "debut": 292.7,
+   "i": 35,
+   "debut": 287.7,
    "duree": 22.2,
    "son": 1.0,
    "voix": true,
    "coupes": []
   },
   {
-   "i": 37,
-   "debut": 314.9,
+   "i": 36,
+   "debut": 309.9,
    "duree": 5.2,
    "son": 0.5,
    "voix": false,
    "coupes": []
   },
   {
-   "i": 38,
-   "debut": 320.1,
+   "i": 37,
+   "debut": 315.1,
    "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
+   "i": 38,
+   "debut": 321.1,
+   "duree": 5.0,
    "son": 0.5,
    "voix": false,
    "coupes": []
@@ -324,22 +324,22 @@
   {
    "i": 40,
    "debut": 331.1,
-   "duree": 5.0,
-   "son": 0.5,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 41,
-   "debut": 336.1,
    "duree": 9.5,
    "son": 0.9,
    "voix": true,
    "coupes": []
   },
   {
+   "i": 41,
+   "debut": 340.6,
+   "duree": 6.0,
+   "son": 0.5,
+   "voix": false,
+   "coupes": []
+  },
+  {
    "i": 42,
-   "debut": 345.6,
+   "debut": 346.6,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
@@ -347,7 +347,7 @@
   },
   {
    "i": 43,
-   "debut": 351.6,
+   "debut": 352.6,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
@@ -355,7 +355,7 @@
   },
   {
    "i": 44,
-   "debut": 357.6,
+   "debut": 358.6,
    "duree": 6.0,
    "son": 0.5,
    "voix": false,
@@ -363,15 +363,7 @@
   },
   {
    "i": 45,
-   "debut": 363.6,
-   "duree": 6.0,
-   "son": 0.5,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 46,
-   "debut": 369.6,
+   "debut": 364.6,
    "duree": 16.0,
    "son": 0.6,
    "voix": false,
