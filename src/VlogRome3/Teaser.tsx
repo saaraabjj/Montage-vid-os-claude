@@ -29,9 +29,9 @@ const CLIPS: Clip[] = [
   { debut: P0(11) + 3.5, fin: P0(11) + 8.0, centreX: 0.55, titre: "Le salut" }, // salut du combat en absolute
   { debut: P0(12) + 0.5, fin: P0(12) + 5.5, centreX: 0.55 }, // grips debout
   { debut: P0(9) + 2.0, fin: P0(9) + 8.0, fond: true, titre: "Médaille d'argent" }, // le podium
-  { debut: P0(15) + 0.5, fin: P0(15) + 9.9, centreX: 0.5 }, // les larmes
-  { debut: P0(22) + 0.2, fin: P0(22) + 4.2, centreX: 0.5, titre: "Rome by night" }, // la médaille devant le Colisée
-  { debut: P0(34) + 13.2, fin: P0(34) + 21.9, centreX: 0.5 }, // avis Two Sizes : il est excellent… je valide
+  { debut: P0(16) + 0.5, fin: P0(16) + 9.9, centreX: 0.5 }, // les larmes
+  { debut: P0(23) + 0.2, fin: P0(23) + 4.2, centreX: 0.5, titre: "Rome by night" }, // la médaille devant le Colisée
+  { debut: P0(35) + 13.2, fin: P0(35) + 21.9, centreX: 0.5 }, // avis Two Sizes : il est excellent… je valide
 ];
 const DUREE_FIN = 4.5;
 const DEBUT_LARMES = 3.5 + 4.5 + 5.0 + 6.0; // début du plan des larmes dans le teaser

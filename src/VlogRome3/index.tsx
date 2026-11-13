@@ -37,10 +37,10 @@ const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteT
   { plan: 7, intro: "IBJJF Rome International Open", blanc: "La", couleur: "finale" },
   { plan: 9, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
   { plan: 11, intro: "Deuxième combat", blanc: "Combat en", couleur: "absolute" },
-  { plan: 20, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
-  { plan: 30, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
-  { plan: 40, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
-  { plan: 44, decalage: 11.5, duree: 4.5, intro: "Prochain épisode", blanc: "Jour 4 :", couleur: "le dernier" },
+  { plan: 21, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
+  { plan: 31, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
+  { plan: 41, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
+  { plan: 45, decalage: 11.5, duree: 4.5, intro: "Prochain épisode", blanc: "Jour 4 :", couleur: "le dernier" },
 ];
 // Légendes écrites (texte court posé sur l'image), demandées à la relecture
 const LEGENDES: Array<{ plan: number; a: number; duree: number; lignes: string[] }> = [
@@ -81,7 +81,7 @@ const Legende: React.FC<{ lignes: string[] }> = ({ lignes }) => {
 const DUREE_CARTE = 2.2;
 
 const HEURES: Array<{ plan: number; a: number; duree: number } & HeureProps> = [
-  { plan: 17, a: 0.3, duree: 4.0, heures: "19", minutes: "30" },
+  { plan: 18, a: 0.3, duree: 4.0, heures: "19", minutes: "30" },
 ];
 
 // Musique douce : présente sous les images, elle baisse quand je parle
