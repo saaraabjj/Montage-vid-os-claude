@@ -5,6 +5,8 @@ import {
   interpolate,
   OffthreadVideo,
   Sequence,
+  spring,
+  useCurrentFrame,
   staticFile,
   useVideoConfig,
 } from "remotion";
@@ -32,18 +34,54 @@ const debutPlan = (i: number) => PLANS[i].debut;
 // Cartes titres (même style que le jour 1), posées au début de chaque grande partie
 const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteTitreProps> = [
   { plan: 1, intro: "Jour 3", blanc: "Le jour de la", couleur: "compétition" },
-  { plan: 8, intro: "IBJJF Rome International Open", blanc: "La", couleur: "finale" },
-  { plan: 10, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
-  { plan: 12, intro: "Deuxième combat", blanc: "Combat en", couleur: "absolute" },
-  { plan: 21, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
-  { plan: 31, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
-  { plan: 41, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
-  { plan: 45, decalage: 11.5, duree: 4.5, intro: "Prochain épisode", blanc: "Jour 4 :", couleur: "le dernier" },
+  { plan: 7, intro: "IBJJF Rome International Open", blanc: "La", couleur: "finale" },
+  { plan: 9, intro: "Résultat", blanc: "Médaille", couleur: "d'argent" },
+  { plan: 11, intro: "Deuxième combat", blanc: "Combat en", couleur: "absolute" },
+  { plan: 20, intro: "Après la compète", blanc: "Rome by", couleur: "night" },
+  { plan: 30, intro: "Enfin", blanc: "Le tiramisu", couleur: "Two Sizes" },
+  { plan: 40, intro: "Dernier arrêt", blanc: "La fontaine de", couleur: "Trevi" },
+  { plan: 44, decalage: 11.5, duree: 4.5, intro: "Prochain épisode", blanc: "Jour 4 :", couleur: "le dernier" },
 ];
+// Légendes écrites (texte court posé sur l'image), demandées à la relecture
+const LEGENDES: Array<{ plan: number; a: number; duree: number; lignes: string[] }> = [
+  { plan: 5, a: 2.2, duree: 2.3, lignes: ["Zone d'appel"] },
+  { plan: 6, a: 1.7, duree: 3.3, lignes: ["Cohérence cardiaque", "je me strappe les doigts"] },
+  { plan: 11, a: 5.4, duree: 3.6, lignes: ["Je suis tellement petite face à elle lol"] },
+];
+
+const Legende: React.FC<{ lignes: string[] }> = ({ lignes }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const s = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 10 });
+  const sortie = interpolate(frame, [durationInFrames - 8, durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 120, pointerEvents: "none" }}>
+      <div
+        style={{
+          opacity: s * sortie,
+          transform: `translateY(${(1 - s) * -20}px)`,
+          background: "rgba(14,14,20,0.82)",
+          borderRadius: 28,
+          padding: "18px 40px",
+          textAlign: "center",
+          fontFamily: "Inter, sans-serif",
+          boxShadow: "0 10px 30px rgba(0,0,0,0.35)",
+        }}
+      >
+        {lignes.map((l, i) => (
+          <div key={i} style={{ color: i === 0 ? "#fff" : "#9DB8F0", fontWeight: i === 0 ? 800 : 700, fontSize: i === 0 ? 54 : 44, lineHeight: 1.2 }}>
+            {l}
+          </div>
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const DUREE_CARTE = 2.2;
 
 const HEURES: Array<{ plan: number; a: number; duree: number } & HeureProps> = [
-  { plan: 18, a: 0.3, duree: 4.0, heures: "19", minutes: "30" },
+  { plan: 17, a: 0.3, duree: 4.0, heures: "19", minutes: "30" },
 ];
 
 // Musique douce : présente sous les images, elle baisse quand je parle
@@ -104,6 +142,11 @@ export const VlogRome3: React.FC = () => {
           name={`Carte ${c.blanc} ${c.couleur}`}
         >
           <CarteTitre intro={c.intro} blanc={c.blanc} couleur={c.couleur} />
+        </Sequence>
+      ))}
+      {LEGENDES.map((l) => (
+        <Sequence key={`l${l.plan}`} from={f(debutPlan(l.plan) + l.a)} durationInFrames={f(l.duree)} name={`Légende ${l.lignes[0]}`}>
+          <Legende lignes={l.lignes} />
         </Sequence>
       ))}
       <SousTitres
