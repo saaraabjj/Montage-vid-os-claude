@@ -175,9 +175,10 @@ const Base: React.FC = () => {
 };
 
 // Le rashguard beige (photos OSMOSIS détourées) quand je dis « … et l'autre beige »
-const motT = (phrase: number, texte: string) => MOTS.find((m) => m.phrase === phrase && m.m.includes(texte));
-const DEBUT_BEIGE = (motT(6, "beige")?.d ?? 0) - 0.5;
-const FIN_BEIGE = MOTS.find((m) => m.phrase === 8)?.d ?? DEBUT_BEIGE + 4;
+// repéré par le mot « beige » lui-même (et non par un numéro de phrase, qui change quand on coupe)
+const MOT_BEIGE = MOTS.find((m) => m.m.toLowerCase().includes("beige"));
+const DEBUT_BEIGE = (MOT_BEIGE?.d ?? 0) - 0.5;
+const FIN_BEIGE = Math.max(DEBUT_BEIGE + 4, MOTS.find((m) => MOT_BEIGE && m.phrase > MOT_BEIGE.phrase)?.d ?? 0);
 
 const RashBeige: React.FC = () => {
   const frame = useCurrentFrame();
