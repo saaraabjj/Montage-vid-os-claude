@@ -395,5 +395,184 @@
   ],
   "fin": 86.4,
   "texteFin": "@matsformembers"
+ },
+ "prepa": {
+  "format": "vertical",
+  "musique": "prepa/musique.wav",
+  "volumeMusique": 0.75,
+  "plans": [
+   {
+    "rush": "DJI_20261114125848_0085_D",
+    "entree": 13.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "regard caméra, installation",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114130356_0087_D",
+    "entree": 2.0,
+    "duree": 2.88,
+    "son": 0.4,
+    "note": "silhouette à contre-jour, échauffement corde",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114125848_0085_D",
+    "entree": 40.0,
+    "duree": 2.88,
+    "son": 0.4,
+    "note": "échauffement à contre-jour",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114132530_0092_D",
+    "entree": 5.0,
+    "duree": 1.92,
+    "son": 0.5,
+    "note": "mains sur la barre",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114130652_0088_D",
+    "entree": 6.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "enrouleur de poignets",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114130918_0090_D",
+    "entree": 30.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "pinch grip disque",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114130652_0088_D",
+    "entree": 12.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "enrouleur de poignets, bras tendus (isométrie)",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114132636_0093_D",
+    "entree": 16.0,
+    "duree": 2.88,
+    "son": 0.7,
+    "note": "soulevé de terre, ralenti",
+    "cx": 0.5,
+    "vitesse": 0.5
+   },
+   {
+    "rush": "DJI_20261114131736_0091_D",
+    "entree": 14.5,
+    "duree": 2.88,
+    "son": 0.6,
+    "note": "box squat, je me relève",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114134252_0095_D",
+    "entree": 13.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "landmine",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114142132_0098_D",
+    "entree": 18.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "pull-over",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114144422_0103_D",
+    "entree": 20.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "hip thrust machine",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114132530_0092_D",
+    "entree": 15.5,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "effort, visage",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114135116_0096_D",
+    "entree": 18.5,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "port de charges vers la caméra",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114142801_0100_D",
+    "entree": 37.0,
+    "duree": 3.84,
+    "son": 0.8,
+    "note": "respiration après la série",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114142801_0100_D",
+    "entree": 29.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "développé épaules",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114134252_0095_D",
+    "entree": 11.5,
+    "duree": 2.88,
+    "son": 0.7,
+    "note": "landmine, ralenti",
+    "cx": 0.5,
+    "vitesse": 0.5
+   },
+   {
+    "rush": "DJI_20261114143711_0102_D",
+    "entree": 22.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "haltères",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114131736_0091_D",
+    "entree": 15.0,
+    "duree": 1.92,
+    "son": 0.6,
+    "note": "box squat",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114144422_0103_D",
+    "entree": 26.0,
+    "duree": 2.88,
+    "son": 0.6,
+    "note": "hip thrust",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114145334_0106_D",
+    "entree": 36.5,
+    "duree": 5.34,
+    "son": 0.6,
+    "note": "je me lève et je viens vers la caméra",
+    "cx": 0.5
+   }
+  ],
+  "fin": 47.42,
+  "texteFin": "DISCIPLINE"
  }
 }

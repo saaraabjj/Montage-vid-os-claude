@@ -18,7 +18,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROXY = os.path.join(RACINE, "public/jjb/proxy")
+PROXY = os.environ.get("PLANS_PROXY", os.path.join(RACINE, "public/jjb/proxy"))
 ORIG = os.environ.get("JJB_4K", "/tmp/jjb4k")
 FPS = 25
 

@@ -39,6 +39,15 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
       <Composition
+        id="PrepaPhysique"
+        component={MontageJjb}
+        durationInFrames={dureeMontage("prepa")}
+        fps={FPS_JJB}
+        width={1080}
+        height={1920}
+        defaultProps={{ id: "prepa" }}
+      />
+      <Composition
         id="ReelJJB"
         component={MontageJjb}
         durationInFrames={dureeMontage("reel")}
