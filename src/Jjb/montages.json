@@ -526,5 +526,179 @@
   ],
   "fin": 30.64,
   "texteFin": "DISCIPLINE"
+ },
+ "histoire": {
+  "format": "vertical",
+  "musique": "histoire/musique.wav",
+  "volumeMusique": 0.7,
+  "plans": [
+   {
+    "rush": "PHOTO_x_dos_D",
+    "entree": 0.0,
+    "duree": 3.84,
+    "son": 0.0,
+    "note": "photo : de dos vers le tatami, logo Osmosis",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114094915_0084_D",
+    "entree": 1.0,
+    "duree": 3.84,
+    "son": 0.3,
+    "note": "j'enfile le kimono, plan bas",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 3.0,
+    "duree": 1.92,
+    "son": 0.3,
+    "note": "j'enfile le kimono, logo dans le dos",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114094915_0084_D",
+    "entree": 6.0,
+    "duree": 1.92,
+    "son": 0.3,
+    "note": "ceinture, plan bas",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 22.0,
+    "duree": 1.92,
+    "son": 0.3,
+    "note": "je noue la ceinture",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114144807_0105_D",
+    "entree": 14.0,
+    "duree": 1.92,
+    "son": 0.3,
+    "note": "je regarde mon téléphone",
+    "cx": 0.5,
+    "flou": [
+     [
+      0.0,
+      0.55,
+      1.0,
+      0.45
+     ]
+    ]
+   },
+   {
+    "rush": "SPAR_x_4k_D",
+    "entree": 0.5,
+    "duree": 4.8,
+    "son": 0.5,
+    "note": "sparring",
+    "cx": 0.64,
+    "zoomV": 2.0,
+    "cy": 0.57
+   },
+   {
+    "rush": "SPAR_x_4k_D",
+    "entree": 5.3,
+    "duree": 4.32,
+    "son": 0.5,
+    "note": "sparring",
+    "cx": 0.64,
+    "zoomV": 2.0,
+    "cy": 0.57
+   },
+   {
+    "rush": "DJI_20261110174016_0063_D",
+    "entree": 40.0,
+    "duree": 3.84,
+    "son": 0.5,
+    "note": "prépa physique",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261110181343_0068_D",
+    "entree": 30.0,
+    "duree": 3.84,
+    "son": 0.5,
+    "note": "prépa physique, poulie",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261110174016_0063_D",
+    "entree": 50.0,
+    "duree": 1.92,
+    "son": 0.5,
+    "note": "prépa physique",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261110181343_0068_D",
+    "entree": 45.0,
+    "duree": 1.92,
+    "son": 0.5,
+    "note": "prépa physique",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 50.5,
+    "duree": 2.4,
+    "son": 0.3,
+    "note": "je reviens sur le tatami",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114094915_0084_D",
+    "entree": 30.0,
+    "duree": 3.84,
+    "son": 0.4,
+    "note": "assise, souriante",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 11.0,
+    "duree": 2.88,
+    "son": 0.3,
+    "note": "debout en kimono",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114094915_0084_D",
+    "entree": 43.0,
+    "duree": 2.88,
+    "son": 0.3,
+    "note": "gros plan",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 54.5,
+    "duree": 1.92,
+    "son": 0.3,
+    "note": "face caméra",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 30.0,
+    "duree": 3.84,
+    "son": 0.3,
+    "note": "ceinture serrée",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 40.0,
+    "duree": 5.34,
+    "son": 0.3,
+    "note": "je repars sur le tatami, logo dans le dos",
+    "cx": 0.5
+   }
+  ],
+  "fin": 53.76,
+  "texteFin": "OSMOSIS",
+  "sousTitresFin": "Première athlète féminine\nsponsorisée par Osmosis.\nUne nouvelle aventure commence. 🖤"
  }
 }

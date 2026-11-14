@@ -32,6 +32,8 @@ type Montage = {
   textes?: Texte[];
   fin?: number; // début de la carte de fin (s)
   texteFin?: string;
+  sousTitresFin?: string; // petite ligne sous le texte de fin
+  phrases?: Array<{ debut: number; duree: number; texte: string }>; // texte de l'histoire, en bas
 };
 
 const M = montages as unknown as Record<string, Montage>;
@@ -69,7 +71,7 @@ const Titre: React.FC<{ haut: string; bas: string }> = ({ haut, bas }) => {
 };
 
 // Fin : la dernière image reste, s'assombrit, et le nom du compte apparaît sobrement.
-const CarteFin: React.FC<{ texte: string }> = ({ texte }) => {
+const CarteFin: React.FC<{ texte: string; sous?: string }> = ({ texte, sous }) => {
   const f = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const ombre = interpolate(f, [0, 15], [0, 1], { extrapolateRight: "clamp" });
@@ -96,8 +98,35 @@ const CarteFin: React.FC<{ texte: string }> = ({ texte }) => {
         >
           {texte}
         </div>
+        {sous ? (
+          <div style={{ opacity: interpolate(f, [18, 32], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), marginTop: 28, maxWidth: 900, textAlign: "center", fontFamily: "Inter, sans-serif", fontWeight: 500, fontSize: 50, lineHeight: 1.25, color: "rgba(255,255,255,0.92)", textShadow: "0 3px 18px rgba(0,0,0,0.7)", whiteSpace: "pre-line" }}>
+            {sous}
+          </div>
+        ) : null}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: `rgba(0,0,0,${noir})` }} />
+    </AbsoluteFill>
+  );
+};
+
+// Phrase de l'histoire, posée en bas de l'image (fondu doux, mots qui montent un à un)
+const Phrase: React.FC<{ texte: string }> = ({ texte }) => {
+  const f = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  const sortie = interpolate(f, [durationInFrames - 6, durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const mots = texte.split(" ");
+  return (
+    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 330, paddingLeft: 70, paddingRight: 70 }}>
+      <div style={{ opacity: sortie, textAlign: "center", fontFamily: "Inter, sans-serif", fontWeight: 800, fontSize: 58, lineHeight: 1.22, color: "white", textShadow: "0 3px 18px rgba(0,0,0,0.85), 0 0 4px rgba(0,0,0,0.9)" }}>
+        {mots.map((m, i) => {
+          const a = interpolate(f, [i * 1.6, i * 1.6 + 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+          return (
+            <span key={i} style={{ display: "inline-block", opacity: a, transform: `translateY(${(1 - a) * 14}px)`, marginRight: "0.26em" }}>
+              {m}
+            </span>
+          );
+        })}
+      </div>
     </AbsoluteFill>
   );
 };
@@ -128,9 +157,14 @@ export const MontageJjb: React.FC<{ id: string }> = ({ id }) => {
           <Titre haut={x.haut} bas={x.bas} />
         </Sequence>
       ))}
+      {(m.phrases ?? []).map((x, i) => (
+        <Sequence key={`p${i}`} from={Math.round(x.debut * FPS)} durationInFrames={Math.round(x.duree * FPS)}>
+          <Phrase texte={x.texte} />
+        </Sequence>
+      ))}
       {m.fin !== undefined && (
         <Sequence from={Math.round(m.fin * FPS)} durationInFrames={total - Math.round(m.fin * FPS)}>
-          <CarteFin texte={m.texteFin ?? ""} />
+          <CarteFin texte={m.texteFin ?? ""} sous={m.sousTitresFin} />
         </Sequence>
       )}
       <Audio src={staticFile(m.musique)} volume={m.volumeMusique} />
