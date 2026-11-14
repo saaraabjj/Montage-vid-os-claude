@@ -214,6 +214,31 @@ const RashBeige: React.FC = () => {
   );
 };
 
+// Sticker du code promo : apparaît quand je dis le code et reste jusqu'au « merci »
+const DEBUT_CODE = (MOTS.find((m) => m.m.includes("SAARAABJJ15"))?.d ?? 0) - 0.1;
+const FIN_CODE = (MOTS.find((m) => m.phrase === Math.max(...MOTS.map((x) => x.phrase)))?.d ?? DEBUT_CODE + 8) - 0.1;
+const StickerCode: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const e = spring({ frame, fps, config: { damping: 11, stiffness: 180 }, durationInFrames: 14 });
+  const sortie = interpolate(frame, [durationInFrames - 8, durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const balance = Math.sin((frame / fps) * Math.PI * 1.2) * 2;
+  return (
+    <AbsoluteFill style={{ alignItems: "center", pointerEvents: "none" }}>
+      <Audio src={staticFile("sons/pop.wav")} volume={0.6} />
+      <div style={{ marginTop: 170, opacity: sortie, transform: `scale(${e}) rotate(${-4 + balance}deg)`, textAlign: "center", fontFamily: "Inter, sans-serif" }}>
+        <div style={{ display: "inline-block", background: "#fff", color: ROUGE, fontWeight: 900, fontSize: 46, padding: "8px 26px", borderRadius: 40, marginBottom: -14, position: "relative", zIndex: 1, boxShadow: "0 8px 20px rgba(0,0,0,0.3)" }}>
+          -15 % avec mon code
+        </div>
+        <div style={{ background: ROUGE, color: "#fff", fontWeight: 900, fontSize: 104, letterSpacing: "0.03em", padding: "26px 52px", borderRadius: 30, border: "5px dashed rgba(255,255,255,0.9)", boxShadow: "0 22px 60px rgba(0,0,0,0.5)" }}>
+          {CODE_PROMO}
+        </div>
+        <div style={{ marginTop: 16, color: "#fff", fontWeight: 800, fontSize: 44, textShadow: "0 3px 12px rgba(0,0,0,0.7)" }}>{SITE}</div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const CarteFin: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -259,6 +284,9 @@ export const SponsoOsmosis: React.FC = () => {
       <Base />
       <Sequence from={Math.round(DEBUT_BEIGE * fps)} durationInFrames={Math.round((FIN_BEIGE - DEBUT_BEIGE) * fps)} name="Rashguard beige">
         <RashBeige />
+      </Sequence>
+      <Sequence from={Math.round(DEBUT_CODE * fps)} durationInFrames={Math.round((FIN_CODE - DEBUT_CODE) * fps)} name="Sticker code promo">
+        <StickerCode />
       </Sequence>
       <SousTitres />
       <Progression />

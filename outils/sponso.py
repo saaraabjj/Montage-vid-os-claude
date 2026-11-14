@@ -29,8 +29,9 @@ PHRASES = [
     (52, 66, "2 SEMAINES D'ESSAI", True, {"debut": 34.35}),  # mon retour après deux semaines (sans le « donc je vais vous donner mon… »)
     (99, 106, "LE DESIGN", False, {"debut": 62.95}),  # le design, il est grave bg (sans le « que »)
     (114, 129, "LA QUALITÉ", True),    # la qualité… très très satisfaite
-    (130, 159, None, False),          # j'en ai des kimonos… les finitions
-    (177, 184, None, True),           # le design, les rashguards, ils sont magnifiques
+    (130, 154, None, False),          # j'en ai des kimonos… agréable à porter
+    (156, 159, None, False, {"debut": 101.86, "fin": 103.42}),  # 2e prise : que ce soit les finitions
+    (171, 184, None, True, {"debut": 107.52}),  # 2e prise : on va pas s'en mentir… ils sont magnifiques
     (185, 199, "COUP DE CŒUR", False),
     (210, 220, "LE CONFORT", False),   # on se sent bien dedans… tellement confort
     (226, 252, "LA DOUBLURE", True),   # étonnée… petite doublure… satisfaisant
@@ -56,7 +57,7 @@ CORRECTIONS = {
 
 
 # Corrections par position du mot dans la transcription
-CORR_IDX = {279: "du", 280: ""}
+CORR_IDX = {279: "du", 280: "", 442: "mon", 156: "que ce", 178: "designs,", 645: "sont"}
 
 
 def silences():
@@ -99,7 +100,7 @@ def main():
         i0, i1, cle, serre = ph[:4]
         opt = ph[4] if len(ph) > 4 else {}
         a = opt.get("debut", max(0, W[i0]["d"] - MARGE))
-        b = W[i1]["f"] + 0.2
+        b = opt.get("fin", W[i1]["f"] + 0.2)
         morceaux = decouper(a, b, sil)
         # on ne garde que les morceaux où il y a vraiment des mots (pas de bruits, de « euh » ni de bouts isolés)
         centres = [max(a, (W[i]["d"] + W[i]["f"]) / 2) for i in range(i0, i1 + 1)]
