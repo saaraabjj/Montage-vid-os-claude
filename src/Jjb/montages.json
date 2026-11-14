@@ -398,21 +398,13 @@
  },
  "prepa": {
   "format": "vertical",
-  "musique": "prepa/musique36.wav",
+  "musique": "prepa/musique34.wav",
   "volumeMusique": 0.75,
   "plans": [
    {
-    "rush": "DJI_20261114125848_0085_D",
-    "entree": 40.0,
-    "duree": 2.88,
-    "son": 0.4,
-    "note": "échauffement au bâton, contre-jour",
-    "cx": 0.5
-   },
-   {
     "rush": "DJI_20261114130115_0086_D",
     "entree": 4.0,
-    "duree": 2.88,
+    "duree": 3.84,
     "son": 0.4,
     "note": "échauffement corde, contre-jour",
     "cx": 0.5
@@ -532,7 +524,7 @@
     "cx": 0.5
    }
   ],
-  "fin": 32.56,
+  "fin": 30.64,
   "texteFin": "DISCIPLINE"
  }
 }
