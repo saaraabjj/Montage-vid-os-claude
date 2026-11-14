@@ -57,7 +57,14 @@ def filtre(p, fmt):
         f.append(f"setpts=PTS/{v},fps={FPS}")
     f.append(GRADE)
     f.append("format=yuv420p")
-    return ",".join(f)
+    chaine = ",".join(f)
+    # zones floutées (ex. cacher les cuisses) : [x, y, l, h] en fractions de l'image finale
+    W, H = (1080, 1920) if fmt == "vertical" else (1920, 1080)
+    for k, (x, y, l, h) in enumerate(p.get("flou", [])):
+        cx, cy, cw, ch = int(x * W) // 2 * 2, int(y * H) // 2 * 2, int(l * W) // 2 * 2, int(h * H) // 2 * 2
+        chaine += (f",split[b{k}][z{k}];[z{k}]crop={cw}:{ch}:{cx}:{cy},boxblur=40:4,eq=brightness=-0.08[f{k}];"
+                   f"[b{k}][f{k}]overlay={cx}:{cy}")
+    return chaine
 
 
 def audio(v):
@@ -84,8 +91,10 @@ def prepare(montage, i, p, fmt):
     duree_rush = p["duree"] * v
     cmd = [
         "ffmpeg", "-nostdin", "-v", "error", "-y",
-        "-ss", str(p["entree"]), "-t", f"{duree_rush:.3f}", "-i", src, "-map", "0:v:0", "-map", "0:a:0",
-        "-vf", filtre(p, fmt), "-af", audio(v),
+        "-ss", str(p["entree"]), "-t", f"{duree_rush:.3f}", "-i", src,
+        *(["-filter_complex", "[0:v:0]" + filtre(p, fmt) + "[vout]", "-map", "[vout]"] if p.get("flou")
+          else ["-map", "0:v:0", "-vf", filtre(p, fmt)]),
+        "-map", "0:a:0", "-af", audio(v),
         "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-g", "12",
         "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
         "-t", f"{p['duree']:.3f}", "-movflags", "+faststart", out,
