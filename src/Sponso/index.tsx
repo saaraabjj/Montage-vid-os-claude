@@ -18,7 +18,7 @@ import montage from "./montage.json";
 // Vidéo sponsorisée OSMOSIS (9:16) : face caméra sans blancs, mots-clés en transition,
 // sous-titres, carte finale avec le code promo.
 export const FPS_SPONSO = 30;
-export const CODE_PROMO = "SARAHBJJ15";
+export const CODE_PROMO = "SAARAABJJ15";
 export const SITE = "osmosis-sports.com";
 const ROUGE = "#E0352B"; // rouge du logo OSMOSIS sur le rashguard
 const CREME = "#F3E6D3";
@@ -52,7 +52,7 @@ const blocs = (): Bloc[] => {
   return out;
 };
 
-const FORTS = /osmosis|kimono|rash|qualité|design|confort|doublure|taille|A3L|magnifique|coup|cœur|coeur|mixte|15|SARAH|satisfait|bg|dream/i;
+const FORTS = /osmosis|kimono|rash|qualité|design|confort|doublure|taille|A3L|magnifique|coup|cœur|coeur|mixte|15|SAARAA|satisfait|bg|dream/i;
 
 const SousTitres: React.FC = () => {
   const frame = useCurrentFrame();

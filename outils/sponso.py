@@ -52,7 +52,7 @@ PHRASES = [
 CORRECTIONS = {
     "rares": "rash", "gardes,": "guards,", "rascale": "rashguard", "Osmosis": "Osmosis",
     "3l": "A3L", "a5": "A5", "a6": "A6", "110": "", "d": "", "'art": "Dare", "obligé": "obligée",
-    "sarah": "SARAHBJJ15", "bjj15": "", "étonné": "étonnée",
+    "sarah": "SAARAABJJ15", "bjj15": "", "étonné": "étonnée",
 }
 
 
