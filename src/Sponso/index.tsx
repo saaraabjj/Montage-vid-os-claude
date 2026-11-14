@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import {
   AbsoluteFill,
   Audio,
+  Img,
   interpolate,
   OffthreadVideo,
   Sequence,
@@ -146,6 +147,46 @@ const Base: React.FC = () => {
   );
 };
 
+// Le rashguard beige (photos OSMOSIS détourées) quand je dis « … et l'autre beige »
+const motT = (phrase: number, texte: string) => MOTS.find((m) => m.phrase === phrase && m.m.includes(texte));
+const DEBUT_BEIGE = (motT(6, "beige")?.d ?? 0) - 0.5;
+const FIN_BEIGE = MOTS.find((m) => m.phrase === 8)?.d ?? DEBUT_BEIGE + 4;
+
+const RashBeige: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const moitie = Math.round(durationInFrames / 2);
+  const fond = interpolate(frame, [0, 6, durationInFrames - 6, durationInFrames], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const vue = (debut: number, src: string, sens: number) => {
+    const f = frame - debut;
+    const e = spring({ frame: f, fps, config: { damping: 15, stiffness: 160 }, durationInFrames: 12 });
+    const visible = f >= 0 && f < moitie + 4;
+    const s = interpolate(f, [moitie - 4, moitie + 4], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    if (!visible) return null;
+    return (
+      <Img
+        src={staticFile(src)}
+        style={{
+          position: "absolute", left: "50%", top: 250, height: 980,
+          transform: `translateX(-50%) translateX(${(1 - e) * 300 * sens}px) rotate(${(1 - e) * 6 * sens}deg) scale(${0.96 + 0.04 * e + 0.03 * (f / durationInFrames)})`,
+          opacity: e * s,
+          filter: "drop-shadow(0 30px 50px rgba(0,0,0,0.45))",
+        }}
+      />
+    );
+  };
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 40%, rgba(243,230,211,${0.95 * fond}) 0%, rgba(205,180,150,${0.95 * fond}) 60%, rgba(120,95,70,${0.95 * fond}) 100%)` }} />
+      {vue(0, "sponso/rash-beige-dos.png", 1)}
+      {vue(moitie, "sponso/rash-beige-face.png", -1)}
+      <div style={{ position: "absolute", top: 140, left: 0, right: 0, textAlign: "center", opacity: fond, fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 64, color: "#3a2a1c", letterSpacing: "0.04em" }}>
+        RASHGUARD BEIGE
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const CarteFin: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -175,6 +216,9 @@ export const SponsoOsmosis: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
       <Base />
+      <Sequence from={Math.round(DEBUT_BEIGE * fps)} durationInFrames={Math.round((FIN_BEIGE - DEBUT_BEIGE) * fps)} name="Rashguard beige">
+        <RashBeige />
+      </Sequence>
       <SousTitres />
       {MOTS_CLES.map((k) => (
         <Sequence key={k.t} from={Math.round(k.t * fps)} durationInFrames={Math.round(DUREE_MOT_CLE * fps)} name={`Mot-clé ${k.texte}`}>
