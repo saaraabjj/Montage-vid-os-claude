@@ -246,6 +246,8 @@ def section(kind, bars, t0, B):
 
 
 PLANS = {
+    # Reel prépa physique : 26 mesures = 49,9 s (+ 1,5 s de résonance)
+    "prepa": [("intro", 4), ("build", 4), ("drop", 8), ("break", 2), ("drop2", 6), ("fin", 2)],
     # 46 mesures = 88,32 s (+ 1,5 s de résonance) : vidéo de 1 min 30
     "minute30": [("intro", 6), ("build", 6), ("drop", 14), ("break", 4), ("drop2", 10), ("outro", 4), ("fin", 2)],
     # 30 mesures = 57,6 s (+ 1,5 s de résonance) : vidéo de 1 min max
