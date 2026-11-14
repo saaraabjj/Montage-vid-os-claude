@@ -644,23 +644,16 @@
    "phrase": 4
   },
   {
-   "m": "on",
+   "m": "j'en",
    "d": 26.43,
    "f": 26.65,
    "colle": false,
    "phrase": 4
   },
   {
-   "m": "en",
+   "m": "ai",
    "d": 26.65,
    "f": 26.75,
-   "colle": false,
-   "phrase": 4
-  },
-  {
-   "m": "est",
-   "d": 26.75,
-   "f": 26.85,
    "colle": false,
    "phrase": 4
   },
@@ -784,17 +777,10 @@
    "phrase": 6
   },
   {
-   "m": "s",
+   "m": "se",
    "d": 32.02,
    "f": 32.07,
    "colle": false,
-   "phrase": 6
-  },
-  {
-   "m": "'en",
-   "d": 32.04,
-   "f": 32.09,
-   "colle": true,
    "phrase": 6
   },
   {
@@ -805,7 +791,7 @@
    "phrase": 6
   },
   {
-   "m": "le",
+   "m": "les",
    "d": 32.28,
    "f": 32.36,
    "colle": false,

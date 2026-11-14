@@ -57,7 +57,7 @@ CORRECTIONS = {
 
 
 # Corrections par position du mot dans la transcription
-CORR_IDX = {279: "du", 280: "", 442: "mon", 156: "que ce", 178: "designs,", 645: "sont"}
+CORR_IDX = {279: "du", 280: "", 442: "mon", 156: "que ce", 178: "designs,", 645: "sont", 142: "j'en", 143: "ai", 144: "", 145: "plein", 174: "se", 175: "", 177: "les"}
 
 
 def silences():
