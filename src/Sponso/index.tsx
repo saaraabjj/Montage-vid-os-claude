@@ -64,7 +64,7 @@ const SousTitres: React.FC = () => {
   if (!b) return null;
   const pop = spring({ frame: frame - Math.round(b.d * fps), fps, config: { damping: 16, stiffness: 240 }, durationInFrames: 6 });
   return (
-    <div style={{ position: "absolute", left: 60, right: 60, top: 1290, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: 16, rowGap: 6, transform: `scale(${0.9 + 0.1 * pop})` }}>
+    <div style={{ position: "absolute", left: 60, right: 60, top: 1290, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: 24, rowGap: 6, transform: `scale(${0.9 + 0.1 * pop})` }}>
       {b.mots.map((m, i) => {
         const actif = t >= m.d && t < (b.mots[i + 1]?.d ?? b.f);
         const fort = FORTS.test(m.m);
@@ -81,7 +81,7 @@ const SousTitres: React.FC = () => {
               WebkitTextStroke: "3px rgba(0,0,0,0.85)",
               paintOrder: "stroke fill",
               textShadow: "0 6px 18px rgba(0,0,0,0.55)",
-              transform: actif ? "scale(1.08)" : "none",
+              transform: actif ? "scale(1.05)" : "none",
               display: "inline-block",
             }}
           >
@@ -94,7 +94,31 @@ const SousTitres: React.FC = () => {
 };
 
 // Transition mot-clé : flash, le mot arrive en grand puis s'efface ; l'image fait un petit « punch »
-const DUREE_MOT_CLE = 1.1;
+const DUREE_MOT_CLE = 1.4;
+// Icônes animées (SVG) associées aux mots-clés
+const ICONES: Record<string, string> = {
+  "AVIS HONNÊTE": "check", "2 SEMAINES D'ESSAI": "horloge", "LE DESIGN": "etincelle", "LA QUALITÉ": "etoile",
+  "COUP DE CŒUR": "coeur", "LE CONFORT": "plume", "LA DOUBLURE": "couches", "LES TAILLES": "regle",
+  "LES MODÈLES": "tshirt", "LES FILLES": "etincelle", "COLLECTION MIXTE": "tshirt", "-15 %": "etiquette", "MERCI OSMOSIS": "coeur",
+};
+const Icone: React.FC<{ nom: string; t: number }> = ({ nom, t }) => {
+  const trace = { fill: "none", stroke: "#fff", strokeWidth: 7, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
+  const dash = { strokeDasharray: 400, strokeDashoffset: 400 * (1 - t) };
+  const d: Record<string, React.ReactNode> = {
+    check: <path d="M18 52 L40 74 L82 28" {...trace} style={dash} />,
+    horloge: <><circle cx="50" cy="50" r="36" {...trace} style={dash} /><path d={`M50 50 L50 26`} {...trace} /><path d={`M50 50 L${50 + 20 * Math.cos(t * 6)} ${50 + 20 * Math.sin(t * 6)}`} {...trace} /></>,
+    etincelle: <path d="M50 10 L58 42 L90 50 L58 58 L50 90 L42 58 L10 50 L42 42 Z" {...trace} style={dash} />,
+    etoile: <path d="M50 10 L61 38 L91 39 L67 57 L76 87 L50 70 L24 87 L33 57 L9 39 L39 38 Z" {...trace} style={dash} />,
+    coeur: <path d="M50 84 C10 58 12 22 34 20 C44 19 50 28 50 34 C50 28 56 19 66 20 C88 22 90 58 50 84 Z" {...trace} style={dash} />,
+    plume: <path d="M80 18 C40 20 22 46 22 80 M22 80 C46 76 70 60 80 18 M38 62 L58 42" {...trace} style={dash} />,
+    couches: <><path d="M50 18 L88 36 L50 54 L12 36 Z" {...trace} style={dash} /><path d="M12 52 L50 70 L88 52" {...trace} style={dash} /><path d="M12 68 L50 86 L88 68" {...trace} style={dash} /></>,
+    regle: <><rect x="10" y="34" width="80" height="32" rx="4" {...trace} style={dash} /><path d="M26 34 V48 M42 34 V54 M58 34 V48 M74 34 V54" {...trace} /></>,
+    tshirt: <path d="M34 16 L14 28 L22 46 L32 40 L32 86 L68 86 L68 40 L78 46 L86 28 L66 16 C62 26 38 26 34 16 Z" {...trace} style={dash} />,
+    etiquette: <><path d="M14 50 L46 18 L86 18 L86 58 L54 90 Z" {...trace} style={dash} /><circle cx="70" cy="34" r="6" {...trace} /></>,
+  };
+  return <svg width="110" height="110" viewBox="0 0 100 100" style={{ marginRight: 18, flexShrink: 0 }}>{d[nom]}</svg>;
+};
+
 const MotCle: React.FC<{ texte: string }> = ({ texte }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -120,9 +144,12 @@ const MotCle: React.FC<{ texte: string }> = ({ texte }) => {
             borderRadius: 18,
             boxShadow: "0 18px 50px rgba(0,0,0,0.45)",
             textAlign: "center",
-            maxWidth: 940,
+            maxWidth: 980,
+            display: "flex",
+            alignItems: "center",
           }}
         >
+          {ICONES[texte] ? <Icone nom={ICONES[texte]} t={interpolate(frame, [3, 18], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /> : null}
           {texte}
         </div>
       </AbsoluteFill>
@@ -141,7 +168,7 @@ const Base: React.FC = () => {
     if (dt >= 0 && dt < 0.5) z = Math.max(z, 1 + 0.06 * Math.exp(-dt * 8) * Math.min(1, dt * 30 + 0.2));
   }
   return (
-    <AbsoluteFill style={{ transform: `scale(${z})` }}>
+    <AbsoluteFill style={{ transform: `scale(${z * (1.02 + 0.02 * Math.sin(t / 3))})` }}>
       <OffthreadVideo src={staticFile("sponso/base.mp4")} />
     </AbsoluteFill>
   );
@@ -210,6 +237,20 @@ const CarteFin: React.FC = () => {
   );
 };
 
+// Barre de progression en haut (s'arrête à la carte finale)
+const Progression: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const p = Math.min(1, frame / (montage.duree * fps));
+  const vis = interpolate(frame, [0, 15], [0, 1], { extrapolateRight: "clamp" });
+  return (
+    <div style={{ position: "absolute", top: 70, left: 70, right: 70, height: 12, borderRadius: 6, background: "rgba(255,255,255,0.35)", opacity: vis }}>
+      <div style={{ width: `${p * 100}%`, height: "100%", borderRadius: 6, background: ROUGE, boxShadow: "0 0 18px rgba(224,53,43,0.8)" }} />
+      <div style={{ position: "absolute", left: `calc(${p * 100}% - 18px)`, top: -12, width: 36, height: 36, borderRadius: 18, background: "#fff", border: `5px solid ${ROUGE}` }} />
+    </div>
+  );
+};
+
 export const SponsoOsmosis: React.FC = () => {
   const { fps } = useVideoConfig();
   const fin = Math.round(montage.duree * fps);
@@ -220,6 +261,7 @@ export const SponsoOsmosis: React.FC = () => {
         <RashBeige />
       </Sequence>
       <SousTitres />
+      <Progression />
       {MOTS_CLES.map((k) => (
         <Sequence key={k.t} from={Math.round(k.t * fps)} durationInFrames={Math.round(DUREE_MOT_CLE * fps)} name={`Mot-clé ${k.texte}`}>
           <MotCle texte={k.texte} />

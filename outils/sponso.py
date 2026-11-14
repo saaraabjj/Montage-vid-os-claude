@@ -26,18 +26,17 @@ MARGE = 0.12  # s gardées autour de la parole
 # (premier mot, dernier mot, mot-clé affiché au début ou None, plan serré ?)
 PHRASES = [
     (10, 42, "AVIS HONNÊTE", False),   # Coucou… mon avis sur Osmosis… kimono, rashguards
-    (43, 66, "2 SEMAINES D'ESSAI", True),  # mon retour après deux semaines
-    (99, 106, "LE DESIGN", False),     # le design, il est grave bg
+    (52, 66, "2 SEMAINES D'ESSAI", True, {"debut": 34.35}),  # mon retour après deux semaines (sans le « donc je vais vous donner mon… »)
+    (99, 106, "LE DESIGN", False, {"debut": 62.95}),  # le design, il est grave bg (sans le « que »)
     (114, 129, "LA QUALITÉ", True),    # la qualité… très très satisfaite
-    (130, 162, None, False),          # j'en ai des kimonos… finitions, designs
-    (171, 184, None, True),           # on va pas s'en mentir… magnifiques
+    (130, 159, None, False),          # j'en ai des kimonos… les finitions
+    (177, 184, None, True),           # le design, les rashguards, ils sont magnifiques
     (185, 199, "COUP DE CŒUR", False),
-    (200, 208, None, True),
-    (210, 225, "LE CONFORT", False),   # on se sent bien dedans… confort
+    (210, 220, "LE CONFORT", False),   # on se sent bien dedans… tellement confort
     (226, 252, "LA DOUBLURE", True),   # étonnée… petite doublure… satisfaisant
     (263, 345, "LES TAILLES", False),  # ce qui m'a surtout étonnée, c'est les tailles…
     (346, 384, None, True),           # A5, A6… A3L… j'étais grave étonnée
-    (390, 444, "LES MODÈLES", False),  # plusieurs choix… blanc, bleu, noir… Dare to dream
+    (390, 444, "LES MODÈLES", False, {"debut": 194.6}),  # 2e prise : plusieurs choix… Dare to dream
     (446, 457, None, True),
     (458, 475, "LES FILLES", False),   # petit message pour les filles
     (532, 551, None, True),
@@ -96,12 +95,14 @@ def main():
     os.makedirs(TMP, exist_ok=True)
     pieces, subs, mots_cles = [], [], []
     t = 0.0
-    for k, (i0, i1, cle, serre) in enumerate(PHRASES):
-        a = max(0, W[i0]["d"] - MARGE)
+    for k, ph in enumerate(PHRASES):
+        i0, i1, cle, serre = ph[:4]
+        opt = ph[4] if len(ph) > 4 else {}
+        a = opt.get("debut", max(0, W[i0]["d"] - MARGE))
         b = W[i1]["f"] + 0.2
         morceaux = decouper(a, b, sil)
         # on ne garde que les morceaux où il y a vraiment des mots (pas de bruits, de « euh » ni de bouts isolés)
-        centres = [(W[i]["d"] + W[i]["f"]) / 2 for i in range(i0, i1 + 1)]
+        centres = [max(a, (W[i]["d"] + W[i]["f"]) / 2) for i in range(i0, i1 + 1)]
         morceaux = [m for m in morceaux if any(m[0] - 0.05 <= c < m[1] + 0.05 for c in centres)]
         # pas de chevauchement avec la phrase précédente (sinon le son est répété)
         if pieces:
@@ -119,6 +120,10 @@ def main():
         # chaque mot va dans le morceau qui contient son milieu, sinon dans le plus proche
         for idx in range(i0, i1 + 1):
             w = W[idx]
+            if "debut" in opt and w["d"] < a and W[i0]["d"] < a - 1:
+                # mots de la 1re prise (coupée) : on les recale sur la 2e prise
+                dec = a - W[i0]["d"] + 0.15
+                w = {**w, "d": w["d"] + dec, "f": w["f"] + dec}
             txt = CORR_IDX.get(idx, CORRECTIONS.get(w["m"].strip(), w["m"].strip()))
             if not txt:
                 continue
