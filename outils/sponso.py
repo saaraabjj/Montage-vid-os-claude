@@ -28,7 +28,7 @@ PHRASES = [
     (10, 42, "AVIS HONNÊTE", False),   # Coucou… mon avis sur Osmosis… kimono, rashguards
     (43, 66, "2 SEMAINES D'ESSAI", True),  # mon retour après deux semaines
     (99, 106, "LE DESIGN", False),     # le design, il est grave bg
-    (113, 129, "LA QUALITÉ", True),    # concernant la qualité… très très satisfaite
+    (114, 129, "LA QUALITÉ", True),    # la qualité… très très satisfaite
     (130, 162, None, False),          # j'en ai des kimonos… finitions, designs
     (171, 184, None, True),           # on va pas s'en mentir… magnifiques
     (185, 199, "COUP DE CŒUR", False),
@@ -100,6 +100,13 @@ def main():
         a = max(0, W[i0]["d"] - MARGE)
         b = W[i1]["f"] + 0.2
         morceaux = decouper(a, b, sil)
+        # on ne garde que les morceaux où il y a vraiment des mots (pas de bruits, de « euh » ni de bouts isolés)
+        centres = [(W[i]["d"] + W[i]["f"]) / 2 for i in range(i0, i1 + 1)]
+        morceaux = [m for m in morceaux if any(m[0] - 0.05 <= c < m[1] + 0.05 for c in centres)]
+        # pas de chevauchement avec la phrase précédente (sinon le son est répété)
+        if pieces:
+            fin_prec = max(p[1] for p in pieces)
+            morceaux = [[max(x0, fin_prec), x1] for x0, x1 in morceaux if x1 > fin_prec + 0.24]
         if cle:
             mots_cles.append({"t": round(t, 3), "texte": cle})
         debuts = []

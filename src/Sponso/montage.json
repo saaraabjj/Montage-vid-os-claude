@@ -1,56 +1,56 @@
 {
- "duree": 154.76,
+ "duree": 144.8,
  "motsCles": [
   {
    "t": 0.0,
    "texte": "AVIS HONNÊTE"
   },
   {
-   "t": 9.8,
+   "t": 9.12,
    "texte": "2 SEMAINES D'ESSAI"
   },
   {
-   "t": 17.52,
+   "t": 16.84,
    "texte": "LE DESIGN"
   },
   {
-   "t": 21.68,
+   "t": 21.0,
    "texte": "LA QUALITÉ"
   },
   {
-   "t": 45.88,
+   "t": 39.24,
    "texte": "COUP DE CŒUR"
   },
   {
-   "t": 52.16,
+   "t": 45.2,
    "texte": "LE CONFORT"
   },
   {
-   "t": 57.04,
+   "t": 50.08,
    "texte": "LA DOUBLURE"
   },
   {
-   "t": 66.72,
+   "t": 59.76,
    "texte": "LES TAILLES"
   },
   {
-   "t": 97.76,
+   "t": 89.28,
    "texte": "LES MODÈLES"
   },
   {
-   "t": 116.76,
+   "t": 108.04,
    "texte": "LES FILLES"
   },
   {
-   "t": 126.04,
+   "t": 117.32,
    "texte": "COLLECTION MIXTE"
   },
   {
-   "t": 136.48,
+   "t": 126.52,
    "texte": "-15 %"
   },
   {
-   "t": 151.6,
+   "t": 141.64,
    "texte": "MERCI OSMOSIS"
   }
  ],
@@ -225,3431 +225,3424 @@
   },
   {
    "m": "rapport",
-   "d": 7.2,
-   "f": 7.52,
+   "d": 6.52,
+   "f": 6.84,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "à",
-   "d": 7.52,
-   "f": 7.7,
+   "d": 6.84,
+   "f": 7.02,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "mon",
-   "d": 7.7,
-   "f": 7.82,
+   "d": 7.02,
+   "f": 7.14,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "kimono,",
-   "d": 7.82,
-   "f": 8.22,
+   "d": 7.14,
+   "f": 7.54,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "par",
-   "d": 8.38,
-   "f": 8.54,
+   "d": 7.7,
+   "f": 7.86,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "rapport",
-   "d": 8.54,
-   "f": 8.8,
+   "d": 7.86,
+   "f": 8.12,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "à",
-   "d": 8.8,
-   "f": 8.96,
+   "d": 8.12,
+   "f": 8.28,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "mes",
-   "d": 8.96,
-   "f": 9.08,
+   "d": 8.28,
+   "f": 8.4,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "rashguards.",
-   "d": 9.08,
-   "f": 9.6,
+   "d": 8.4,
+   "f": 8.92,
    "colle": false,
    "phrase": 0
   },
   {
    "m": "Donc",
-   "d": 9.8,
-   "f": 9.97,
+   "d": 9.12,
+   "f": 9.29,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "je",
-   "d": 9.97,
-   "f": 10.07,
+   "d": 9.29,
+   "f": 9.39,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "vais",
-   "d": 10.07,
-   "f": 10.15,
+   "d": 9.39,
+   "f": 9.47,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "vous",
-   "d": 10.15,
-   "f": 10.23,
+   "d": 9.47,
+   "f": 9.55,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "donner",
-   "d": 10.23,
-   "f": 10.41,
+   "d": 9.55,
+   "f": 9.73,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "mon",
-   "d": 10.41,
-   "f": 10.57,
+   "d": 9.73,
+   "f": 9.89,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "avis",
-   "d": 10.57,
-   "f": 11.75,
+   "d": 9.89,
+   "f": 11.07,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "et",
-   "d": 11.75,
-   "f": 12.37,
+   "d": 11.07,
+   "f": 11.69,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "surtout",
-   "d": 12.37,
-   "f": 12.63,
+   "d": 11.69,
+   "f": 11.95,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "mon",
-   "d": 12.63,
-   "f": 12.79,
+   "d": 11.95,
+   "f": 12.11,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "retour",
-   "d": 12.79,
-   "f": 13.05,
+   "d": 12.11,
+   "f": 12.37,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "après",
-   "d": 13.05,
-   "f": 13.29,
+   "d": 12.37,
+   "f": 12.61,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "les",
-   "d": 13.29,
-   "f": 13.43,
+   "d": 12.61,
+   "f": 12.75,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "avoir",
-   "d": 13.43,
-   "f": 13.59,
+   "d": 12.75,
+   "f": 12.91,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "essayé,",
-   "d": 13.59,
-   "f": 14.45,
+   "d": 12.91,
+   "f": 13.77,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "ça",
-   "d": 14.45,
-   "f": 14.93,
+   "d": 13.77,
+   "f": 14.25,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "fait",
-   "d": 14.93,
-   "f": 15.07,
+   "d": 14.25,
+   "f": 14.39,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "déjà",
-   "d": 15.07,
-   "f": 15.31,
+   "d": 14.39,
+   "f": 14.63,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "deux",
-   "d": 15.31,
-   "f": 15.97,
+   "d": 14.63,
+   "f": 15.29,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "semaines",
-   "d": 15.97,
-   "f": 16.33,
+   "d": 15.29,
+   "f": 15.65,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "que",
-   "d": 16.33,
-   "f": 16.92,
+   "d": 15.65,
+   "f": 16.24,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "je",
-   "d": 16.99,
-   "f": 17.11,
+   "d": 16.31,
+   "f": 16.43,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "les",
-   "d": 17.11,
-   "f": 17.21,
+   "d": 16.43,
+   "f": 16.53,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "ai.",
-   "d": 17.21,
-   "f": 17.33,
+   "d": 16.53,
+   "f": 16.65,
    "colle": false,
    "phrase": 1
   },
   {
    "m": "le",
-   "d": 17.62,
-   "f": 18.0,
+   "d": 16.94,
+   "f": 17.32,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "design",
-   "d": 18.0,
-   "f": 18.34,
+   "d": 17.32,
+   "f": 17.66,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "franchement",
-   "d": 18.34,
-   "f": 19.2,
+   "d": 17.66,
+   "f": 18.52,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "il",
-   "d": 19.2,
-   "f": 19.48,
+   "d": 18.52,
+   "f": 18.8,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "est",
-   "d": 19.48,
-   "f": 19.66,
+   "d": 18.8,
+   "f": 18.98,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "vraiment",
-   "d": 19.66,
-   "f": 20.28,
+   "d": 18.98,
+   "f": 19.6,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "grave",
-   "d": 20.28,
-   "f": 21.06,
+   "d": 19.6,
+   "f": 20.38,
    "colle": false,
    "phrase": 2
   },
   {
    "m": "bg",
-   "d": 21.06,
-   "f": 21.48,
+   "d": 20.38,
+   "f": 20.8,
    "colle": false,
    "phrase": 2
   },
   {
-   "m": "concernant",
-   "d": 21.79,
-   "f": 22.28,
-   "colle": false,
-   "phrase": 3
-  },
-  {
    "m": "la",
-   "d": 27.21,
-   "f": 27.33,
+   "d": 21.13,
+   "f": 21.25,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "qualité",
-   "d": 27.33,
-   "f": 27.73,
+   "d": 21.25,
+   "f": 21.65,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "du",
-   "d": 27.73,
-   "f": 28.25,
+   "d": 21.65,
+   "f": 22.17,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "kimono",
-   "d": 28.25,
-   "f": 28.71,
+   "d": 22.17,
+   "f": 22.63,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "ou",
-   "d": 28.71,
-   "f": 29.21,
+   "d": 22.63,
+   "f": 23.13,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "des",
-   "d": 29.21,
-   "f": 29.39,
+   "d": 23.13,
+   "f": 23.31,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "rash",
-   "d": 29.39,
-   "f": 29.69,
+   "d": 23.31,
+   "f": 23.61,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "guards",
-   "d": 29.69,
-   "f": 29.97,
+   "d": 23.61,
+   "f": 23.89,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "franchement",
-   "d": 29.97,
-   "f": 30.57,
+   "d": 23.89,
+   "f": 24.49,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "je",
-   "d": 30.57,
-   "f": 30.77,
+   "d": 24.49,
+   "f": 24.69,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "suis",
-   "d": 30.77,
-   "f": 30.91,
+   "d": 24.69,
+   "f": 24.83,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "très",
-   "d": 30.91,
-   "f": 31.25,
+   "d": 24.83,
+   "f": 25.17,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "très",
-   "d": 31.25,
-   "f": 31.57,
+   "d": 25.17,
+   "f": 25.49,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "très",
-   "d": 31.57,
-   "f": 31.77,
+   "d": 25.49,
+   "f": 25.69,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "très",
-   "d": 31.77,
-   "f": 31.95,
+   "d": 25.69,
+   "f": 25.87,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "satisfaite",
-   "d": 31.95,
-   "f": 32.41,
+   "d": 25.87,
+   "f": 26.33,
    "colle": false,
    "phrase": 3
   },
   {
    "m": "et",
-   "d": 32.73,
-   "f": 33.27,
+   "d": 26.52,
+   "f": 26.87,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "j",
-   "d": 33.27,
-   "f": 33.39,
+   "d": 26.87,
+   "f": 26.99,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "'en",
-   "d": 33.39,
-   "f": 33.47,
+   "d": 26.99,
+   "f": 27.07,
    "colle": true,
    "phrase": 4
   },
   {
    "m": "ai",
-   "d": 33.47,
-   "f": 33.55,
+   "d": 27.07,
+   "f": 27.15,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "des",
-   "d": 33.55,
-   "f": 33.65,
+   "d": 27.15,
+   "f": 27.25,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "kimonos",
-   "d": 33.65,
-   "f": 33.97,
+   "d": 27.25,
+   "f": 27.57,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "sur",
-   "d": 33.97,
-   "f": 34.41,
+   "d": 27.57,
+   "f": 28.01,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "plusieurs",
-   "d": 34.41,
-   "f": 34.75,
+   "d": 28.01,
+   "f": 28.35,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "marques",
-   "d": 34.75,
-   "f": 35.17,
+   "d": 28.35,
+   "f": 28.77,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "les",
-   "d": 35.24,
-   "f": 35.37,
+   "d": 28.84,
+   "f": 28.97,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "rash",
-   "d": 35.37,
-   "f": 35.59,
+   "d": 28.97,
+   "f": 29.19,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "guards",
-   "d": 35.59,
-   "f": 35.75,
+   "d": 29.19,
+   "f": 29.35,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "on",
-   "d": 35.75,
-   "f": 35.97,
+   "d": 29.35,
+   "f": 29.57,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "en",
-   "d": 35.97,
-   "f": 36.07,
+   "d": 29.57,
+   "f": 29.67,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "est",
-   "d": 36.07,
-   "f": 36.17,
+   "d": 29.67,
+   "f": 29.77,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "plein",
-   "d": 36.17,
-   "f": 36.41,
+   "d": 29.77,
+   "f": 30.01,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "et",
-   "d": 36.41,
-   "f": 36.64,
+   "d": 30.01,
+   "f": 30.24,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "franchement",
-   "d": 36.71,
-   "f": 37.11,
+   "d": 30.31,
+   "f": 30.71,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "je",
-   "d": 37.11,
-   "f": 37.63,
+   "d": 30.71,
+   "f": 31.23,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "trouve",
-   "d": 37.63,
-   "f": 37.85,
+   "d": 31.23,
+   "f": 31.45,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "ça",
-   "d": 37.85,
-   "f": 38.03,
+   "d": 31.45,
+   "f": 31.63,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "tellement",
-   "d": 38.03,
-   "f": 38.35,
+   "d": 31.63,
+   "f": 31.95,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "agréable",
-   "d": 38.35,
-   "f": 38.97,
+   "d": 31.95,
+   "f": 32.57,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "à",
-   "d": 38.97,
-   "f": 39.15,
+   "d": 32.57,
+   "f": 32.75,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "porter",
-   "d": 39.15,
-   "f": 39.43,
+   "d": 32.75,
+   "f": 33.03,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "que",
-   "d": 39.43,
-   "f": 39.76,
+   "d": 33.03,
+   "f": 33.36,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "ce",
-   "d": 40.1,
-   "f": 40.2,
+   "d": 33.46,
+   "f": 33.56,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "soit",
-   "d": 40.2,
-   "f": 40.3,
+   "d": 33.56,
+   "f": 33.66,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "les",
-   "d": 40.3,
-   "f": 40.44,
+   "d": 33.66,
+   "f": 33.8,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "finitions",
-   "d": 40.96,
-   "f": 41.74,
+   "d": 34.32,
+   "f": 35.1,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "les",
-   "d": 41.74,
-   "f": 42.14,
+   "d": 35.1,
+   "f": 35.5,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "designs",
-   "d": 42.14,
-   "f": 42.54,
+   "d": 35.5,
+   "f": 35.9,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "franchement",
-   "d": 42.54,
-   "f": 43.08,
+   "d": 35.9,
+   "f": 36.44,
    "colle": false,
    "phrase": 4
   },
   {
    "m": "on",
-   "d": 43.28,
-   "f": 43.34,
+   "d": 36.64,
+   "f": 36.7,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "va",
-   "d": 43.34,
-   "f": 43.44,
+   "d": 36.7,
+   "f": 36.8,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "pas",
-   "d": 43.44,
-   "f": 43.54,
+   "d": 36.8,
+   "f": 36.9,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "s",
-   "d": 43.54,
-   "f": 43.59,
+   "d": 36.9,
+   "f": 36.95,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "'en",
-   "d": 43.56,
-   "f": 43.61,
+   "d": 36.92,
+   "f": 36.97,
    "colle": true,
    "phrase": 5
   },
   {
    "m": "mentir,",
-   "d": 43.6,
-   "f": 43.7,
+   "d": 36.96,
+   "f": 37.06,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "le",
-   "d": 43.8,
-   "f": 43.88,
+   "d": 37.16,
+   "f": 37.24,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "design,",
-   "d": 43.88,
-   "f": 44.16,
+   "d": 37.24,
+   "f": 37.52,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "les",
-   "d": 44.3,
-   "f": 44.58,
+   "d": 37.66,
+   "f": 37.94,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "rash",
-   "d": 44.58,
-   "f": 44.8,
+   "d": 37.94,
+   "f": 38.16,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "guards,",
-   "d": 44.8,
-   "f": 45.16,
+   "d": 38.16,
+   "f": 38.52,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "ils",
-   "d": 45.16,
-   "f": 45.24,
+   "d": 38.52,
+   "f": 38.6,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "sont",
-   "d": 45.24,
-   "f": 45.36,
+   "d": 38.6,
+   "f": 38.72,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "magnifiques",
-   "d": 45.36,
-   "f": 45.68,
+   "d": 38.72,
+   "f": 39.04,
    "colle": false,
    "phrase": 5
   },
   {
    "m": "Moi",
-   "d": 45.88,
-   "f": 46.0,
+   "d": 39.24,
+   "f": 39.36,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "j",
-   "d": 46.0,
-   "f": 46.24,
+   "d": 39.36,
+   "f": 39.6,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "'ai",
-   "d": 46.24,
-   "f": 46.34,
+   "d": 39.6,
+   "f": 39.7,
    "colle": true,
    "phrase": 6
   },
   {
    "m": "eu",
-   "d": 46.34,
-   "f": 46.39,
+   "d": 39.7,
+   "f": 39.75,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "un",
-   "d": 46.34,
-   "f": 46.44,
+   "d": 39.7,
+   "f": 39.8,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "coup",
-   "d": 46.44,
-   "f": 46.52,
+   "d": 39.8,
+   "f": 39.88,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "de",
-   "d": 46.52,
-   "f": 46.64,
+   "d": 39.88,
+   "f": 40.0,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "coeur",
-   "d": 46.64,
-   "f": 46.78,
+   "d": 40.0,
+   "f": 40.14,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "sur",
-   "d": 46.78,
-   "f": 46.96,
+   "d": 40.14,
+   "f": 40.32,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "celui",
-   "d": 46.96,
-   "f": 47.26,
+   "d": 40.32,
+   "f": 40.62,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "-là",
-   "d": 47.26,
-   "f": 47.46,
+   "d": 40.62,
+   "f": 40.82,
    "colle": true,
    "phrase": 6
   },
   {
    "m": "et",
-   "d": 47.46,
-   "f": 47.78,
+   "d": 40.82,
+   "f": 41.14,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "l",
-   "d": 47.78,
-   "f": 48.12,
+   "d": 41.14,
+   "f": 41.48,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "'autre",
-   "d": 48.12,
-   "f": 48.3,
+   "d": 41.48,
+   "f": 41.66,
    "colle": true,
    "phrase": 6
   },
   {
    "m": "beige",
-   "d": 48.3,
-   "f": 49.04,
+   "d": 41.66,
+   "f": 42.4,
    "colle": false,
    "phrase": 6
   },
   {
    "m": "Et",
-   "d": 49.36,
-   "f": 49.94,
+   "d": 42.6,
+   "f": 42.98,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "franchement,",
-   "d": 49.94,
-   "f": 50.46,
+   "d": 42.98,
+   "f": 43.5,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "un",
-   "d": 50.46,
-   "f": 50.84,
+   "d": 43.5,
+   "f": 43.88,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "vrai",
-   "d": 50.84,
-   "f": 51.06,
+   "d": 43.88,
+   "f": 44.1,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "coup",
-   "d": 51.06,
-   "f": 51.28,
+   "d": 44.1,
+   "f": 44.32,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "de",
-   "d": 51.28,
-   "f": 51.38,
+   "d": 44.32,
+   "f": 44.42,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "coeur",
-   "d": 51.38,
-   "f": 51.56,
+   "d": 44.42,
+   "f": 44.6,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "sur",
-   "d": 51.56,
-   "f": 51.76,
+   "d": 44.6,
+   "f": 44.8,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "eux",
-   "d": 51.76,
-   "f": 52.0,
+   "d": 44.8,
+   "f": 45.04,
    "colle": false,
    "phrase": 7
   },
   {
    "m": "franchement,",
-   "d": 52.25,
-   "f": 52.69,
+   "d": 45.29,
+   "f": 45.73,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "on",
-   "d": 52.69,
-   "f": 52.81,
+   "d": 45.73,
+   "f": 45.85,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "se",
-   "d": 52.81,
-   "f": 52.89,
+   "d": 45.85,
+   "f": 45.93,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "sent",
-   "d": 52.89,
-   "f": 53.11,
+   "d": 45.93,
+   "f": 46.15,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "bien",
-   "d": 53.11,
-   "f": 53.29,
+   "d": 46.15,
+   "f": 46.33,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "dedans",
-   "d": 53.29,
-   "f": 53.59,
+   "d": 46.33,
+   "f": 46.63,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "et",
-   "d": 53.59,
-   "f": 54.01,
+   "d": 46.63,
+   "f": 47.05,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "je",
-   "d": 54.01,
-   "f": 54.19,
+   "d": 47.05,
+   "f": 47.23,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "suis",
-   "d": 54.19,
-   "f": 54.41,
+   "d": 47.23,
+   "f": 47.45,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "tellement",
-   "d": 54.41,
-   "f": 54.63,
+   "d": 47.45,
+   "f": 47.67,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "confort",
-   "d": 54.63,
-   "f": 55.15,
+   "d": 47.67,
+   "f": 48.19,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "sur",
-   "d": 55.15,
-   "f": 55.6,
+   "d": 48.19,
+   "f": 48.64,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "le",
-   "d": 55.69,
-   "f": 55.87,
+   "d": 48.73,
+   "f": 48.91,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "rashguard",
-   "d": 55.87,
-   "f": 56.33,
+   "d": 48.91,
+   "f": 49.37,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "des",
-   "d": 56.33,
-   "f": 56.53,
+   "d": 49.37,
+   "f": 49.57,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "kimonos",
-   "d": 56.53,
-   "f": 56.83,
+   "d": 49.57,
+   "f": 49.87,
    "colle": false,
    "phrase": 8
   },
   {
    "m": "Je",
-   "d": 57.15,
-   "f": 57.55,
+   "d": 50.19,
+   "f": 50.59,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "suis",
-   "d": 57.55,
-   "f": 57.95,
+   "d": 50.59,
+   "f": 50.99,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "grave",
-   "d": 57.95,
-   "f": 58.29,
+   "d": 50.99,
+   "f": 51.33,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "étonnée,",
-   "d": 58.29,
-   "f": 59.11,
+   "d": 51.33,
+   "f": 52.15,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "genre",
-   "d": 59.17,
-   "f": 59.29,
+   "d": 52.21,
+   "f": 52.33,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "vraiment",
-   "d": 59.29,
-   "f": 59.51,
+   "d": 52.33,
+   "f": 52.55,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "Et",
-   "d": 59.51,
-   "f": 59.87,
+   "d": 52.55,
+   "f": 52.91,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "même",
-   "d": 59.87,
-   "f": 60.13,
+   "d": 52.91,
+   "f": 53.17,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "là,",
-   "d": 60.13,
-   "f": 60.33,
+   "d": 53.17,
+   "f": 53.37,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "ils",
-   "d": 60.41,
-   "f": 60.51,
+   "d": 53.45,
+   "f": 53.55,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "ont",
-   "d": 60.51,
-   "f": 60.65,
+   "d": 53.55,
+   "f": 53.69,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "une",
-   "d": 60.65,
-   "f": 60.77,
+   "d": 53.69,
+   "f": 53.81,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "petite",
-   "d": 60.77,
-   "f": 61.09,
+   "d": 53.81,
+   "f": 54.13,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "doublure",
-   "d": 61.09,
-   "f": 61.49,
+   "d": 54.13,
+   "f": 54.53,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "en",
-   "d": 61.49,
-   "f": 61.63,
+   "d": 54.53,
+   "f": 54.67,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "fait",
-   "d": 61.63,
-   "f": 61.77,
+   "d": 54.67,
+   "f": 54.81,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "au",
-   "d": 61.77,
-   "f": 61.93,
+   "d": 54.81,
+   "f": 54.97,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "niveau",
-   "d": 61.93,
-   "f": 62.11,
+   "d": 54.97,
+   "f": 55.15,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "du",
-   "d": 62.11,
-   "f": 62.23,
+   "d": 55.15,
+   "f": 55.27,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "kimono",
-   "d": 62.23,
-   "f": 62.65,
+   "d": 55.27,
+   "f": 55.69,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "Et",
-   "d": 63.73,
-   "f": 64.13,
+   "d": 56.77,
+   "f": 57.17,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "franchement,",
-   "d": 64.13,
-   "f": 64.53,
+   "d": 57.17,
+   "f": 57.57,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "je",
-   "d": 64.53,
-   "f": 64.69,
+   "d": 57.57,
+   "f": 57.73,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "trouve",
-   "d": 64.69,
-   "f": 64.87,
+   "d": 57.73,
+   "f": 57.91,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "ça",
-   "d": 64.87,
-   "f": 65.01,
+   "d": 57.91,
+   "f": 58.05,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "grave",
-   "d": 65.01,
-   "f": 65.41,
+   "d": 58.05,
+   "f": 58.45,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "satisfaisant",
-   "d": 65.41,
-   "f": 66.51,
+   "d": 58.45,
+   "f": 59.55,
    "colle": false,
    "phrase": 9
   },
   {
    "m": "mais",
-   "d": 67.12,
-   "f": 67.45,
+   "d": 59.76,
+   "f": 60.09,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "ce",
-   "d": 67.45,
-   "f": 68.19,
+   "d": 60.09,
+   "f": 60.83,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "qui",
-   "d": 68.19,
-   "f": 68.29,
+   "d": 60.83,
+   "f": 60.93,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "m",
-   "d": 68.29,
-   "f": 68.37,
+   "d": 60.93,
+   "f": 61.01,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "'a",
-   "d": 68.37,
-   "f": 68.45,
+   "d": 61.01,
+   "f": 61.09,
    "colle": true,
    "phrase": 10
   },
   {
    "m": "surtout",
-   "d": 68.45,
-   "f": 68.63,
+   "d": 61.09,
+   "f": 61.27,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "étonnée",
-   "d": 68.63,
-   "f": 69.13,
+   "d": 61.27,
+   "f": 61.77,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "c",
-   "d": 69.13,
-   "f": 69.47,
+   "d": 61.77,
+   "f": 62.11,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "'est",
-   "d": 69.47,
-   "f": 69.65,
+   "d": 62.11,
+   "f": 62.29,
    "colle": true,
    "phrase": 10
   },
   {
    "m": "les",
-   "d": 69.65,
-   "f": 69.95,
+   "d": 62.29,
+   "f": 62.59,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "tailles",
-   "d": 69.95,
-   "f": 70.19,
+   "d": 62.59,
+   "f": 62.83,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "genre",
-   "d": 70.48,
-   "f": 71.03,
+   "d": 63.12,
+   "f": 63.67,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "moi",
-   "d": 71.03,
-   "f": 71.41,
+   "d": 63.67,
+   "f": 64.05,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "là",
-   "d": 71.41,
-   "f": 71.57,
+   "d": 64.05,
+   "f": 64.21,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "j",
-   "d": 71.57,
-   "f": 71.63,
+   "d": 64.21,
+   "f": 64.27,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "'ai",
-   "d": 71.63,
-   "f": 71.71,
+   "d": 64.27,
+   "f": 64.35,
    "colle": true,
    "phrase": 10
   },
   {
    "m": "du",
-   "d": 71.71,
-   "f": 71.76,
+   "d": 64.35,
+   "f": 64.4,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "A3L",
-   "d": 71.97,
-   "f": 72.49,
+   "d": 64.61,
+   "f": 65.13,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "le",
-   "d": 72.49,
-   "f": 72.84,
+   "d": 65.13,
+   "f": 65.48,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "haut",
-   "d": 73.04,
-   "f": 73.22,
+   "d": 65.68,
+   "f": 65.86,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "me",
-   "d": 73.22,
-   "f": 73.3,
+   "d": 65.86,
+   "f": 65.94,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "va",
-   "d": 73.3,
-   "f": 73.44,
+   "d": 65.94,
+   "f": 66.08,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "parfaitement",
-   "d": 73.44,
-   "f": 73.92,
+   "d": 66.08,
+   "f": 66.56,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "le",
-   "d": 73.92,
-   "f": 74.38,
+   "d": 66.56,
+   "f": 67.02,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "bas",
-   "d": 74.38,
-   "f": 74.58,
+   "d": 67.02,
+   "f": 67.22,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "me",
-   "d": 74.58,
-   "f": 74.68,
+   "d": 67.22,
+   "f": 67.32,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "va",
-   "d": 74.68,
-   "f": 74.84,
+   "d": 67.32,
+   "f": 67.48,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "pas",
-   "d": 74.84,
-   "f": 75.04,
+   "d": 67.48,
+   "f": 67.68,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "mais",
-   "d": 75.04,
-   "f": 75.28,
+   "d": 67.68,
+   "f": 67.92,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "bon",
-   "d": 75.28,
-   "f": 75.44,
+   "d": 67.92,
+   "f": 68.08,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "c",
-   "d": 75.44,
-   "f": 75.58,
+   "d": 68.08,
+   "f": 68.22,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "'est",
-   "d": 75.58,
-   "f": 75.68,
+   "d": 68.22,
+   "f": 68.32,
    "colle": true,
    "phrase": 10
   },
   {
    "m": "comme",
-   "d": 75.68,
-   "f": 75.73,
+   "d": 68.32,
+   "f": 68.37,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "toutes",
-   "d": 75.7,
-   "f": 76.2,
+   "d": 68.34,
+   "f": 68.84,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "les",
-   "d": 76.2,
-   "f": 76.36,
+   "d": 68.84,
+   "f": 69.0,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "marques",
-   "d": 76.36,
-   "f": 76.56,
+   "d": 69.0,
+   "f": 69.2,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "de",
-   "d": 76.56,
-   "f": 76.62,
+   "d": 69.2,
+   "f": 69.26,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "kimono",
-   "d": 76.62,
-   "f": 76.94,
+   "d": 69.26,
+   "f": 69.58,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "je",
-   "d": 76.94,
-   "f": 77.14,
+   "d": 69.58,
+   "f": 69.78,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "suis",
-   "d": 77.14,
-   "f": 77.26,
+   "d": 69.78,
+   "f": 69.9,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "obligée",
-   "d": 77.26,
-   "f": 77.58,
+   "d": 69.9,
+   "f": 70.22,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "de",
-   "d": 77.58,
-   "f": 77.68,
+   "d": 70.22,
+   "f": 70.32,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "dépareiller",
-   "d": 77.68,
-   "f": 78.3,
+   "d": 70.32,
+   "f": 70.94,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "à",
-   "d": 78.3,
-   "f": 78.5,
+   "d": 70.94,
+   "f": 71.14,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "chaque",
-   "d": 78.5,
-   "f": 78.72,
+   "d": 71.14,
+   "f": 71.36,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "fois",
-   "d": 78.72,
-   "f": 78.94,
+   "d": 71.36,
+   "f": 71.58,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "au",
-   "d": 78.94,
-   "f": 79.18,
+   "d": 71.58,
+   "f": 71.82,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "niveau",
-   "d": 79.18,
-   "f": 79.62,
+   "d": 71.82,
+   "f": 72.26,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "des",
-   "d": 79.62,
-   "f": 79.78,
+   "d": 72.26,
+   "f": 72.42,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "tailles",
-   "d": 79.78,
-   "f": 80.0,
+   "d": 72.42,
+   "f": 72.64,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "que",
-   "d": 80.0,
-   "f": 80.16,
+   "d": 72.64,
+   "f": 72.8,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "ce",
-   "d": 80.16,
-   "f": 80.26,
+   "d": 72.8,
+   "f": 72.9,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "soit",
-   "d": 80.26,
-   "f": 80.36,
+   "d": 72.9,
+   "f": 73.0,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "le",
-   "d": 80.36,
-   "f": 80.44,
+   "d": 73.0,
+   "f": 73.08,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "haut",
-   "d": 80.44,
-   "f": 80.64,
+   "d": 73.08,
+   "f": 73.28,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "et",
-   "d": 80.64,
-   "f": 80.76,
+   "d": 73.28,
+   "f": 73.4,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "le",
-   "d": 80.76,
-   "f": 80.86,
+   "d": 73.4,
+   "f": 73.5,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "bas",
-   "d": 80.86,
-   "f": 81.1,
+   "d": 73.5,
+   "f": 73.74,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "j",
-   "d": 81.1,
-   "f": 81.32,
+   "d": 73.74,
+   "f": 73.96,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "'ai",
-   "d": 81.32,
-   "f": 81.6,
+   "d": 73.96,
+   "f": 74.24,
    "colle": true,
    "phrase": 10
   },
   {
    "m": "pas",
-   "d": 81.6,
-   "f": 81.65,
+   "d": 74.24,
+   "f": 74.29,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "le",
-   "d": 81.64,
-   "f": 81.8,
+   "d": 74.28,
+   "f": 74.44,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "choix",
-   "d": 81.8,
-   "f": 81.88,
+   "d": 74.44,
+   "f": 74.52,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "par",
-   "d": 81.88,
-   "f": 82.34,
+   "d": 74.52,
+   "f": 74.98,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "rapport",
-   "d": 82.34,
-   "f": 82.48,
+   "d": 74.98,
+   "f": 75.12,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "à",
-   "d": 82.48,
-   "f": 82.58,
+   "d": 75.12,
+   "f": 75.22,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "ma",
-   "d": 82.58,
-   "f": 82.64,
+   "d": 75.22,
+   "f": 75.28,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "morphologie",
-   "d": 82.64,
-   "f": 83.08,
+   "d": 75.28,
+   "f": 75.72,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "et",
-   "d": 83.08,
-   "f": 83.44,
+   "d": 75.72,
+   "f": 76.08,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "par",
-   "d": 83.44,
-   "f": 83.56,
+   "d": 76.08,
+   "f": 76.2,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "rapport",
-   "d": 83.56,
-   "f": 83.76,
+   "d": 76.2,
+   "f": 76.4,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "à",
-   "d": 83.76,
-   "f": 83.9,
+   "d": 76.4,
+   "f": 76.54,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "ma",
-   "d": 83.9,
-   "f": 83.98,
+   "d": 76.54,
+   "f": 76.62,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "taille",
-   "d": 83.98,
-   "f": 84.26,
+   "d": 76.62,
+   "f": 76.9,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "et",
-   "d": 84.26,
-   "f": 84.78,
+   "d": 76.9,
+   "f": 77.42,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "bien",
-   "d": 84.78,
-   "f": 85.08,
+   "d": 77.42,
+   "f": 77.72,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "évidemment",
-   "d": 85.08,
-   "f": 85.38,
+   "d": 77.72,
+   "f": 78.02,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "passage",
-   "d": 85.38,
-   "f": 85.98,
+   "d": 78.02,
+   "f": 78.62,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "obligatoire",
-   "d": 85.98,
-   "f": 86.64,
+   "d": 78.62,
+   "f": 79.28,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "chez",
-   "d": 86.64,
-   "f": 86.82,
+   "d": 79.28,
+   "f": 79.46,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "le",
-   "d": 86.82,
-   "f": 86.88,
+   "d": 79.46,
+   "f": 79.52,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "couturier",
-   "d": 86.88,
-   "f": 87.3,
+   "d": 79.52,
+   "f": 79.94,
    "colle": false,
    "phrase": 10
   },
   {
    "m": "dites",
-   "d": 87.62,
-   "f": 87.92,
+   "d": 80.12,
+   "f": 80.17,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "vous",
-   "d": 89.15,
-   "f": 89.29,
+   "d": 80.67,
+   "f": 80.81,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "que",
-   "d": 89.29,
-   "f": 89.53,
+   "d": 80.81,
+   "f": 81.05,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "en",
-   "d": 89.53,
-   "f": 89.81,
+   "d": 81.05,
+   "f": 81.33,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "général",
-   "d": 89.81,
-   "f": 90.11,
+   "d": 81.33,
+   "f": 81.63,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "sur",
-   "d": 90.11,
-   "f": 90.55,
+   "d": 81.63,
+   "f": 82.07,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "les",
-   "d": 90.55,
-   "f": 90.65,
+   "d": 82.07,
+   "f": 82.17,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "autres",
-   "d": 90.65,
-   "f": 90.79,
+   "d": 82.17,
+   "f": 82.31,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "marques",
-   "d": 90.79,
-   "f": 91.01,
+   "d": 82.31,
+   "f": 82.53,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "je",
-   "d": 91.01,
-   "f": 91.15,
+   "d": 82.53,
+   "f": 82.67,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "porte",
-   "d": 91.15,
-   "f": 91.35,
+   "d": 82.67,
+   "f": 82.87,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "du",
-   "d": 91.35,
-   "f": 91.49,
+   "d": 82.87,
+   "f": 83.01,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "A5",
-   "d": 91.49,
-   "f": 91.85,
+   "d": 83.01,
+   "f": 83.37,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "et",
-   "d": 91.85,
-   "f": 92.09,
+   "d": 83.37,
+   "f": 83.61,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "du",
-   "d": 92.09,
-   "f": 92.19,
+   "d": 83.61,
+   "f": 83.71,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "A6",
-   "d": 92.19,
-   "f": 92.49,
+   "d": 83.71,
+   "f": 84.01,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "là",
-   "d": 92.49,
-   "f": 93.03,
+   "d": 84.01,
+   "f": 84.55,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "quand",
-   "d": 93.03,
-   "f": 93.17,
+   "d": 84.55,
+   "f": 84.69,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "m",
-   "d": 93.17,
-   "f": 93.25,
+   "d": 84.69,
+   "f": 84.77,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "'a",
-   "d": 93.25,
-   "f": 93.37,
+   "d": 84.77,
+   "f": 84.89,
    "colle": true,
    "phrase": 11
   },
   {
    "m": "dit",
-   "d": 93.37,
-   "f": 93.43,
+   "d": 84.89,
+   "f": 84.95,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "A3L,",
-   "d": 93.43,
-   "f": 93.97,
+   "d": 84.95,
+   "f": 85.49,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "j",
-   "d": 94.05,
-   "f": 94.19,
+   "d": 85.57,
+   "f": 85.71,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "'ai",
-   "d": 94.19,
-   "f": 94.25,
+   "d": 85.71,
+   "f": 85.77,
    "colle": true,
    "phrase": 11
   },
   {
    "m": "dit",
-   "d": 94.25,
-   "f": 94.3,
+   "d": 85.77,
+   "f": 85.82,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "non",
-   "d": 94.29,
-   "f": 94.41,
+   "d": 85.81,
+   "f": 85.93,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "mais",
-   "d": 94.41,
-   "f": 94.46,
+   "d": 85.93,
+   "f": 85.98,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "en",
-   "d": 94.45,
-   "f": 94.63,
+   "d": 85.97,
+   "f": 86.15,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "fait",
-   "d": 94.63,
-   "f": 94.75,
+   "d": 86.15,
+   "f": 86.27,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "ça",
-   "d": 94.75,
-   "f": 94.87,
+   "d": 86.27,
+   "f": 86.39,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "va",
-   "d": 94.87,
-   "f": 95.03,
+   "d": 86.39,
+   "f": 86.55,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "jamais",
-   "d": 95.03,
-   "f": 95.63,
+   "d": 86.55,
+   "f": 87.15,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "m",
-   "d": 95.63,
-   "f": 95.73,
+   "d": 87.15,
+   "f": 87.25,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "'aller",
-   "d": 95.73,
-   "f": 95.85,
+   "d": 87.25,
+   "f": 87.37,
    "colle": true,
    "phrase": 11
   },
   {
    "m": "et",
-   "d": 95.85,
-   "f": 96.17,
+   "d": 87.37,
+   "f": 87.69,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "j",
-   "d": 96.17,
-   "f": 96.23,
+   "d": 87.69,
+   "f": 87.75,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "'étais",
-   "d": 96.23,
-   "f": 96.39,
+   "d": 87.75,
+   "f": 87.91,
    "colle": true,
    "phrase": 11
   },
   {
    "m": "grave",
-   "d": 96.39,
-   "f": 96.83,
+   "d": 87.91,
+   "f": 88.35,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "étonnée,",
-   "d": 96.83,
-   "f": 97.57,
+   "d": 88.35,
+   "f": 89.09,
    "colle": false,
    "phrase": 11
   },
   {
    "m": "Franchement",
-   "d": 97.82,
-   "f": 98.18,
+   "d": 89.34,
+   "f": 89.7,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "ils",
-   "d": 98.18,
-   "f": 98.26,
+   "d": 89.7,
+   "f": 89.78,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "ont",
-   "d": 98.26,
-   "f": 98.38,
+   "d": 89.78,
+   "f": 89.9,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "plusieurs",
-   "d": 98.38,
-   "f": 98.62,
+   "d": 89.9,
+   "f": 90.14,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "choix",
-   "d": 98.62,
-   "f": 99.08,
+   "d": 90.14,
+   "f": 90.6,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "de",
-   "d": 99.08,
-   "f": 99.36,
+   "d": 90.6,
+   "f": 90.88,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "rash",
-   "d": 99.84,
-   "f": 101.94,
+   "d": 91.36,
+   "f": 93.46,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "guards,",
-   "d": 101.94,
-   "f": 102.18,
+   "d": 93.46,
+   "f": 93.7,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "plusieurs",
-   "d": 102.52,
-   "f": 102.7,
+   "d": 94.04,
+   "f": 94.22,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "choix",
-   "d": 102.7,
-   "f": 103.08,
+   "d": 94.22,
+   "f": 94.6,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "de",
-   "d": 103.08,
-   "f": 103.56,
+   "d": 94.6,
+   "f": 95.08,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "kimonos,",
-   "d": 103.56,
-   "f": 104.02,
+   "d": 95.08,
+   "f": 95.54,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "du",
-   "d": 104.24,
-   "f": 104.78,
+   "d": 95.76,
+   "f": 96.3,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "blanc,",
-   "d": 104.78,
-   "f": 105.1,
+   "d": 96.3,
+   "f": 96.62,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "du",
-   "d": 105.12,
-   "f": 105.3,
+   "d": 96.64,
+   "f": 96.82,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "bleu,",
-   "d": 105.3,
-   "f": 105.52,
+   "d": 96.82,
+   "f": 97.04,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "du",
-   "d": 105.54,
-   "f": 105.64,
+   "d": 97.06,
+   "f": 97.16,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "noir",
-   "d": 105.64,
-   "f": 105.9,
+   "d": 97.16,
+   "f": 97.42,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "et",
-   "d": 105.9,
-   "f": 106.42,
+   "d": 97.42,
+   "f": 97.94,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "ils",
-   "d": 106.42,
-   "f": 106.58,
+   "d": 97.94,
+   "f": 98.1,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "sont",
-   "d": 106.58,
-   "f": 106.74,
+   "d": 98.1,
+   "f": 98.26,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "pas",
-   "d": 106.74,
-   "f": 106.92,
+   "d": 98.26,
+   "f": 98.44,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "tous",
-   "d": 106.92,
-   "f": 107.06,
+   "d": 98.44,
+   "f": 98.58,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "pareils,",
-   "d": 107.06,
-   "f": 107.6,
+   "d": 98.58,
+   "f": 99.12,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "genre",
-   "d": 107.64,
-   "f": 107.82,
+   "d": 99.16,
+   "f": 99.34,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "par",
-   "d": 107.82,
-   "f": 107.92,
+   "d": 99.34,
+   "f": 99.44,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "exemple",
-   "d": 107.92,
-   "f": 108.06,
+   "d": 99.44,
+   "f": 99.58,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "là",
-   "d": 108.06,
-   "f": 108.22,
+   "d": 99.58,
+   "f": 99.74,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "il",
-   "d": 108.22,
-   "f": 108.3,
+   "d": 99.74,
+   "f": 99.82,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "y",
-   "d": 108.3,
-   "f": 108.36,
+   "d": 99.82,
+   "f": 99.88,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "a",
-   "d": 108.36,
-   "f": 108.41,
+   "d": 99.88,
+   "f": 99.93,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "le",
-   "d": 108.38,
-   "f": 108.44,
+   "d": 99.9,
+   "f": 99.96,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "logo",
-   "d": 108.44,
-   "f": 108.66,
+   "d": 99.96,
+   "f": 100.18,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "en",
-   "d": 108.92,
-   "f": 109.3,
+   "d": 100.44,
+   "f": 100.82,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "plein",
-   "d": 109.3,
-   "f": 109.58,
+   "d": 100.82,
+   "f": 101.1,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "milieu",
-   "d": 109.58,
-   "f": 110.02,
+   "d": 101.1,
+   "f": 101.54,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "mais",
-   "d": 110.02,
-   "f": 110.36,
+   "d": 101.54,
+   "f": 101.88,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "il",
-   "d": 110.5,
-   "f": 110.68,
+   "d": 102.02,
+   "f": 102.2,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "y",
-   "d": 110.68,
-   "f": 110.73,
+   "d": 102.2,
+   "f": 102.25,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "en",
-   "d": 110.7,
-   "f": 110.75,
+   "d": 102.22,
+   "f": 102.27,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "a",
-   "d": 110.72,
-   "f": 110.86,
+   "d": 102.24,
+   "f": 102.38,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "où",
-   "d": 110.86,
-   "f": 110.96,
+   "d": 102.38,
+   "f": 102.48,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "il",
-   "d": 110.96,
-   "f": 111.08,
+   "d": 102.48,
+   "f": 102.6,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "y",
-   "d": 111.08,
-   "f": 111.13,
+   "d": 102.6,
+   "f": 102.65,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "a",
-   "d": 111.12,
-   "f": 111.17,
+   "d": 102.64,
+   "f": 102.69,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "juste",
-   "d": 111.16,
-   "f": 111.26,
+   "d": 102.68,
+   "f": 102.78,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "écrit",
-   "d": 111.26,
-   "f": 111.58,
+   "d": 102.78,
+   "f": 103.1,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "Dare",
-   "d": 112.38,
-   "f": 112.84,
+   "d": 103.9,
+   "f": 104.36,
    "colle": true,
    "phrase": 12
   },
   {
    "m": "to",
-   "d": 112.84,
-   "f": 113.04,
+   "d": 104.36,
+   "f": 104.56,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "dream,",
-   "d": 113.04,
-   "f": 113.3,
+   "d": 104.56,
+   "f": 104.82,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "en",
-   "d": 113.52,
-   "f": 113.68,
+   "d": 105.04,
+   "f": 105.2,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "anglais",
-   "d": 113.68,
-   "f": 114.12,
+   "d": 105.2,
+   "f": 105.64,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "voilà",
-   "d": 114.12,
-   "f": 114.36,
+   "d": 105.64,
+   "f": 105.88,
    "colle": false,
    "phrase": 12
   },
   {
    "m": "Et",
-   "d": 114.7,
-   "f": 114.75,
+   "d": 105.98,
+   "f": 106.03,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "il",
-   "d": 114.7,
-   "f": 114.78,
+   "d": 105.98,
+   "f": 106.06,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "n",
-   "d": 114.78,
-   "f": 114.88,
+   "d": 106.06,
+   "f": 106.16,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "'y",
-   "d": 114.88,
-   "f": 114.93,
+   "d": 106.16,
+   "f": 106.21,
    "colle": true,
    "phrase": 13
   },
   {
    "m": "a",
-   "d": 114.88,
-   "f": 114.93,
+   "d": 106.16,
+   "f": 106.21,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "pas",
-   "d": 114.88,
-   "f": 114.96,
+   "d": 106.16,
+   "f": 106.24,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "le",
-   "d": 114.96,
-   "f": 115.6,
+   "d": 106.24,
+   "f": 106.88,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "logo",
-   "d": 115.6,
-   "f": 115.88,
+   "d": 106.88,
+   "f": 107.16,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "en",
-   "d": 115.88,
-   "f": 116.04,
+   "d": 107.16,
+   "f": 107.32,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "gros",
-   "d": 116.04,
-   "f": 116.26,
+   "d": 107.32,
+   "f": 107.54,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "comme",
-   "d": 116.26,
-   "f": 116.42,
+   "d": 107.54,
+   "f": 107.7,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "ça.",
-   "d": 116.42,
-   "f": 116.58,
+   "d": 107.7,
+   "f": 107.86,
    "colle": false,
    "phrase": 13
   },
   {
    "m": "Et",
-   "d": 116.88,
-   "f": 117.2,
+   "d": 108.16,
+   "f": 108.48,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "petit",
-   "d": 117.2,
-   "f": 117.42,
+   "d": 108.48,
+   "f": 108.7,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "message",
-   "d": 117.42,
-   "f": 117.68,
+   "d": 108.7,
+   "f": 108.96,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "pour",
-   "d": 117.68,
-   "f": 117.92,
+   "d": 108.96,
+   "f": 109.2,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "les",
-   "d": 117.92,
-   "f": 118.08,
+   "d": 109.2,
+   "f": 109.36,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "filles,",
-   "d": 118.08,
-   "f": 118.36,
+   "d": 109.36,
+   "f": 109.64,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "ne",
-   "d": 118.4,
-   "f": 118.54,
+   "d": 109.68,
+   "f": 109.82,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "vous",
-   "d": 118.54,
-   "f": 118.66,
+   "d": 109.82,
+   "f": 109.94,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "inquiétez",
-   "d": 118.66,
-   "f": 119.14,
+   "d": 109.94,
+   "f": 110.42,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "pas,",
-   "d": 119.14,
-   "f": 119.32,
+   "d": 110.42,
+   "f": 110.6,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "il",
-   "d": 119.36,
-   "f": 119.54,
+   "d": 110.64,
+   "f": 110.82,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "y",
-   "d": 119.54,
-   "f": 119.64,
+   "d": 110.82,
+   "f": 110.92,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "aura",
-   "d": 119.64,
-   "f": 119.8,
+   "d": 110.92,
+   "f": 111.08,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "aussi",
-   "d": 119.8,
-   "f": 120.04,
+   "d": 111.08,
+   "f": 111.32,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "la",
-   "d": 120.04,
-   "f": 120.18,
+   "d": 111.32,
+   "f": 111.46,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "collection",
-   "d": 120.18,
-   "f": 120.5,
+   "d": 111.46,
+   "f": 111.78,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "pour",
-   "d": 120.5,
-   "f": 120.86,
+   "d": 111.78,
+   "f": 112.14,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "femmes.",
-   "d": 120.86,
-   "f": 121.18,
+   "d": 112.14,
+   "f": 112.46,
    "colle": false,
    "phrase": 14
   },
   {
    "m": "Après,",
-   "d": 121.36,
-   "f": 121.41,
+   "d": 112.64,
+   "f": 112.69,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "je",
-   "d": 121.66,
-   "f": 121.72,
+   "d": 112.94,
+   "f": 113.0,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "sais",
-   "d": 121.72,
-   "f": 121.84,
+   "d": 113.0,
+   "f": 113.12,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "qu",
-   "d": 121.84,
-   "f": 121.94,
+   "d": 113.12,
+   "f": 113.22,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "'on",
-   "d": 121.94,
-   "f": 121.99,
+   "d": 113.22,
+   "f": 113.27,
    "colle": true,
    "phrase": 15
   },
   {
    "m": "est",
-   "d": 121.98,
-   "f": 122.06,
+   "d": 113.26,
+   "f": 113.34,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "déjà",
-   "d": 122.06,
-   "f": 122.3,
+   "d": 113.34,
+   "f": 113.58,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "pas",
-   "d": 122.3,
-   "f": 122.6,
+   "d": 113.58,
+   "f": 113.88,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "mal",
-   "d": 122.6,
-   "f": 122.76,
+   "d": 113.88,
+   "f": 114.04,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "de",
-   "d": 122.76,
-   "f": 123.02,
+   "d": 114.04,
+   "f": 114.3,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "femmes",
-   "d": 123.02,
-   "f": 123.38,
+   "d": 114.3,
+   "f": 114.66,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "à",
-   "d": 123.38,
-   "f": 123.54,
+   "d": 114.66,
+   "f": 114.82,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "porter",
-   "d": 123.54,
-   "f": 123.82,
+   "d": 114.82,
+   "f": 115.1,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "la",
-   "d": 123.82,
-   "f": 124.02,
+   "d": 115.1,
+   "f": 115.3,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "coupe",
-   "d": 124.02,
-   "f": 124.2,
+   "d": 115.3,
+   "f": 115.48,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "hommes,",
-   "d": 124.2,
-   "f": 124.48,
+   "d": 115.48,
+   "f": 115.76,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "dont",
-   "d": 124.6,
-   "f": 125.16,
+   "d": 115.88,
+   "f": 116.44,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "moi",
-   "d": 125.32,
-   "f": 125.5,
+   "d": 116.6,
+   "f": 116.78,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "la",
-   "d": 125.5,
-   "f": 125.58,
+   "d": 116.78,
+   "f": 116.86,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "première.",
-   "d": 125.58,
-   "f": 125.86,
+   "d": 116.86,
+   "f": 117.14,
    "colle": false,
    "phrase": 15
   },
   {
    "m": "mais",
-   "d": 126.04,
-   "f": 126.16,
+   "d": 117.32,
+   "f": 117.44,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "en",
-   "d": 126.16,
-   "f": 126.32,
+   "d": 117.44,
+   "f": 117.6,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "réalité",
-   "d": 126.32,
-   "f": 126.56,
+   "d": 117.6,
+   "f": 117.84,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "les",
-   "d": 126.56,
-   "f": 126.7,
+   "d": 117.84,
+   "f": 117.98,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "collections",
-   "d": 126.7,
-   "f": 126.94,
+   "d": 117.98,
+   "f": 118.22,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "elles",
-   "d": 126.94,
-   "f": 127.18,
+   "d": 118.22,
+   "f": 118.46,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "sont",
-   "d": 127.18,
-   "f": 127.34,
+   "d": 118.46,
+   "f": 118.62,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "mixtes",
-   "d": 127.34,
-   "f": 127.74,
+   "d": 118.62,
+   "f": 119.02,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "donc",
-   "d": 127.74,
-   "f": 127.92,
+   "d": 119.02,
+   "f": 119.2,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "n",
-   "d": 128.45,
-   "f": 128.59,
+   "d": 119.37,
+   "f": 119.51,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "'hésitez",
-   "d": 128.59,
-   "f": 128.73,
+   "d": 119.51,
+   "f": 119.65,
    "colle": true,
    "phrase": 16
   },
   {
    "m": "pas",
-   "d": 128.73,
-   "f": 129.01,
+   "d": 119.65,
+   "f": 119.93,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "à",
-   "d": 129.01,
-   "f": 129.13,
+   "d": 119.93,
+   "f": 120.05,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "les",
-   "d": 129.13,
-   "f": 129.27,
+   "d": 120.05,
+   "f": 120.19,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "regarder",
-   "d": 129.27,
-   "f": 129.53,
+   "d": 120.19,
+   "f": 120.45,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "vous",
-   "d": 129.53,
-   "f": 129.79,
+   "d": 120.45,
+   "f": 120.71,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "allez",
-   "d": 129.79,
-   "f": 129.93,
+   "d": 120.71,
+   "f": 120.85,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "peut",
-   "d": 129.93,
-   "f": 130.2,
+   "d": 120.85,
+   "f": 121.12,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "-être",
-   "d": 130.35,
-   "f": 130.47,
+   "d": 121.27,
+   "f": 121.39,
    "colle": true,
    "phrase": 16
   },
   {
    "m": "trouver",
-   "d": 130.47,
-   "f": 130.71,
+   "d": 121.39,
+   "f": 121.63,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "votre",
-   "d": 130.71,
-   "f": 130.97,
+   "d": 121.63,
+   "f": 121.89,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "bonheur",
-   "d": 130.97,
-   "f": 131.57,
+   "d": 121.89,
+   "f": 122.49,
    "colle": false,
    "phrase": 16
   },
   {
    "m": "en",
-   "d": 131.89,
-   "f": 132.08,
+   "d": 122.68,
+   "f": 122.73,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "tout",
-   "d": 133.1,
-   "f": 133.22,
+   "d": 123.14,
+   "f": 123.26,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "cas",
-   "d": 133.22,
-   "f": 133.38,
+   "d": 123.26,
+   "f": 123.42,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "je",
-   "d": 133.38,
-   "f": 133.56,
+   "d": 123.42,
+   "f": 123.6,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "suis",
-   "d": 133.56,
-   "f": 133.8,
+   "d": 123.6,
+   "f": 123.84,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "vraiment",
-   "d": 133.8,
-   "f": 134.38,
+   "d": 123.84,
+   "f": 124.42,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "très",
-   "d": 134.38,
-   "f": 134.68,
+   "d": 124.42,
+   "f": 124.72,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "contente",
-   "d": 134.68,
-   "f": 135.06,
+   "d": 124.72,
+   "f": 125.1,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "de",
-   "d": 135.06,
-   "f": 135.2,
+   "d": 125.1,
+   "f": 125.24,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "cette",
-   "d": 135.2,
-   "f": 135.4,
+   "d": 125.24,
+   "f": 125.44,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "sponso",
-   "d": 135.4,
-   "f": 136.3,
+   "d": 125.44,
+   "f": 126.34,
    "colle": false,
    "phrase": 17
   },
   {
    "m": "n",
-   "d": 136.6,
-   "f": 136.92,
+   "d": 126.64,
+   "f": 126.96,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "'hésitez",
-   "d": 136.92,
-   "f": 137.12,
+   "d": 126.96,
+   "f": 127.16,
    "colle": true,
    "phrase": 18
   },
   {
    "m": "pas",
-   "d": 137.12,
-   "f": 137.36,
+   "d": 127.16,
+   "f": 127.4,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "à",
-   "d": 137.36,
-   "f": 137.54,
+   "d": 127.4,
+   "f": 127.58,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "utiliser",
-   "d": 137.54,
-   "f": 137.76,
+   "d": 127.58,
+   "f": 127.8,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "mon",
-   "d": 137.76,
-   "f": 138.24,
+   "d": 127.8,
+   "f": 128.28,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "code",
-   "d": 138.24,
-   "f": 138.46,
+   "d": 128.28,
+   "f": 128.5,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "promo",
-   "d": 138.46,
-   "f": 138.8,
+   "d": 128.5,
+   "f": 128.84,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "SAARAABJJ15",
-   "d": 139.32,
-   "f": 139.68,
+   "d": 129.36,
+   "f": 129.72,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "donc",
-   "d": 140.72,
-   "f": 141.08,
+   "d": 130.76,
+   "f": 131.12,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "vous",
-   "d": 141.08,
-   "f": 141.28,
+   "d": 131.12,
+   "f": 131.32,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "allez",
-   "d": 141.28,
-   "f": 141.5,
+   "d": 131.32,
+   "f": 131.54,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "pouvoir",
-   "d": 141.5,
-   "f": 142.06,
+   "d": 131.54,
+   "f": 132.1,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "avoir",
-   "d": 142.06,
-   "f": 142.38,
+   "d": 132.1,
+   "f": 132.42,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "moins",
-   "d": 142.38,
-   "f": 142.96,
+   "d": 132.42,
+   "f": 133.0,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "15",
-   "d": 142.96,
-   "f": 143.16,
+   "d": 133.0,
+   "f": 133.2,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "%",
-   "d": 143.16,
-   "f": 143.46,
+   "d": 133.2,
+   "f": 133.5,
    "colle": false,
    "phrase": 18
   },
   {
    "m": "donc",
-   "d": 143.68,
-   "f": 143.94,
+   "d": 133.72,
+   "f": 133.98,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "franchement",
-   "d": 143.94,
-   "f": 144.34,
+   "d": 133.98,
+   "f": 134.38,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "ça",
-   "d": 144.34,
-   "f": 144.42,
+   "d": 134.38,
+   "f": 134.46,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "fait",
-   "d": 144.42,
-   "f": 144.56,
+   "d": 134.46,
+   "f": 134.6,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "une",
-   "d": 144.56,
-   "f": 144.68,
+   "d": 134.6,
+   "f": 134.72,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "sacrée",
-   "d": 144.68,
-   "f": 145.94,
+   "d": 134.72,
+   "f": 135.98,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "réduction",
-   "d": 145.94,
-   "f": 146.3,
+   "d": 135.98,
+   "f": 136.34,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "parce",
-   "d": 146.3,
-   "f": 146.76,
+   "d": 136.34,
+   "f": 136.8,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "que",
-   "d": 146.88,
-   "f": 146.96,
+   "d": 136.92,
+   "f": 137.0,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "je",
-   "d": 146.96,
-   "f": 147.02,
+   "d": 137.0,
+   "f": 137.06,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "sais",
-   "d": 147.02,
-   "f": 147.1,
+   "d": 137.06,
+   "f": 137.14,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "qu",
-   "d": 147.1,
-   "f": 147.2,
+   "d": 137.14,
+   "f": 137.24,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "'il",
-   "d": 147.2,
-   "f": 147.25,
+   "d": 137.24,
+   "f": 137.29,
    "colle": true,
    "phrase": 19
   },
   {
    "m": "y",
-   "d": 147.22,
-   "f": 147.27,
+   "d": 137.26,
+   "f": 137.31,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "en",
-   "d": 147.26,
-   "f": 147.31,
+   "d": 137.3,
+   "f": 137.35,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "a",
-   "d": 147.26,
-   "f": 147.32,
+   "d": 137.3,
+   "f": 137.36,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "certains",
-   "d": 147.32,
-   "f": 147.52,
+   "d": 137.36,
+   "f": 137.56,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "c",
-   "d": 147.52,
-   "f": 147.66,
+   "d": 137.56,
+   "f": 137.7,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "'est",
-   "d": 147.66,
-   "f": 147.72,
+   "d": 137.7,
+   "f": 137.76,
    "colle": true,
    "phrase": 19
   },
   {
    "m": "moins",
-   "d": 147.72,
-   "f": 147.84,
+   "d": 137.76,
+   "f": 137.88,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "5",
-   "d": 147.84,
-   "f": 148.02,
+   "d": 137.88,
+   "f": 138.06,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "%",
-   "d": 148.02,
-   "f": 148.22,
+   "d": 138.06,
+   "f": 138.26,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "moins",
-   "d": 148.22,
-   "f": 148.42,
+   "d": 138.26,
+   "f": 138.46,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "10",
-   "d": 148.42,
-   "f": 148.6,
+   "d": 138.46,
+   "f": 138.64,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "%",
-   "d": 148.6,
-   "f": 148.8,
+   "d": 138.64,
+   "f": 138.84,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "on",
-   "d": 148.8,
-   "f": 149.52,
+   "d": 138.84,
+   "f": 139.56,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "voit",
-   "d": 149.52,
-   "f": 149.6,
+   "d": 139.56,
+   "f": 139.64,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "pas",
-   "d": 149.6,
-   "f": 149.76,
+   "d": 139.64,
+   "f": 139.8,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "trop",
-   "d": 149.76,
-   "f": 149.9,
+   "d": 139.8,
+   "f": 139.94,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "la",
-   "d": 149.9,
-   "f": 150.02,
+   "d": 139.94,
+   "f": 140.06,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "différence",
-   "d": 150.02,
-   "f": 150.3,
+   "d": 140.06,
+   "f": 140.34,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "en",
-   "d": 150.3,
-   "f": 150.68,
+   "d": 140.34,
+   "f": 140.72,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "vrai",
-   "d": 150.68,
-   "f": 150.86,
+   "d": 140.72,
+   "f": 140.9,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "moins",
-   "d": 150.86,
-   "f": 151.02,
+   "d": 140.9,
+   "f": 141.06,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "15",
-   "d": 151.02,
-   "f": 151.28,
+   "d": 141.06,
+   "f": 141.32,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "%",
-   "d": 151.28,
-   "f": 151.4,
+   "d": 141.32,
+   "f": 141.44,
    "colle": false,
    "phrase": 19
   },
   {
    "m": "Ils",
-   "d": 151.72,
-   "f": 151.77,
+   "d": 141.76,
+   "f": 141.81,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "étaient",
-   "d": 151.72,
-   "f": 151.78,
+   "d": 141.76,
+   "f": 141.82,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "grave",
-   "d": 151.78,
-   "f": 152.08,
+   "d": 141.82,
+   "f": 142.12,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "gentils,",
-   "d": 152.08,
-   "f": 153.04,
+   "d": 142.12,
+   "f": 143.08,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "franchement,",
-   "d": 153.04,
-   "f": 153.64,
+   "d": 143.08,
+   "f": 143.68,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "merci",
-   "d": 153.66,
-   "f": 154.1,
+   "d": 143.7,
+   "f": 144.14,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "à",
-   "d": 154.1,
-   "f": 154.36,
+   "d": 144.14,
+   "f": 144.4,
    "colle": false,
    "phrase": 20
   },
   {
    "m": "eux.",
-   "d": 154.36,
-   "f": 154.56,
+   "d": 144.4,
+   "f": 144.6,
    "colle": false,
    "phrase": 20
   }
