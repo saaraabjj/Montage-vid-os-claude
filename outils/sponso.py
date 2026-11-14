@@ -134,7 +134,7 @@ def main():
             d = min(max(w["d"], x0), x1 - 0.05)
             f = min(max(w["f"], d + 0.05), x1)
             subs.append({"m": txt, "d": round(debuts[j] + d - x0, 3), "f": round(debuts[j] + f - x0, 3),
-                         "colle": w["m"].strip()[:1] in ("'", "’", "-"), "phrase": k})
+                         "colle": w["m"].strip()[:1] in ("'", "’", "-") and txt == w["m"].strip(), "phrase": k})
     duree_parole = t
     # sous-titres en blocs de 2 à 4 mots
     json.dump({"duree": round(duree_parole, 3), "motsCles": mots_cles, "mots": subs},
