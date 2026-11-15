@@ -591,15 +591,7 @@
    {
     "rush": "DJI_20261114144807_0105_D",
     "entree": 12.0,
-    "duree": 4.5,
-    "son": 0,
-    "note": "je regarde mon téléphone",
-    "cx": 0.5
-   },
-   {
-    "rush": "DJI_20261114144807_0105_D",
-    "entree": 26.0,
-    "duree": 4.0,
+    "duree": 8.5,
     "son": 0,
     "note": "je regarde mon téléphone",
     "cx": 0.5
@@ -615,17 +607,9 @@
    {
     "rush": "COMP_x_v_D",
     "entree": 66.5,
-    "duree": 4.0,
+    "duree": 9.0,
     "son": 0,
     "note": "face caméra en kimono",
-    "cx": 0.5
-   },
-   {
-    "rush": "COMP_x_v_D",
-    "entree": 72.0,
-    "duree": 5.0,
-    "son": 0,
-    "note": "face caméra, ceinture nouée",
     "cx": 0.5
    },
    {
@@ -693,17 +677,9 @@
     "cx": 0.5
    },
    {
-    "rush": "COMP_x_v_D",
-    "entree": 106.5,
-    "duree": 4.0,
-    "son": 0,
-    "note": "sparring",
-    "cx": 0.5
-   },
-   {
     "rush": "DJI_20261108120254_0051_D",
-    "entree": 41.0,
-    "duree": 4.5,
+    "entree": 39.5,
+    "duree": 8.5,
     "son": 0,
     "note": "engagement avec ma partenaire",
     "cx": 0.5,
