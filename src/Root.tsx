@@ -9,6 +9,7 @@ import { TeaserVerticalJ2, dureeTeaser2, FPS_TEASER2 } from "./VlogRome2/Teaser"
 import { MiniatureInstaJ3, MiniatureYouTubeJ3 } from "./VlogRome3/Miniatures";
 import { TeaserVerticalJ3, dureeTeaser3, FPS_TEASER3 } from "./VlogRome3/Teaser";
 import { CouvertureOsmosis } from "./Sponso/Couverture";
+import { CouvertureHistoire } from "./Jjb/CouvertureHistoire";
 import { SponsoOsmosis, dureeSponso, FPS_SPONSO } from "./Sponso";
 import { VlogRome3, FPS as FPS_J3, DUREE_SECONDES as DUREE_J3 } from "./VlogRome3";
 import { VlogRome2, FPS as FPS_J2, DUREE_SECONDES as DUREE_J2 } from "./VlogRome2";
@@ -20,6 +21,7 @@ import { Title } from "./HelloWorld/Title";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Still id="CouvertureHistoire" component={CouvertureHistoire} width={1080} height={1920} />
       <Still id="CouvertureOsmosis" component={CouvertureOsmosis} width={1080} height={1920} />
       <Composition id="SponsoOsmosis" component={SponsoOsmosis} durationInFrames={dureeSponso()} fps={FPS_SPONSO} width={1080} height={1920} />
       <Composition
