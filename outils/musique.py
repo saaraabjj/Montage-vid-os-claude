@@ -246,6 +246,8 @@ def section(kind, bars, t0, B):
 
 
 PLANS = {
+    # Histoire sponso avec voix off : 46 mesures = 88,3 s
+    "histoire90": [("intro", 8), ("build", 8), ("drop", 14), ("break", 4), ("drop2", 8), ("outro", 2), ("fin", 2)],
     "histoire24": [("intro", 4), ("build", 4), ("drop", 10), ("break", 2), ("drop2", 2), ("fin", 2)],
     # Histoire sponso v3 : 26 mesures = 49,9 s (+ 1,5 s)
     "histoire26": [("intro", 4), ("build", 4), ("drop", 10), ("break", 2), ("drop2", 4), ("fin", 2)],

@@ -33,6 +33,9 @@ type Montage = {
   fin?: number; // début de la carte de fin (s)
   texteFin?: string;
   sousTitresFin?: string; // petite ligne sous le texte de fin
+  voix?: string; // voix off
+  voixDebut?: number; // où commencer dans le fichier de voix (s)
+  voixA?: number; // à quel moment de la vidéo la voix démarre (s)
   phrases?: Array<{ debut: number; duree: number; texte: string }>; // texte de l'histoire, en bas
 };
 
@@ -168,6 +171,11 @@ export const MontageJjb: React.FC<{ id: string }> = ({ id }) => {
         </Sequence>
       )}
       <Audio src={staticFile(m.musique)} volume={m.volumeMusique} />
+      {m.voix ? (
+        <Sequence from={Math.round((m.voixA ?? 0) * FPS)} name="Voix off">
+          <Audio src={staticFile(m.voix)} startFrom={Math.round((m.voixDebut ?? 0) * FPS)} volume={1} />
+        </Sequence>
+      ) : null}
     </AbsoluteFill>
   );
 };

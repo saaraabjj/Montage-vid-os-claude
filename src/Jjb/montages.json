@@ -529,108 +529,192 @@
  },
  "histoire": {
   "format": "vertical",
-  "musique": "histoire/musique24.wav",
-  "volumeMusique": 0.7,
+  "musique": "histoire/musique90.wav",
+  "volumeMusique": 0.22,
   "plans": [
    {
     "rush": "COMP_x_v_D",
     "entree": 16.9,
-    "duree": 5.76,
-    "son": 0.3,
-    "note": "ouverture : j'enfile le kimono",
+    "duree": 5.5,
+    "son": 0.15,
+    "note": "j'enfile le kimono",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
     "entree": 25.0,
-    "duree": 3.84,
-    "son": 0.3,
+    "duree": 5.0,
+    "son": 0.15,
     "note": "je noue la ceinture, plan bas",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
+    "entree": 47.6,
+    "duree": 3.0,
+    "son": 0.15,
+    "note": "j'ajuste ma veste",
+    "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
     "entree": 55.0,
-    "duree": 2.88,
-    "son": 0.3,
+    "duree": 3.5,
+    "son": 0.15,
     "note": "je passe la ceinture",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 30.0,
+    "duree": 4.0,
+    "son": 0.15,
+    "note": "ceinture serrée, face caméra",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114094915_0084_D",
+    "entree": 44.0,
+    "duree": 3.5,
+    "son": 0.15,
+    "note": "gros plan en kimono",
+    "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
+    "entree": 43.5,
+    "duree": 3.0,
+    "son": 0.15,
+    "note": "assise, ceinture nouée",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114144807_0105_D",
+    "entree": 12.0,
+    "duree": 4.5,
+    "son": 0.15,
+    "note": "je regarde mon téléphone",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114144807_0105_D",
+    "entree": 26.0,
+    "duree": 4.0,
+    "son": 0.15,
+    "note": "je regarde mon téléphone",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 49.5,
+    "duree": 4.8,
+    "son": 0.15,
+    "note": "je reviens vers la caméra",
+    "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
+    "entree": 66.5,
+    "duree": 4.0,
+    "son": 0.15,
+    "note": "face caméra en kimono",
+    "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
+    "entree": 72.0,
+    "duree": 5.0,
+    "son": 0.15,
+    "note": "face caméra, ceinture nouée",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
     "entree": 3.4,
-    "duree": 4.8,
-    "son": 0.4,
+    "duree": 5.8,
+    "son": 0.25,
     "note": "le check avec ma partenaire, début du combat",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
     "entree": 100.0,
-    "duree": 6.72,
-    "son": 0.4,
+    "duree": 4.5,
+    "son": 0.25,
     "note": "sparring",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
     "entree": 0.2,
-    "duree": 2.88,
-    "son": 0.4,
+    "duree": 3.0,
+    "son": 0.25,
     "note": "landmine",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
     "entree": 9.5,
-    "duree": 3.84,
-    "son": 0.4,
+    "duree": 3.5,
+    "son": 0.25,
     "note": "poulie",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
-    "entree": 81.0,
-    "duree": 2.88,
-    "son": 0.4,
-    "note": "banc rouge",
-    "cx": 0.5
-   },
-   {
-    "rush": "COMP_x_v_D",
-    "entree": 85.0,
-    "duree": 2.88,
-    "son": 0.4,
-    "note": "machine rouge",
-    "cx": 0.5
-   },
-   {
-    "rush": "COMP_x_v_D",
-    "entree": 114.4,
-    "duree": 2.88,
-    "son": 0.4,
-    "note": "disques",
-    "cx": 0.5
-   },
-   {
-    "rush": "COMP_x_v_D",
     "entree": 92.2,
-    "duree": 2.88,
-    "son": 0.3,
+    "duree": 3.8,
+    "son": 0.15,
     "note": "contre-jour",
     "cx": 0.5
    },
    {
     "rush": "COMP_x_v_D",
-    "entree": 72.0,
-    "duree": 5.34,
-    "son": 0.3,
-    "note": "fin",
+    "entree": 77.6,
+    "duree": 2.8,
+    "son": 0.25,
+    "note": "pull-over",
     "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
+    "entree": 81.0,
+    "duree": 2.6,
+    "son": 0.25,
+    "note": "banc rouge",
+    "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
+    "entree": 114.4,
+    "duree": 3.0,
+    "son": 0.25,
+    "note": "disques",
+    "cx": 0.5
+   },
+   {
+    "rush": "COMP_x_v_D",
+    "entree": 106.5,
+    "duree": 4.0,
+    "son": 0.25,
+    "note": "sparring",
+    "cx": 0.5
+   },
+   {
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 41.0,
+    "duree": 4.5,
+    "son": 0.2,
+    "note": "engagement avec ma partenaire",
+    "cx": 0.5,
+    "zoomV": 1.0
    }
   ],
-  "fin": 43.08,
+  "fin": 83.7,
   "texteFin": "OSMOSIS",
-  "sousTitresFin": "Première athlète féminine\nsponsorisée par Osmosis.\nUne nouvelle aventure commence. 🖤"
+  "sousTitresFin": "Première athlète féminine\nsponsorisée par Osmosis.\nUne nouvelle aventure commence. 🖤",
+  "voix": "histoire/voix.m4a",
+  "voixDebut": 3.0,
+  "voixA": 0.4
  }
 }
