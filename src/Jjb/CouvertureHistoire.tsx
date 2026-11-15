@@ -15,10 +15,10 @@ export const CouvertureHistoire: React.FC = () => (
       <div style={{ display: "inline-block", border: `3px solid ${VIOLET}`, color: VIOLET, fontWeight: 900, fontSize: 38, padding: "8px 26px", borderRadius: 40, letterSpacing: "0.12em" }}>
         OSMOSIS
       </div>
-      <div style={{ fontWeight: 900, fontSize: 96, lineHeight: 1.0, letterSpacing: "-0.03em", marginTop: 24, textShadow: "0 6px 26px rgba(0,0,0,0.6)" }}>
-        Première athlète féminine <span style={{ color: VIOLET }}>sponsorisée</span>
+      <div style={{ fontWeight: 900, fontSize: 104, lineHeight: 1.0, letterSpacing: "-0.03em", marginTop: 24, textShadow: "0 6px 26px rgba(0,0,0,0.6)" }}>
+        Comment je me suis fait <span style={{ color: VIOLET }}>sponso</span>
       </div>
-      <div style={{ fontWeight: 800, fontSize: 42, marginTop: 22, opacity: 0.92 }}>Mon histoire 🖤</div>
+      <div style={{ fontWeight: 800, fontSize: 40, marginTop: 22, opacity: 0.92 }}>Première athlète féminine sponsorisée 🖤</div>
     </div>
   </AbsoluteFill>
 );
