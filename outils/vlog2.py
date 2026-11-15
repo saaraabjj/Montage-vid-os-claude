@@ -52,6 +52,12 @@ CORRECTIONS = [
     (["craqué"], ["claquée"]),
     (["14", "euros", "le", "big."], ["4", "euros", "le", "big."]),
     (["bon,", "j", "'ai", "fait", "mieux."], ["bon,", "ça", "", "va", "mieux."]),
+    # jour 4 (à faire relire)
+    (["juste", "désinstallé"], ["vu", "les escaliers,"]),
+    (["Tic", "Tac", "Go"], ["TikTok", "", ""]),
+    (["trop", "de", "monde", "de", "trajet,"], ["32", "minutes", "", "de", "trajet,"]),
+    (["qui", "est", "reçu,", "qui", "est", "arrivé"], ["", "", "", "qui", "arrivait", ""]),
+    (["désolée", "de", "mon", "accent,"], ["désolée", "pour", "mon", "accent,"]),
 ]
 
 

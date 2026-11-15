@@ -1,0 +1,341 @@
+{
+ "plans": [
+  {
+   "fichier": "DJI_20261028103325_0952_D.MP4",
+   "entree": 9.5,
+   "duree": 4.3,
+   "son": 1.0,
+   "voix": true,
+   "note": "salut, dernier jour, on peut pas parler calmement"
+  },
+  {
+   "fichier": "DJI_20261028103325_0952_D.MP4",
+   "entree": 20.4,
+   "duree": 26.6,
+   "son": 1.0,
+   "voix": true,
+   "note": "je peux même pas faire mon vlog tranquille… programme du jour"
+  },
+  {
+   "fichier": "DJI_20261028103419_0953_D.MP4",
+   "entree": 0.3,
+   "duree": 4.5,
+   "son": 0.5,
+   "voix": false,
+   "note": "CARTE jour 4 : dehors, l'église",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5746.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "escalator du métro",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5752.MP4",
+   "entree": 0.0,
+   "duree": 4.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "la Trinité-des-Monts",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028112754_0956_D.MP4",
+   "entree": 4.0,
+   "duree": 5.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "CARTE place d'Espagne : je monte les marches",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028112836_0957_D.MP4",
+   "entree": 5.0,
+   "duree": 4.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "les marches",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5753.MOV",
+   "entree": 0.0,
+   "duree": 2.8,
+   "son": 0.3,
+   "voix": false,
+   "note": "selfie marches",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5755.MOV",
+   "entree": 0.0,
+   "duree": 1.9,
+   "son": 0.3,
+   "voix": false,
+   "note": "selfie",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028113130_0959_D.MP4",
+   "entree": 9.0,
+   "duree": 6.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "je monte les marches (pied)",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028113130_0959_D.MP4",
+   "entree": 18.0,
+   "duree": 5.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "assise sur les marches",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028113233_0960_D.MP4",
+   "entree": 0.5,
+   "duree": 4.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "la place vue d'en haut",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5757.MOV",
+   "entree": 0.0,
+   "duree": 2.8,
+   "son": 0.3,
+   "voix": false,
+   "note": "selfie devant l'église",
+   "sousTitres": false
+  },
+  {
+   "fichier": "MVI_3820.MOV",
+   "entree": 0.0,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "l'obélisque et l'église",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5762.MP4",
+   "entree": 1.0,
+   "duree": 21.9,
+   "son": 1.0,
+   "voix": true,
+   "note": "place d'Espagne, direction la glace",
+   "rot": 2
+  },
+  {
+   "fichier": "IMG_5764.MP4",
+   "entree": 0.0,
+   "duree": 3.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "la Barcaccia",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5765.MOV",
+   "entree": 0.0,
+   "duree": 1.2,
+   "son": 0.3,
+   "voix": false,
+   "note": "drapeau",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5766.MP4",
+   "entree": 0.0,
+   "duree": 3.6,
+   "son": 0.4,
+   "voix": false,
+   "note": "CARTE Giolitti : la façade",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5769.MP4",
+   "entree": 0.0,
+   "duree": 4.2,
+   "son": 0.4,
+   "voix": false,
+   "note": "les parfums",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5770.MP4",
+   "entree": 0.5,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "les parfums",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5771.MOV",
+   "entree": 0.0,
+   "duree": 1.8,
+   "son": 0.3,
+   "voix": false,
+   "note": "la glace en main",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5773.MP4",
+   "entree": 0.0,
+   "duree": 35.5,
+   "son": 1.0,
+   "voix": true,
+   "note": "je goûte la glace"
+  },
+  {
+   "fichier": "IMG_5775.MOV",
+   "entree": 0.0,
+   "duree": 2.0,
+   "son": 0.3,
+   "voix": false,
+   "note": "colonne de Marc Aurèle",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5776.MOV",
+   "entree": 0.0,
+   "duree": 1.8,
+   "son": 0.3,
+   "voix": false,
+   "note": "colonne",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5779.MOV",
+   "entree": 0.0,
+   "duree": 1.6,
+   "son": 0.3,
+   "voix": false,
+   "note": "CARTE retour : le billet de train",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5781.MP4",
+   "entree": 0.6,
+   "duree": 23.9,
+   "son": 1.0,
+   "voix": true,
+   "note": "train express pour l'aéroport"
+  },
+  {
+   "fichier": "IMG_5782.MP4",
+   "entree": 0.0,
+   "duree": 4.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "le quai",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5783.MP4",
+   "entree": 0.5,
+   "duree": 21.6,
+   "son": 1.0,
+   "voix": true,
+   "note": "dans le train"
+  },
+  {
+   "fichier": "IMG_5786.MOV",
+   "entree": 0.0,
+   "duree": 2.6,
+   "son": 0.3,
+   "voix": false,
+   "note": "pizza à l'aéroport",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5787.MP4",
+   "entree": 0.0,
+   "duree": 3.9,
+   "son": 0.4,
+   "voix": false,
+   "note": "l'aéroport",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5789.MP4",
+   "entree": 0.0,
+   "duree": 4.5,
+   "son": 0.4,
+   "voix": false,
+   "note": "tableau des départs",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028152302_0961_D.MP4",
+   "entree": 8.0,
+   "duree": 6.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "à la porte d'embarquement",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5795.MOV",
+   "entree": 0.0,
+   "duree": 1.26,
+   "son": 0.3,
+   "voix": false,
+   "note": "l'avion Air France",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5799.MP4",
+   "entree": 0.0,
+   "duree": 6.0,
+   "son": 0.4,
+   "voix": false,
+   "note": "CARTE arrivederci : décollage",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5802.MP4",
+   "entree": 2.0,
+   "duree": 6.0,
+   "son": 0.3,
+   "voix": false,
+   "note": "coucher de soleil",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5804.MP4",
+   "entree": 12.0,
+   "duree": 6.0,
+   "son": 0.3,
+   "voix": false,
+   "note": "soleil dans les nuages",
+   "sousTitres": false
+  },
+  {
+   "fichier": "IMG_5807.MP4",
+   "entree": 0.0,
+   "duree": 6.0,
+   "son": 0.3,
+   "voix": false,
+   "note": "crépuscule",
+   "sousTitres": false
+  },
+  {
+   "fichier": "DJI_20261028181931_0962_D.MP4",
+   "entree": 0.0,
+   "duree": 9.5,
+   "son": 0.3,
+   "voix": false,
+   "note": "fin : l'aile au crépuscule",
+   "sousTitres": false
+  }
+ ]
+}

@@ -12,6 +12,7 @@ import { CouvertureOsmosis } from "./Sponso/Couverture";
 import { CouvertureHistoire } from "./Jjb/CouvertureHistoire";
 import { SponsoOsmosis, dureeSponso, FPS_SPONSO } from "./Sponso";
 import { VlogRome3, FPS as FPS_J3, DUREE_SECONDES as DUREE_J3 } from "./VlogRome3";
+import { VlogRome4, FPS as FPS_J4, DUREE_SECONDES as DUREE_J4 } from "./VlogRome4";
 import { VlogRome2, FPS as FPS_J2, DUREE_SECONDES as DUREE_J2 } from "./VlogRome2";
 import { MontageJjb, dureeMontage, FPS as FPS_JJB } from "./Jjb";
 import { Title } from "./HelloWorld/Title";
@@ -24,6 +25,14 @@ export const RemotionRoot: React.FC = () => {
       <Still id="CouvertureHistoire" component={CouvertureHistoire} width={1080} height={1920} />
       <Still id="CouvertureOsmosis" component={CouvertureOsmosis} width={1080} height={1920} />
       <Composition id="SponsoOsmosis" component={SponsoOsmosis} durationInFrames={dureeSponso()} fps={FPS_SPONSO} width={1080} height={1920} />
+      <Composition
+        id="VlogRomeJour4"
+        component={VlogRome4}
+        durationInFrames={Math.round(DUREE_J4 * FPS_J4)}
+        fps={FPS_J4}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="VlogRomeJour3"
         component={VlogRome3}
