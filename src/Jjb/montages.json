@@ -533,19 +533,20 @@
   "volumeMusique": 0.7,
   "plans": [
    {
-    "rush": "PHOTO_x_dos_D",
-    "entree": 0.0,
-    "duree": 3.84,
-    "son": 0.0,
-    "note": "photo : de dos vers le tatami, logo Osmosis",
-    "cx": 0.5
-   },
-   {
-    "rush": "DJI_20261114094915_0084_D",
-    "entree": 1.0,
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 8.0,
     "duree": 3.84,
     "son": 0.3,
-    "note": "j'enfile le kimono, plan bas",
+    "note": "de dos vers le tatami, logo dans le dos",
+    "cx": 0.62,
+    "zoomV": 1.0
+   },
+   {
+    "rush": "DJI_20261114093930_0082_D",
+    "entree": 44.0,
+    "duree": 3.84,
+    "son": 0.3,
+    "note": "seule au loin sur le tatami",
     "cx": 0.5
    },
    {
@@ -561,15 +562,7 @@
     "entree": 6.0,
     "duree": 1.92,
     "son": 0.3,
-    "note": "ceinture, plan bas",
-    "cx": 0.5
-   },
-   {
-    "rush": "DJI_20261114093930_0082_D",
-    "entree": 22.0,
-    "duree": 1.92,
-    "son": 0.3,
-    "note": "je noue la ceinture",
+    "note": "je noue la ceinture, plan bas",
     "cx": 0.5
    },
    {
@@ -589,31 +582,55 @@
     ]
    },
    {
-    "rush": "SPAR_x_4k_D",
-    "entree": 0.5,
-    "duree": 4.8,
-    "son": 0.5,
-    "note": "sparring",
-    "cx": 0.64,
-    "zoomV": 2.0,
-    "cy": 0.57
+    "rush": "DJI_20261114094915_0084_D",
+    "entree": 36.0,
+    "duree": 1.92,
+    "son": 0.3,
+    "note": "regard caméra, assise",
+    "cx": 0.5
    },
    {
-    "rush": "SPAR_x_4k_D",
-    "entree": 5.3,
-    "duree": 4.32,
-    "son": 0.5,
-    "note": "sparring",
-    "cx": 0.64,
-    "zoomV": 2.0,
-    "cy": 0.57
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 16.5,
+    "duree": 2.88,
+    "son": 0.4,
+    "note": "le salut avec ma partenaire",
+    "cx": 0.42,
+    "zoomV": 1.0
+   },
+   {
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 28.0,
+    "duree": 3.84,
+    "son": 0.4,
+    "note": "kumikata",
+    "cx": 0.5,
+    "zoomV": 1.0
+   },
+   {
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 33.0,
+    "duree": 3.84,
+    "son": 0.4,
+    "note": "kumikata, attaques",
+    "cx": 0.55,
+    "zoomV": 1.0
+   },
+   {
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 41.0,
+    "duree": 2.88,
+    "son": 0.4,
+    "note": "engagement",
+    "cx": 0.5,
+    "zoomV": 1.0
    },
    {
     "rush": "DJI_20261110174016_0063_D",
     "entree": 40.0,
     "duree": 3.84,
     "son": 0.5,
-    "note": "prépa physique",
+    "note": "landmine",
     "cx": 0.5
    },
    {
@@ -621,31 +638,15 @@
     "entree": 30.0,
     "duree": 3.84,
     "son": 0.5,
-    "note": "prépa physique, poulie",
+    "note": "poulie",
     "cx": 0.5
    },
    {
     "rush": "DJI_20261110174016_0063_D",
-    "entree": 50.0,
+    "entree": 56.0,
     "duree": 1.92,
     "son": 0.5,
-    "note": "prépa physique",
-    "cx": 0.5
-   },
-   {
-    "rush": "DJI_20261110181343_0068_D",
-    "entree": 45.0,
-    "duree": 1.92,
-    "son": 0.5,
-    "note": "prépa physique",
-    "cx": 0.5
-   },
-   {
-    "rush": "DJI_20261114093930_0082_D",
-    "entree": 50.5,
-    "duree": 2.4,
-    "son": 0.3,
-    "note": "je reviens sur le tatami",
+    "note": "landmine, fin de série",
     "cx": 0.5
    },
    {
@@ -657,44 +658,29 @@
     "cx": 0.5
    },
    {
-    "rush": "DJI_20261114093930_0082_D",
-    "entree": 11.0,
-    "duree": 2.88,
-    "son": 0.3,
-    "note": "debout en kimono",
-    "cx": 0.5
-   },
-   {
     "rush": "DJI_20261114094915_0084_D",
-    "entree": 43.0,
+    "entree": 44.0,
     "duree": 2.88,
     "son": 0.3,
-    "note": "gros plan",
-    "cx": 0.5
-   },
-   {
-    "rush": "DJI_20261114093930_0082_D",
-    "entree": 54.5,
-    "duree": 1.92,
-    "son": 0.3,
-    "note": "face caméra",
+    "note": "gros plan en kimono",
     "cx": 0.5
    },
    {
     "rush": "DJI_20261114093930_0082_D",
     "entree": 30.0,
-    "duree": 3.84,
+    "duree": 2.88,
     "son": 0.3,
-    "note": "ceinture serrée",
+    "note": "ceinture serrée, face caméra",
     "cx": 0.5
    },
    {
     "rush": "DJI_20261114093930_0082_D",
-    "entree": 40.0,
+    "entree": 49.5,
     "duree": 5.34,
     "son": 0.3,
-    "note": "je repars sur le tatami, logo dans le dos",
-    "cx": 0.5
+    "note": "je reviens vers la caméra",
+    "cx": 0.5,
+    "zoomV": 1.0
    }
   ],
   "fin": 53.76,
