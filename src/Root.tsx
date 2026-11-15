@@ -7,6 +7,7 @@ import { Logo } from "./HelloWorld/Logo";
 import { MiniatureInstaJ2, MiniatureYouTubeJ2 } from "./VlogRome2/Miniatures";
 import { TeaserVerticalJ2, dureeTeaser2, FPS_TEASER2 } from "./VlogRome2/Teaser";
 import { MiniatureInstaJ3, MiniatureYouTubeJ3 } from "./VlogRome3/Miniatures";
+import { MiniatureInstaJ4, MiniatureYouTubeJ4 } from "./VlogRome4/Miniatures";
 import { TeaserVerticalJ3, dureeTeaser3, FPS_TEASER3 } from "./VlogRome3/Teaser";
 import { CouvertureOsmosis } from "./Sponso/Couverture";
 import { CouvertureHistoire } from "./Jjb/CouvertureHistoire";
@@ -80,6 +81,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="TeaserInstaJour2" component={TeaserVerticalJ2} durationInFrames={dureeTeaser2()} fps={FPS_TEASER2} width={1080} height={1920} />
       <Composition id="TeaserTikTok" component={TeaserVertical} durationInFrames={dureeTeaser()} fps={FPS_TEASER} width={1080} height={1920} />
       <Still id="MiniatureYouTube" component={MiniatureYouTube} width={1920} height={1080} />
+      <Still id="MiniatureYouTubeJour4" component={MiniatureYouTubeJ4} width={1920} height={1080} />
+      <Still id="MiniatureInstaJour4" component={MiniatureInstaJ4} width={1080} height={1920} />
       <Still id="MiniatureYouTubeJour3" component={MiniatureYouTubeJ3} width={1920} height={1080} />
       <Still id="MiniatureInstaJour3" component={MiniatureInstaJ3} width={1080} height={1920} />
       <Still id="MiniatureYouTubeJour2" component={MiniatureYouTubeJ2} width={1920} height={1080} />

@@ -2011,7 +2011,7 @@
  {
   "debut": 196.51,
   "fin": 201.27,
-  "texte": "En fait, on s'opère et on se retrouve au lounge où il y a tous les fast-foods, les trucs comme ça.",
+  "texte": "En fait, on se perd et on se retrouve au lounge où il y a tous les fast-foods, les trucs comme ça.",
   "mots": [
    {
     "m": " En",
@@ -2029,14 +2029,9 @@
     "f": 197.21
    },
    {
-    "m": " s",
+    "m": " se perd",
     "d": 197.21,
     "f": 197.31
-   },
-   {
-    "m": "'opère",
-    "d": 197.31,
-    "f": 197.57
    },
    {
     "m": " et",
