@@ -246,6 +246,9 @@ def section(kind, bars, t0, B):
 
 
 PLANS = {
+    "histoire24": [("intro", 4), ("build", 4), ("drop", 10), ("break", 2), ("drop2", 2), ("fin", 2)],
+    # Histoire sponso v3 : 26 mesures = 49,9 s (+ 1,5 s)
+    "histoire26": [("intro", 4), ("build", 4), ("drop", 10), ("break", 2), ("drop2", 4), ("fin", 2)],
     # Reel prépa physique : 26 mesures = 49,9 s (+ 1,5 s de résonance)
     # Reel prépa physique v2 : 16 mesures = 30,7 s (+ 1,5 s)
     # v3 : 18 mesures = 34,6 s (+ 1,5 s)
