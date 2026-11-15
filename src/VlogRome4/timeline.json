@@ -1,5 +1,5 @@
 {
- "duree": 262.76,
+ "duree": 246.76,
  "plans": [
   {
    "i": 0,
@@ -252,14 +252,14 @@
   {
    "i": 31,
    "debut": 222.0,
-   "duree": 6.0,
+   "duree": 3.0,
    "son": 0.4,
    "voix": false,
    "coupes": []
   },
   {
    "i": 32,
-   "debut": 228.0,
+   "debut": 225.0,
    "duree": 1.26,
    "son": 0.3,
    "voix": false,
@@ -267,7 +267,7 @@
   },
   {
    "i": 33,
-   "debut": 229.26,
+   "debut": 226.26,
    "duree": 6.0,
    "son": 0.4,
    "voix": false,
@@ -275,7 +275,7 @@
   },
   {
    "i": 34,
-   "debut": 235.26,
+   "debut": 232.26,
    "duree": 6.0,
    "son": 0.3,
    "voix": false,
@@ -283,24 +283,8 @@
   },
   {
    "i": 35,
-   "debut": 241.26,
-   "duree": 6.0,
-   "son": 0.3,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 36,
-   "debut": 247.26,
-   "duree": 6.0,
-   "son": 0.3,
-   "voix": false,
-   "coupes": []
-  },
-  {
-   "i": 37,
-   "debut": 253.26,
-   "duree": 9.5,
+   "debut": 238.26,
+   "duree": 8.5,
    "son": 0.3,
    "voix": false,
    "coupes": []

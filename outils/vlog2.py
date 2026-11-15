@@ -58,6 +58,8 @@ CORRECTIONS = [
     (["trop", "de", "monde", "de", "trajet,"], ["32", "minutes", "", "de", "trajet,"]),
     (["qui", "est", "reçu,", "qui", "est", "arrivé"], ["", "", "", "qui", "arrivait", ""]),
     (["désolée", "de", "mon", "accent,"], ["désolée", "pour", "mon", "accent,"]),
+    (["trop", "de", "gestes,"], ["trop", "", "juste,"]),
+    (["T", "'as", "rien", "à", "expliquer."], ["Il y a rien d'expliquer.", "", "", "", ""]),
 ]
 
 

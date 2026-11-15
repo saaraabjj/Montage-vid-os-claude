@@ -228,7 +228,8 @@
    "duree": 23.9,
    "son": 1.0,
    "voix": true,
-   "note": "train express pour l'aéroport"
+   "note": "train express pour l'aéroport",
+   "rot": 2
   },
   {
    "fichier": "IMG_5782.MP4",
@@ -245,7 +246,8 @@
    "duree": 21.6,
    "son": 1.0,
    "voix": true,
-   "note": "dans le train"
+   "note": "dans le train",
+   "rot": 2
   },
   {
    "fichier": "IMG_5786.MOV",
@@ -277,7 +279,7 @@
   {
    "fichier": "DJI_20261028152302_0961_D.MP4",
    "entree": 8.0,
-   "duree": 6.0,
+   "duree": 3.0,
    "son": 0.4,
    "voix": false,
    "note": "à la porte d'embarquement",
@@ -313,28 +315,10 @@
   {
    "fichier": "IMG_5804.MP4",
    "entree": 12.0,
-   "duree": 6.0,
+   "duree": 8.5,
    "son": 0.3,
    "voix": false,
-   "note": "soleil dans les nuages",
-   "sousTitres": false
-  },
-  {
-   "fichier": "IMG_5807.MP4",
-   "entree": 0.0,
-   "duree": 6.0,
-   "son": 0.3,
-   "voix": false,
-   "note": "crépuscule",
-   "sousTitres": false
-  },
-  {
-   "fichier": "DJI_20261028181931_0962_D.MP4",
-   "entree": 0.0,
-   "duree": 9.5,
-   "son": 0.3,
-   "voix": false,
-   "note": "fin : l'aile au crépuscule",
+   "note": "FIN : soleil dans les nuages, carte fin du vlog Rome",
    "sousTitres": false
   }
  ]

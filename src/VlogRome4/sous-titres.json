@@ -1467,7 +1467,7 @@
  {
   "debut": 161.56,
   "fin": 185.14,
-  "texte": "Ça y est, c'est le retour, là j'ai pris un train express pour aller à l'aéroport, c'est 14 euros, un arrêt, mais nous on arrête, 32 minutes de trajet, j'ai pas pris celui qui arrive dans 5 minutes parce que j'avais trop peur, du coup j'ai pris celui qui arrive dans 20 minutes, j'ai trop de gestes, c'est pour ça que je connais pas assez où, j'ai préféré ne pas me perdre et rater mon train.",
+  "texte": "Ça y est, c'est le retour, là j'ai pris un train express pour aller à l'aéroport, c'est 14 euros, un arrêt, mais nous on arrête, 32 minutes de trajet, j'ai pas pris celui qui arrive dans 5 minutes parce que j'avais trop peur, du coup j'ai pris celui qui arrive dans 20 minutes, j'ai trop juste, c'est pour ça que je connais pas assez où, j'ai préféré ne pas me perdre et rater mon train.",
   "mots": [
    {
     "m": " Ça",
@@ -1785,12 +1785,7 @@
     "f": 178.9
    },
    {
-    "m": " de",
-    "d": 178.9,
-    "f": 179.08
-   },
-   {
-    "m": " gestes,",
+    "m": " juste,",
     "d": 179.08,
     "f": 179.46
    },
@@ -2138,7 +2133,7 @@
  {
   "debut": 203.09,
   "fin": 210.75,
-  "texte": "Et même là, quand t'arrives, il y a 15 000 trains. T'as rien à expliquer. Du coup, je suis dans le train.",
+  "texte": "Et même là, quand t'arrives, il y a 15 000 trains. Il y a rien d'expliquer. Du coup, je suis dans le train.",
   "mots": [
    {
     "m": " Et",
@@ -2201,29 +2196,9 @@
     "f": 205.07
    },
    {
-    "m": " T",
+    "m": " Il y a rien d'expliquer.",
     "d": 206.87,
     "f": 207.19
-   },
-   {
-    "m": "'as",
-    "d": 207.19,
-    "f": 207.29
-   },
-   {
-    "m": " rien",
-    "d": 207.29,
-    "f": 207.41
-   },
-   {
-    "m": " à",
-    "d": 207.41,
-    "f": 207.47
-   },
-   {
-    "m": " expliquer.",
-    "d": 207.47,
-    "f": 207.91
    },
    {
     "m": " Du",

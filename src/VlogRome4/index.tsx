@@ -38,10 +38,12 @@ const CARTES: Array<{ plan: number; decalage?: number; duree?: number } & CarteT
   { plan: 17, intro: "Giolitti", blanc: "La glace", couleur: "italienne" },
   { plan: 24, intro: "Le retour", blanc: "Direction", couleur: "l'aéroport" },
   { plan: 33, intro: "Rome", blanc: "Arrivederci", couleur: "Roma" },
-  { plan: 37, decalage: 4.5, duree: 5, intro: "Fin du voyage", blanc: "Merci d'avoir", couleur: "suivi" },
+  { plan: 35, decalage: 3.3, duree: 5.2, intro: "Merci d'avoir suivi", blanc: "Fin du vlog", couleur: "Rome" },
 ];
 // Légendes écrites (texte court posé sur l'image)
-const LEGENDES: Array<{ plan: number; a: number; duree: number; lignes: string[] }> = [];
+const LEGENDES: Array<{ plan: number; a: number; duree: number; lignes: string[] }> = [
+  { plan: 28, a: 0.1, duree: 2.5, lignes: ["Dernière pizza italienne", "pour la route"] },
+];
 
 const Legende: React.FC<{ lignes: string[] }> = ({ lignes }) => {
   const frame = useCurrentFrame();
