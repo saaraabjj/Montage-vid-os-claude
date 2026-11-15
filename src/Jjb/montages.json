@@ -593,7 +593,7 @@
    {
     "rush": "DJI_20261114144807_0105_D",
     "entree": 12.0,
-    "duree": 8.5,
+    "duree": 4.45,
     "son": 0,
     "note": "je regarde mon téléphone",
     "cx": 0.5
@@ -706,10 +706,10 @@
     "zoomV": 1.0
    }
   ],
-  "fin": 83.7,
+  "fin": 79.65,
   "texteFin": "OSMOSIS",
   "sousTitresFin": "Première athlète féminine\nsponsorisée par Osmosis.\nUne nouvelle aventure commence. 🖤",
-  "voix": "histoire/voix-nette.wav",
+  "voix": "histoire/voix-nette2.wav",
   "voixDebut": 3.0,
   "voixA": 0.4
  }
