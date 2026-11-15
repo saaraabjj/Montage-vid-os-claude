@@ -574,12 +574,12 @@
     "zoomV": 1.0
    },
    {
-    "rush": "DJI_20261114094915_0084_D",
-    "entree": 44.0,
+    "rush": "TATAMI",
+    "entree": 0.6,
     "duree": 3.44,
     "son": 0,
-    "note": "gros plan en kimono",
-    "cx": 0.5
+    "cx": 0.3,
+    "note": "j'entre sur le tatami (compétition)"
    },
    {
     "rush": "NEW_x_l_D",
@@ -665,12 +665,12 @@
     "cx": 0.5
    },
    {
-    "rush": "COMP_x_v_D",
-    "entree": 92.2,
+    "rush": "BIKE",
+    "entree": 3.0,
     "duree": 2.73,
     "son": 0,
-    "note": "contre-jour",
-    "cx": 0.5
+    "cx": 0.48,
+    "note": "assault bike"
    },
    {
     "rush": "COMP_x_v_D",
