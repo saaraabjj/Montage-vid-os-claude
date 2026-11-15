@@ -533,20 +533,11 @@
   "volumeMusique": 0.7,
   "plans": [
    {
-    "rush": "DJI_20261108120254_0051_D",
-    "entree": 9.0,
-    "duree": 2.88,
-    "son": 0.3,
-    "note": "de dos vers le tatami, logo dans le dos",
-    "cx": 0.62,
-    "zoomV": 1.0
-   },
-   {
     "rush": "COMP_x_v_D",
-    "entree": 17.0,
-    "duree": 2.88,
+    "entree": 16.9,
+    "duree": 5.76,
     "son": 0.3,
-    "note": "j'enfile le kimono",
+    "note": "ouverture : j'enfile le kimono",
     "cx": 0.5
    },
    {
