@@ -565,12 +565,13 @@
     "cx": 0.5
    },
    {
-    "rush": "DJI_20261114093930_0082_D",
-    "entree": 30.0,
+    "rush": "NEW_x_l_D",
+    "entree": 1.0,
     "duree": 4.0,
     "son": 0,
-    "note": "ceinture serrée, face caméra",
-    "cx": 0.5
+    "note": "battle ropes",
+    "cx": 0.5,
+    "zoomV": 1.0
    },
    {
     "rush": "DJI_20261114094915_0084_D",
@@ -581,12 +582,13 @@
     "cx": 0.5
    },
    {
-    "rush": "COMP_x_v_D",
-    "entree": 43.5,
+    "rush": "NEW_x_l_D",
+    "entree": 15.4,
     "duree": 3.0,
     "son": 0,
-    "note": "assise, ceinture nouée",
-    "cx": 0.5
+    "note": "selfie dans la salle de compétition",
+    "cx": 0.53,
+    "zoomV": 1.0
    },
    {
     "rush": "DJI_20261114144807_0105_D",
@@ -623,7 +625,7 @@
    {
     "rush": "COMP_x_v_D",
     "entree": 100.0,
-    "duree": 4.5,
+    "duree": 3.2,
     "son": 0,
     "note": "sparring",
     "cx": 0.5
@@ -631,15 +633,33 @@
    {
     "rush": "COMP_x_v_D",
     "entree": 0.2,
-    "duree": 3.0,
+    "duree": 2.2,
     "son": 0,
     "note": "landmine",
     "cx": 0.5
    },
    {
+    "rush": "NEW_x_l_D",
+    "entree": 19.0,
+    "duree": 1.4,
+    "son": 0,
+    "note": "déplacements : tableau des départs",
+    "cx": 0.47,
+    "zoomV": 1.0
+   },
+   {
+    "rush": "NEW_x_l_D",
+    "entree": 13.85,
+    "duree": 0.9,
+    "son": 0,
+    "note": "compétitions : la salle",
+    "cx": 0.5,
+    "zoomV": 1.0
+   },
+   {
     "rush": "COMP_x_v_D",
     "entree": 9.5,
-    "duree": 3.5,
+    "duree": 3.3,
     "son": 0,
     "note": "poulie",
     "cx": 0.5
