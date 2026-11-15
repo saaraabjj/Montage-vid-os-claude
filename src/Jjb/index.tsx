@@ -33,6 +33,7 @@ type Montage = {
   fin?: number; // début de la carte de fin (s)
   texteFin?: string;
   sousTitresFin?: string; // petite ligne sous le texte de fin
+  sousTitres?: Array<{ m: string; d: number; f: number }>; // mots de la voix off, calés sur la vidéo
   voix?: string; // voix off
   voixDebut?: number; // où commencer dans le fichier de voix (s)
   voixA?: number; // à quel moment de la vidéo la voix démarre (s)
@@ -113,6 +114,52 @@ const CarteFin: React.FC<{ texte: string; sous?: string }> = ({ texte, sous }) =
 };
 
 // Phrase de l'histoire, posée en bas de l'image (fondu doux, mots qui montent un à un)
+// Sous-titres de la voix off : 2 à 4 mots, le mot prononcé en violet (le cœur 🖤 de la marque)
+type MotST = { m: string; d: number; f: number };
+const blocsST = (mots: MotST[]) => {
+  const out: Array<{ d: number; f: number; mots: MotST[] }> = [];
+  let cur: MotST[] = [];
+  const fermer = () => {
+    if (cur.length) out.push({ d: cur[0].d, f: cur[cur.length - 1].f, mots: cur });
+    cur = [];
+  };
+  for (const w of mots) {
+    if (cur.length && !/^\s/.test(w.m)) {
+      const p = cur[cur.length - 1];
+      cur[cur.length - 1] = { ...p, m: p.m + w.m, f: w.f };
+      continue;
+    }
+    const p = cur[cur.length - 1];
+    if (p && (cur.length >= 4 || w.d - p.f > 0.45 || /[.,:!?]$/.test(p.m.trim()))) fermer();
+    cur.push({ ...w });
+  }
+  fermer();
+  for (let i = 0; i < out.length; i++) out[i].f = Math.min(out[i].f + 0.35, out[i + 1]?.d ?? Infinity);
+  return out;
+};
+const SousTitresVoix: React.FC<{ mots: MotST[] }> = ({ mots }) => {
+  const f = useCurrentFrame();
+  const t = f / FPS;
+  const blocs = React.useMemo(() => blocsST(mots), [mots]);
+  const b = blocs.find((x) => t >= x.d && t < x.f);
+  if (!b) return null;
+  const a = interpolate(t, [b.d, b.d + 0.12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 380, paddingLeft: 60, paddingRight: 60 }}>
+      <div style={{ opacity: a, transform: `translateY(${(1 - a) * 10}px)`, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: 18, rowGap: 4, textAlign: "center" }}>
+        {b.mots.map((w, i) => {
+          const actif = t >= w.d && t < (b.mots[i + 1]?.d ?? b.f);
+          return (
+            <span key={i} style={{ fontFamily: "Inter, sans-serif", fontWeight: 800, fontSize: 64, lineHeight: 1.15, color: actif ? "#C9A8FF" : "white", WebkitTextStroke: "2px rgba(0,0,0,0.75)", paintOrder: "stroke fill", textShadow: "0 4px 16px rgba(0,0,0,0.6)" }}>
+              {w.m.trim()}
+            </span>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const Phrase: React.FC<{ texte: string }> = ({ texte }) => {
   const f = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
@@ -165,6 +212,7 @@ export const MontageJjb: React.FC<{ id: string }> = ({ id }) => {
           <Phrase texte={x.texte} />
         </Sequence>
       ))}
+      {m.sousTitres ? <SousTitresVoix mots={m.sousTitres} /> : null}
       {m.fin !== undefined && (
         <Sequence from={Math.round(m.fin * FPS)} durationInFrames={total - Math.round(m.fin * FPS)}>
           <CarteFin texte={m.texteFin ?? ""} sous={m.sousTitresFin} />
