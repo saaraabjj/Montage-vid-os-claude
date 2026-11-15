@@ -533,12 +533,13 @@
   "volumeMusique": 0.7,
   "plans": [
    {
-    "rush": "COMP_x_v_D",
-    "entree": 47.6,
+    "rush": "DJI_20261108120254_0051_D",
+    "entree": 9.0,
     "duree": 2.88,
     "son": 0.3,
-    "note": "en kimono, j'ajuste ma veste",
-    "cx": 0.5
+    "note": "de dos vers le tatami, logo dans le dos",
+    "cx": 0.62,
+    "zoomV": 1.0
    },
    {
     "rush": "COMP_x_v_D",
