@@ -9,6 +9,7 @@ import { TeaserVerticalJ2, dureeTeaser2, FPS_TEASER2 } from "./VlogRome2/Teaser"
 import { MiniatureInstaJ3, MiniatureYouTubeJ3 } from "./VlogRome3/Miniatures";
 import { MiniatureInstaJ4, MiniatureYouTubeJ4 } from "./VlogRome4/Miniatures";
 import { TeaserVerticalJ3, dureeTeaser3, FPS_TEASER3 } from "./VlogRome3/Teaser";
+import { TeaserVerticalJ4, dureeTeaser4, FPS_TEASER4 } from "./VlogRome4/Teaser";
 import { CouvertureOsmosis } from "./Sponso/Couverture";
 import { CouvertureHistoire } from "./Jjb/CouvertureHistoire";
 import { SponsoOsmosis, dureeSponso, FPS_SPONSO } from "./Sponso";
@@ -77,6 +78,7 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{ id: "reel" }}
       />
+      <Composition id="TeaserInstaJour4" component={TeaserVerticalJ4} durationInFrames={dureeTeaser4()} fps={FPS_TEASER4} width={1080} height={1920} />
       <Composition id="TeaserInstaJour3" component={TeaserVerticalJ3} durationInFrames={dureeTeaser3()} fps={FPS_TEASER3} width={1080} height={1920} />
       <Composition id="TeaserInstaJour2" component={TeaserVerticalJ2} durationInFrames={dureeTeaser2()} fps={FPS_TEASER2} width={1080} height={1920} />
       <Composition id="TeaserTikTok" component={TeaserVertical} durationInFrames={dureeTeaser()} fps={FPS_TEASER} width={1080} height={1920} />
