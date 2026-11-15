@@ -530,7 +530,7 @@
  "histoire": {
   "format": "vertical",
   "musique": "histoire/musique90.wav",
-  "volumeMusique": 0.22,
+  "volumeMusique": 0.1,
   "plans": [
    {
     "rush": "COMP_x_v_D",
@@ -713,7 +713,7 @@
   "fin": 83.7,
   "texteFin": "OSMOSIS",
   "sousTitresFin": "Première athlète féminine\nsponsorisée par Osmosis.\nUne nouvelle aventure commence. 🖤",
-  "voix": "histoire/voix.m4a",
+  "voix": "histoire/voix-nette.wav",
   "voixDebut": 3.0,
   "voixA": 0.4
  }
